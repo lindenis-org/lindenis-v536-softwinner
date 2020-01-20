@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>power.png</file>
+		<file>notice.png</file>
+		<file>tips_fail.png</file>
+		<file>tips_finish.png</file>
+		<file>tips_tf.png</file>
+		<file>tips_reset.png</file>
+		<file>adas_left_ldw.png</file>
+		<file>adas_right_ldw.png</file>
+		<file>adas_pcw.png</file>
+		<file>adas_left_ldw.png</file>
+        <file>adas_danger_driver_fatigue.png</file>
+    </qresource>
+</RCC>

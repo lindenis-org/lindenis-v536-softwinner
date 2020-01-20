@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>recording.png</file>
+		<file>voice_on.png</file>
+		<file>voice_off.png</file>
+		<file>mobile.png</file>
+		<file>gps_on.png</file>
+		<file>gps_off.png</file>
+		<file>prompt_left_bg.png</file>
+		<file>prompt_right_bg.png</file>
+        <file>promptBoxbg.png</file>
+    </qresource>
+</RCC>

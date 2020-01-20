@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record"> 비디오 </string>
+	<string name="tl_takepic"> 사진 </string>
+	<string name="tl_slowrec"> 느린 사진 </string>
+	<string name="tl_playback"> 기본 앨범 </string>
+	<string name="tl_setting"> 설정 </string>
+	<string name="tl_shutdown"> 종료 </string>
+	<string name="ml_record_resolution_tips"> 팁 : 녹화하는 동안 저장하는 fps가 많을수록 비디오가 더 많이 걸립니다. </string>
+	<string name="ml_record_resolution"> 비디오 크기 </string>
+	<string name="ml_record_resolution_sub_head"> 비디오 화질 </string>
+	<string-array name="ml_record_resolution">
+		<item> 4K </item>
+		<item> 2.7K </item>
+		<item> 1080P </item>
+	</string-array>
+	<string name="ml_vioce_record_function"> 자동차 녹화 </string>
+	<string-array name="ml_vioce_record_function">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_vehicle_record_function"> 자동차 비디오 녹화 </string>
+	<string-array name="ml_vehicle_record_function">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips"> 팁 : 녹화하는 동안 저장하는 fps가 많을수록 비디오가 더 많이 걸립니다. </string>
+	<string name="ml_record_rear_resolution"> 후 시점 레코더 </string>
+	<string name="ml_record_rear_resolution_sub_head"> 후 시점 레코더 이미지 품질 </string>
+	<string name="ml_screen_brightness"> 화면 밝기 </string>
+	<string name="ml_screen_brightness_sub_head"> 화면 밝기 </string>
+	<string name="ml_screen_brightness_level"> 레벨 </string>
+	<string-array name="ml_screen_brightness">
+		<item> 현재 밝기 레벨 : </item>
+	</string-array>
+	<string name="ml_voice_photo_tips"> 팁 : "작은 개미 사진 say` 때 장치가 명령을 인식 할 때`즉시 사진을 찍고 앨범에 사진을 저장합니다"</string>
+	<string name="ml_voice_photo"> 음성 사진 </string>
+	<string name="ml_voice_photo_sub_head"> 음성 카메라 스위치 </string>
+	<string-array name="ml_voice_photo">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_wifi_connect_tips"> 팁 : APP 측 페어링 프로세스에 따라 페어링 한 후 프로젝트의 앱을 다운로드하고 WIFI 연결 기능을 사용하십시오. </string>
+	<string name="ml_wifi_connect"> WIFI </string>
+	<string name="ml_wifi_connect_sub_head"> WIFI 설정 </string>
+	<string name="ml_wifi_connect_info"> WIFI 정보 </string>
+	<string-array name="ml_wifi_connect">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+		<item> WIFI 연결 정보보기 </item>
+		<item> QR 코드를 스캔하여 APP를 다운로드하십시오. </item>
+	</string-array>
+	<string name="ml_4g_network"> 4G 네트워크 설정 </string>
+	<string name="ml_4g_network_sub_head"> 4G 네트워크 설정 </string>
+	<string-array name="ml_4g_network">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+		<item> SIM 카드 정보 </item>
+	</string-array>
+	<string name="ml_system_acc"> 장치 전원 모드 </string>
+	<string name="ml_system_acc_sub_head"> 장치 전원 모드 </string>
+	<string-array name="ml_system_acc">
+		<item> ACC 벅 라인 전원 공급 장치 </item>
+		<item> 자동차 시거 라이터 전원 공급 장치 </item>
+	</string-array>
+	<string name="ml_system_voice"> 시스템 사운드 효과 </string>
+	<string name="ml_system_voice_sub_head"> 시스템 사운드 효과 </string>
+	<string name="ml_power_on_voice"> 부팅 사운드 효과 </string>
+	<string-array name="ml_power_on_voice">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_key_voice"> 주요 사운드 효과 </string>
+	<string-array name="ml_key_voice">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_driver_report"> 운전 보고서 </string>
+	<string name="ml_driver_report_sub_head"> 운전 보고서 </string>
+	<string-array name="ml_driver_report">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_gps_switch"> GPS 스위치 </string>
+	<string name="ml_gps_switch_sub_head"> GPS 스위치 </string>
+	<string-array name="ml_gps_switch">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_speed_unit"> 속도 단위 </string>
+	<string name="ml_speed_unit_sub_head"> 속도 단위 </string>
+	<string-array name="ml_speed_unit">
+		<item> km/h </item>
+		<item> mil/h </item>
+	</string-array>
+	<string name="ml_timezone"> 시간대 선택 </string>
+	<string name="ml_timezone_sub_head"> 시간대 선택 </string>
+	<string-array name="ml_timezone">
+		<item> UTC </item>
+		<item> UTC + 1 </item>
+		<item> UTC + 2 </item>
+		<item> UTC + 3 </item>
+		<item> UTC + 4 </item>
+		<item> UTC + 5 </item>
+		<item> UTC + 6 </item>
+		<item> UTC + 7 </item>
+		<item> UTC + 8 </item>
+		<item> UTC + 9 </item>
+		<item> UTC + 10 </item>
+		<item> UTC + 11 </item>
+		<item> UTC + 12 </item>
+		<item> UTC-11 </item>
+		<item> UTC-10 </item>
+		<item> UTC-9 </item>
+		<item> UTC-8 </item>
+		<item> UTC-7 </item>
+		<item> UTC-6 </item>
+		<item> UTC-5 </item>
+		<item> UTC-4 </item>
+		<item> UTC-3 </item>
+		<item> UTC-2 </item>
+		<item> UTC-1 </item>
+	</string-array>
+	<string name="ml_screen_disturb_mode"> 방해 금지 모드 </string>
+	<string-array name="ml_screen_disturb_mode">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_adas_tips"> 팁 : 정합 및 저 삽입 개미 속도계의 GPS 모듈 후 지능형 구동 지원 기능 </string>
+	<string name="ml_record_adas"> ADAS 스위치 </string>
+	<string name="ml_record_adas_sub_head"> ADAS 스위치 </string>
+	<string-array name="ml_record_adas">
+		<item> 전방 충돌 경고 </item>
+		<item> 차선 오프셋 알림 </item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning"> 전방 충돌 경고 </string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding"> 차선 이탈 알림 </string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_watch_dog"> 전자견 </string>
+	<string name="ml_watch_dog_sub_head"> 전자견 </string>
+	<string-array name="ml_watch_dog">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+		<item> 프롬프트 볼륨 : </item>
+		<item> 데이터 업데이트 </item>
+	</string-array>
+	<string name="ml_volume_select"> 볼륨 </string>
+	<string-array name="ml_volume_select">
+		<item> 높음 </item>
+		<item> 안에 </item>
+		<item> 낮음 </item>
+	</string-array>
+	<string name="ml_probe_prompt"> 프로브 프롬프트 </string>
+	<string-array name="ml_probe_prompt">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_speed_prompt"> 속도 프롬프트 </string>
+	<string-array name="ml_speed_prompt">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips">팁 : "GPS 좌표 지점, 차량 속도, 번호판 정보 등을 포함한 운전 데이터 워터 마크는"소형 개미 운전 기록 장치 "APP에서 설정할 수 있습니다. </string>
+	<string name="ml_record_timewatermark"> 데이터 워터 마크 </string>
+	<string name="ml_record_timewatermark_sub_head"> 운전 데이터 워터 마크 </string>
+	<string-array name="ml_record_timewatermark">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips"> 힌트 : 충돌을 감지 한 후 10 초간의 비상 녹화를 자동으로 저장합니다. </string>
+	<string name="ml_record_emerrecord"> 비상 녹화 </string>
+	<string name="ml_record_emerrecord_sub_head"> 긴급 비디오 </string>
+	<string-array name="ml_record_emerrecord">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_emerrecordsen"> 중력 감지 </string>
+	<string-array name="ml_record_emerrecordsen">
+		<item> 높음 </item>
+		<item> 안에 </item>
+		<item> 낮음 </item>
+	</string-array>
+	<string name="ml_record_parkingmonitor"> 주차 모드 </string>
+	<string name="ml_record_parkingmonitor_sub_head"> 주차 모드 </string>
+	<string-array name="ml_record_parkingmonitor">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_packing_warn_lamp"> 주차 경고 라이트 </string>
+	<string-array name="ml_packing_warn_lamp">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor"> 주차장 이상 모니터링 </string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice"> 주차 예외 통지 </string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw"> 주차 루프 비디오 </string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution"> 주차 루프 동영상 </string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item> 1080P 5fps </item>
+		<item> 720P 15fps </item>
+		<item> 720P 5fps </item>
+		<item> 720P 2fps </item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips"> 팁 : 화면에 </string>
+	<string name="ml_record_standby_clock"> 대기 시계 </string>
+	<string name="ml_record_standby_clock_sub_head"> 대기 시계 </string>
+	<string-array name="ml_record_standby_clock">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_encodingtype"> 코딩 유형 </string>
+	<string-array name="ml_record_encodingtype">
+		<item> 높은 압축률 </item>
+		<item> H264 </item>
+	</string-array>
+	<string name="ml_record_loop"> 동영상 반복 </string>
+	<string-array name="ml_record_loop">
+		<item> 1 분 </item>
+		<item> 2 분 </item>
+		<item> 3 분 </item>
+	</string-array>
+	<string name="ml_record_timelapse"> 저속 영상 </string>
+	<string-array name="ml_record_timelapse">
+		<item> 닫기 </item>
+		<item> 0.5s </item>
+		<item> 1s </item>
+		<item> 2s </item>
+		<item> 5s </item>
+		<item> 10s </item>
+		<item> 30s </item>
+		<item> 60s </item>
+	</string-array>
+	<string name="ml_record_volume"> 녹음 스위치 </string>
+	<string name="ml_record_volume_sub_head"> 녹음 스위치 </string>
+	<string-array name="ml_record_volume">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_motion_detect"> 모션 감지 </string>
+	<string name="ml_motion_detect_sub_head"> 모션 감지 </string>
+	<string-array name="ml_motion_detect">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_eis"> 전자식 손떨림 보정 </string>
+	<string-array name="ml_record_eis">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_record_slowmotion"> 사진 촬영 속도가 느려집니다. </string>
+	<string-array name="ml_record_slowmotion">
+		<item> 1080P120FPS </item>
+		<item> 1080P60FPS </item>
+		<item> 720P240FPS </item>
+		<item> 720P120FPS </item>
+	</string-array>
+	<string name="ml_photo_resolution"> 일반 사진 </string>
+	<string-array name="ml_photo_resolution">
+		<item> 8M </item>
+		<item> 13M </item>
+		<item> 16M </item>
+	</string-array>
+	<string name="ml_photo_timed"> 시간있는 사진 </string>
+	<string-array name="ml_photo_timed">
+		<item> 닫기 </item>
+		<item> 3S </item>
+		<item> 5S </item>
+		<item> 10S </item>
+		<item> 20S </item>
+	</string-array>
+	<string name="ml_photo_auto"> 자동 사진 </string>
+	<string-array name="ml_photo_auto">
+		<item> 닫기 </item>
+		<item> 3S </item>
+		<item> 10S </item>
+		<item> 15S </item>
+		<item> 20S </item>
+		<item> 30S </item>
+	</string-array>
+	<string name="ml_photo_dramashot"> 모션 트랙 사진 </string>
+	<string-array name="ml_photo_dramashot">
+		<item> 닫기 </item>
+		<item> 3P/S </item>
+		<item> 5P/S </item>
+		<item> 10P/S </item>
+	</string-array>
+	<string name="ml_camera_exposure"> 노출 </string>
+	<string-array name="ml_camera_exposure">
+		<item> -3 </item>
+		<item> -2 </item>
+		<item> -1 </item>
+		<item> 0 </item>
+		<item> 1 </item>
+		<item> 2 </item>
+		<item> 3 </item>
+	</string-array>
+	<string name="ml_camera_whitebalance"> 화이트 밸런스 </string>
+	<string-array name="ml_camera_whitebalance">
+		<item> 자동 </item>
+		<item> 일요일 </item>
+		<item> 흐린 날 </item>
+		<item> 백열등 </item>
+		<item> 형광 </item>
+	</string-array>
+	<string name="ml_camera_imagerotation"> 이미지 회전 </string>
+	<string-array name="ml_camera_imagerotation">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency"> 광원 빈도 </string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item> 50Hz </item>
+		<item> 60Hz </item>
+	</string-array>
+	<string name="ml_camera_ledindicator"> LED 표시기 </string>
+	<string-array name="ml_camera_ledindicator">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver"> 화면 최대 절전 모드 </string>
+	<string name="ml_camera_autoscreensaver_sub_head"> 화면을 자동으로 닫습니다. </string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item> 10 초 </item>
+		<item> 30 초 </item>
+		<item> 1 분 </item>
+		<item> 닫기 </item>
+	</string-array>
+	<string name="ml_camera_timedshutdown"> 시간 초과 된 종료 </string>
+	<string-array name="ml_camera_timedshutdown">
+		<item> 닫기 </item>
+		<item> 3 분 </item>
+		<item> 5 분 </item>
+		<item> 10 분 </item>
+	</string-array>
+	<string name="ml_camera_timewatermark"> 시간 워터 마크 </string>
+	<string-array name="ml_camera_timewatermark">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration"> 왜곡 보정 </string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_wifi_select"> WIFI </string>
+	<string-array name="ml_wifi_select">
+		<item> 닫기 </item>
+		<item> 열기 </item>
+	</string-array>
+	<string name="ml_device_language"> 언어 설정 </string>
+	<string name="ml_device_language_sub_head"> 언어 설정 </string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime"> 날짜 - 시간 </string>
+	<string-array name="ml_device_datetime">
+		<item> / </item>
+		<item> / </item>
+		<item> : </item>
+		<item> : </item>
+	</string-array>
+	<string name="ml_device_date_config"> 날짜 설정 </string>
+	<string name="date_year"> 연도 </string>
+	<string name="date_month"> 월 </string>
+	<string name="date_day"> day </string>
+	<string name="ml_device_time_config"> 시간 설정 </string>
+	<string name="time_hour"> 시간 </string>
+	<string name="time_minute"> 분 </string>
+	<string name="time_second"> 초 </string>
+	<string name="ml_device_datetime_format"> 날짜 형식 </string>
+	<string name="ml_device_time_save_tips">팁 : 현재 장치의 네트워크 시간이 시간대에 있습니다. 시간이 잘못되면 "새로 고침"버튼을 클릭하여 네트워크 시간을 업데이트 할 수 있습니다. </string>
+	<string name="ml_device_time_save"> 시간 절약 </string>
+	<string name="ml_device_time"> 날짜 </string>
+	<string name="ml_device_time_sub_head"> 날짜 </string>
+	<string name="ml_device_time_current"> 현재 시간 </string>
+	<string-array name="ml_device_time">
+		<item> 네트워크 시간 새로 고침 </item>
+	</string-array>
+	<string name="ml_device_voicestatus"> 소리 </string>
+	<string-array name="ml_device_voicestatus">
+		<item> 닫기 </item>
+		<item> 30 % </item>
+		<item> 50 % </item>
+		<item> 80 % </item>
+		<item> 100 % </item>
+	</string-array>
+	<string name="ml_device_resetfactory"> 공장 설정 복원 </string>
+	<string-array name="ml_device_resetfactory">
+		<item> 결정 </item>
+		<item> 취소 </item>
+	</string-array>
+	<string name="ml_device_resetselection"> 초기화를 확인 하시겠습니까? </string>
+	<string name="ml_confirm_reboot"> 다시 시작 하시겠습니까? </string>
+	<string name="ml_confirm_ok"> 확인 </string>
+	<string name="ml_confirm_no"> 취소 </string>
+	<string name="ml_device_format"> 형식 </string>
+	<string-array name="ml_device_format">
+		<item> 결정 </item>
+		<item> 취소 </item>
+	</string-array>
+	<string name="ml_device_format_doing"> 서식 지정 중 ... </string>
+	<string name="ml_device_format_failed"> 형식이 실패했습니다. </string>
+	<string name="ml_device_format_success"> 포맷 완료 됨 </string>
+	<string name="ml_turn_on"> 열기 </string>
+	<string name="ml_turn_off"> 꺼짐 </string>
+	<string name="ml_quit_exit"> 위로 이동 버튼을 눌러 종료하십시오. </string>
+	<string name="ml_camera_wifiswitch"> WIFI 정보 </string>
+	<string name="ml_camera_wifiswitch_ssid"> WIFI name : </string>
+	<string name="ml_camera_wifiswitch_passwd"> WIFI 비밀번호 : </string>
+	<string name="ml_camera_wifiswitch_tip"> 비디오 버튼을 길게 눌러 WIFI를 종료하십시오. </string>
+	<string name="ml_prompt"> 따뜻한 팁 </string>
+	<string name="ml_prompt_tf_cap_no_support"> 메모리 카드 용량이 지원되지 않습니다. 용량이 32G / 64G 인 메모리 카드를 삽입하십시오. </string>
+	<string name="ml_prompt_tf_null"> TF 카드가 감지되지 않으면 TF 카드를 삽입하십시오! </string>
+	<string name="ml_prompt_tf_full"> TF 카드 저장 공간이 충분하지 않습니다! </string>
+	<string name="ml_prompt_tf_fs_error"> SD 카드 파일 시스템 형식이 요구 사항을 충족하지 않습니다. 형식이 맞습니까? </string>
+	<string name="ml_prompt_tf_low_speed"> 운전 기록계의 정상적인 작동을 보장하려면 Class 10 고속 메모리 카드를 사용하십시오 (권장 판독 속도는 80MB / s 이상). </string>
+	<string name="ml_prompt_bat_full"> 배터리가 꽉 찼습니다! </string>
+	<string name="ml_prompt_bat_low"> 배터리 부족, 5 초 후에 종료! </string>
+	<string name="ml_prompt_database_full"> 데이터베이스가 꽉 차서 오래된 레코드를 덮어 씁니다! </string>
+	<string name="ml_prompt_camera_error"> 이미지 수집이 비정상적이면 카메라가 다시 초기화됩니다! </string>
+	<string name="ml_prompt_unsupported_func"> 현재 모드를 활성화 할 수 없습니다! </string>
+	<string name="ml_prompt_update_count_down"> 2 초 후에 자동으로 시스템이 업그레이드되며 5 분 동안은 사용할 수 없으므로 운전 안전에주의하십시오. </string>
+	<string name="ml_prompt_emergency_recording"> 긴급 녹화가 중단되지 않습니다! </string>
+	<string name="ml_prompt_power_disconnected"> 전원이 끊어져 자동 종료됩니다! </string>
+	<string name="ml_prompt_sdcard_format">이 (가) 포맷 중입니다. 잠시만 기다려주세요. </string>
+	<string name="ml_prompt_wifi_connect_ok"> WIFI를 통해 "Drip Driver"앱에 연결되면 APP 측에서 작동하십시오 </string>
+	<string name="ml_prompt_videoplay_error"> 비디오 재생에 실패했습니다! </string>
+	<string name="ml_prompt_tf_formating">이 (가) 포맷 중입니다. 기다려주십시오 ... </string>
+	<string name="ml_prompt_tf_format_finish"> 포맷 완료 됨 </string>
+	<string name="ml_prompt_tf_format_failed"> 메모리 카드를 포맷하지 못했습니다. </string>
+	<string name="ml_prompt_update_net_time"> 네트워크 동기화 시간이 완료되었습니다. </string>
+	<string name="ml_prompt_update_net_time_fail"> 4G 신호 없음, 동기화 실패 </string>
+	<string name="ml_prompt_reset_factory_ing"> 초기 설정 복원, 잠시 기다려주십시오 ... </string>
+	<string name="ml_prompt_reset_factory"> 공장 설정 복원 완료 </string>
+	<string name="ml_prompt_standbymode"> 전원 연결이 끊어졌습니다. 전원이 꺼집니다. </string>
+	<string name="ml_prompt_version_no_exist"> 새 펌웨어가 감지되지 않았습니다. </string>
+	<string name="ml_prompt_version_invalid"> 잘못된 펌웨어가 감지되었습니다. </string>
+	<string name="ml_prompt_resolution_ing"> 해상도 전환 중입니다 ... 기다려주십시오. </string>
+	<string name="ml_prompt_resolution_finish"> 스위치 해상도가 완료되었습니다. </string>
+	<string name="ml_prompt_prepare_update"> 업그레이드 준비 중입니다. 잠시 기다려주십시오 ... </string>
+	<string name="info_dialog"> 정보 </string>
+	<string name="confirm"> OK </string>
+	<string name="cancel"> 취소 </string>
+	<string name="tl_playlist"> 재생 파일을 선택하십시오. </string>
+	<string name="delete_dialog"> 삭제 </string>
+	<string name="delete_info">이 파일을 삭제 하시겠습니까? </string>
+	<string name="delete_info_video"> 동영상 삭제 여부 </string>
+	<string name="delete_info_error_video">이 비디오는 손상 되었습니까? </string>
+	<string name="delete_info_error_photo">이 그림오는 손상 되었습니까? </string>
+	<string name="delete_info_photo"> 사진 삭제 여부 </string>
+	<string name="delete_info_allselected"> 선택한 파일을 삭제할지 여부 </string>
+	<string name="tl_usb_connect"> USB가 연결되었습니다. </string>
+	<string name="tl_usb_charge"> 청구 모드 </string>
+	<string name="tl_usb_mass_storage"> USB 저장 장치 열기 </string>
+	<string name="tl_usb_webcam"> 카메라 모드 </string>
+	<string name="update_dialog_title"> 시스템 업그레이드 </string>
+	<string name="ml_device_deviceinfo"> 장치 정보 </string>
+	<string name="ml_device_deviceinfo_sub_head"> 장치 정보 </string>
+	<string name="ml_device_deviceinfo_name"> 제품 name :  </string>
+	<string name="ml_device_deviceinfo_make"> 제조업체 :  </string>
+	<string name="ml_device_deviceinfo_sn"> 장치 SN 코드 : </string>
+	<string name="ml_device_deviceinfo_account_id"> 계정 ID : </string>
+	<string name="ml_device_deviceinfo_imei_id"> IMEI : </string>
+	<string name="ml_device_deviceinfo_sim"> SIM 카드 ID : </string>
+	<string name="ml_device_deviceinfo_view"> 장치 및 SIM 카드 정보보기 </string>
+	<string name="ml_device_sdcard_info"> 카드 정보 </string>
+	<string name="ml_device_sdcard_info_sub_head"> 카드 정보 </string>
+	<string name="ml_device_sdcard_capacity"> 사용 가능 / 총계 </string>
+	<string name="ml_device_sdcard_format"> 메모리 카드 포맷 </string>
+	<string name="ml_device_sdcard_capacity_used"> 메모리 카드가 이미 사용 중입니다. </string>
+	<string name="ml_device_sdcard_total_capacity"> 총 메모리 카드 용량 : </string>
+	<string name="ml_device_version_update"> 버전 업그레이드 </string>
+	<string name="ml_device_version_update_sub_head"> 버전 업그레이드 </string>
+	<string name="ml_device_version_info"> 현재 시스템에 업그레이드 할 새 버전이 있습니다. </string>
+	<string name="ml_device_version_current"> 시스템 버전 : </string>
+	<string name="ml_device_version_new"> 현재 시스템이 최신 버전입니다. </string>
+	<string name="ml_device_version_new_can_upgraded"> 새 버전을 업그레이드 할 수 있습니다. 총 패킷 수는 </string>
+	<string name="ml_device_version_update_now"> 지금 업데이트 </string>
+	<string name="ml_device_version_update_detect"> 업데이트 검색 </string>
+	<string name="ml_device_4g_module_version_current"> 4G 네트워크 펌웨어 버전 : </string>
+	<string name="all_letters"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+	<string name="all_digit_num">0123456789</string>
+	<string name="save_dialog">저장</string>
+	<string name="save_info"> 설정을 저장 하시겠습니까? </string>
+	<string name="ml_device_dash_camera_tips"> 팁 : 당신은 차량 녹화 기능을 설정 한 경우에는 운전 기록의 비디오를 녹화 할 때, 차량 탑재 카메라도 차량 영상 기록 </string>
+	<string name="ml_promptBox_record_voice_on"> 녹음 된 사운드가 켜짐 </string>
+	<string name="ml_promptBox_record_voice_off"> 녹음 된 사운드가 꺼져 있습니다. </string>
+	<string name="ml_promptBox_recording_on"> 비디오 녹화가 켜짐 </string>
+	<string name="ml_promptBox_recording_off"> 비디오 녹화가 꺼져 있습니다. </string>
+	<string name="ml_promptBox_mobile_connected"> 모바일 전송이 연결되었습니다. </string>
+	<string name="ml_promptBox_mobile_disconnected"> 모바일 전송 연결이 끊어졌습니다. </string>
+	<string name="ml_promptBox_gps_connected"> GPS가 연결되었습니다. </string>
+	<string name="ml_promptBox_gps_disconnected"> GPS 연결이 끊어졌습니다. </string>
+	<string name="ml_promptBox_device_recording"> 기기가 여전히 녹화 중입니다. </string>
+	<string name="ml_promptBox_device_photoing"> 기기가 여전히 사진을 찍고 있습니다. </string>
+	<string name="ml_promptBox_standby"> 대기 모드로 들어갈 준비가되었습니다. </string>
+	<string name="ml_promptBox_last_video">이미 마지막 파일. </string>
+	<string name="ml_promptBox_first_video">이미 첫 번째 파일. </string>
+	<string name="ml_promptBox_tf_insert"> SD 카드가 삽입 된 것으로 감지되었습니다. </string>
+	<string name="ml_promptBox_tf_out"> SD 카드가 제거되었음을 감지했습니다. </string>
+	<string name="ml_promptBox_park_video"> 주차 모니터링 비디오입니다.이 작업은 금지되어 있습니다. </string>
+	<string name="ml_wifi_app_download_qr_code"> 모바일 다운로드 QR 코드로 앱 다운로드 링크 제공 </string>
+	<string name="ml_traffic_info_query"> 교통 정보 쿼리 </string>
+	<string name="ml_traffic_surplus"> 남은 유량 : </string>
+	<string name="ml_traffic_total"> 총 패키지 트래픽 : </string>
+	<string name="ml_flow_recharge"> 재충전 </string>
+	<string name="ml_scan_qr_code_recharge"> 휴대폰 스캔 QR 코드 트래픽 충전 </string>
+	<string name="ml_sim_info_query"> SIM 카드 정보 쿼리 </string>
+	<string name="ml_sim_card_id"> SIM 카드 ID : xxxxx </string>
+	<string name="ml_sim_network_business"> Networker : 차이나 모바일 </string>
+	<string name="ml_button_dialog_refresh_network_time"> 네트워크 시간 새로 고침 여부 </string>
+	<string name="ml_button_dialog_manual_update_time"> 시간을 수동으로 조정할지 여부 </string>
+	<string name="ml_button_dialog_format_sdcard"> 메모리 카드를 포맷 하시겠습니까? </string>
+	<string name="ml_button_dialog_4g_network_open"> 업데이트 데이터는 4G 네트워크 전송 기능을 활성화해야하는지 여부, </string>
+	<string name="ml_button_dialog_record_loop_open">주차 루프 녹화는 주차 여부를 모니터링 할 수 있어야합니다.</string>
+	<string name="ml_button_dialog_record_loop_open_fail">작은 개미 모니터링 라인을 올바르게 삽입하고 "주차 이상 모니터링"기능을 켜면 "주차주기 기록"기능을 켤 수 있습니다.</string>
+	<string name="ml_button_dialog_adas_open_fail">이 기능을 소형 개미 레코더 GPS 모듈에 올바르게 삽입해야합니다. 삽입 후 다시 시도하십시오. </string>
+	<string name="ml_button_dialog_watchdog_open_fail">이 기능을 소형 개미 레코더 GPS 모듈에 올바르게 삽입해야합니다. 삽입 후 다시 시도하십시오. </string>
+	<string name="ml_button_dialog_download_packet_version"> 패키지 다운로드 </string>
+	<string name="ml_button_dialog_download_packet_watchdog"> 패키지 다운로드 </string>
+	<string name="ml_button_dialog_install_packet_version"> 패키지 설치 </string>
+	<string name="ml_button_dialog_install_packet_watchdog"> 패킷 설치 </string>
+	<string name="ml_button_dialog_install_current_city_packet_finished"> 설치가 완료되면, 데이터 패킷이 업데이트되었습니다 현재 도시 </string>
+	<string name="ml_button_dialog_install_national_city_packet_finished"> 설치가 완료되면 국가 도시 패킷이 업데이트되었습니다 </string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal">다운로드가 실패했습니다. 장치 네트워크가 정상인지 확인하십시오.</string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow">다운로드에 실패했습니다. 남아있는 트래픽이 충분하지 않습니다.</string>
+	<string name="ml_button_dialog_install_version_finish">설치가 완료되고 현재 시스템 버전이 업데이트되었습니다.</string>
+	<string name="ml_button_dialog_more_img">이 있는지 확인, 펌웨어의 복수의 존재를 감지하는 경우에만 </string>
+	<string name="ml_button_dialog_check_md5_fail"> 펌웨어 MD5 값이 장애를 감지, 잘못된 펌웨어 </string>
+	<string name="ml_button_dialog_open_fail"> 열기 실패 </string>
+	<string name="ml_button_dialog_know"> 알고 있습니다. </string>
+	<string name="ml_button_dialog_open_now"> 지금 열기 </string>
+	<string name="ml_button_dialog_retry"> 다시 시도하십시오. </string>
+	<string name="ml_button_dialog_recharge_now"> 지금 청구하십시오. </string>
+	<string name="ml_playback_front_camera_video"> 전면 렌즈 영상 </string>
+	<string name="ml_preview_record_front_rear"> 내외부 </string>
+	<string name="ml_preview_record_front"> 차량 내 단일 기록 </string>
+	<string name="ml_preview_record_rear"> 자동차 싱글 레코드 외부 </string>
+	<string name="ml_preview_record_pause"> 녹음 중지 </string>
+	<string name="ml_preview_recording"> 녹음 </string>
+	<string name="ml_preview_drip_notice"> 드립 발표 </string>
+	<string name="ml_ota_install_packet"> 패키지 설치 </string>
+	<string name="ml_ota_install_notice"> 차량을 끄거나 기기의 전원을 끄지 마십시오. </string>
+	<string name="ml_ota_install_failed"> 패키지 설치가 실패하여 다시 시작할 준비가되었습니다. </string>
+	<string name="ml_ota_install_finsh"> 설치가 완료되고 재부팅 후 업그레이드가 완료됩니다. </string>
+	<string name="ml_ota_instal_check_md5_fail"> 펌웨어 MD5 값이 장애를 감지, 잘못된 펌웨어 </string>
+	<string name="ml_ota_instal_found_img_fail"> 펌웨어가 아직 검색되지 않았습니다. </string>
+	<string name="ml_sdvcam_ota_fail"> 업그레이드가 잘못되었습니다. 다시 시작한 경우 다시 시도하십시오. 다시 시작하지 못하면 카드 강력한 브러시 모드를 사용하십시오. </string>
+	<string name="ml_playback_no_file"> 탐색 할 파일이 없습니다. </string>
+	<string name="ml_playback_no_sdcard"> TF 카드가 감지되지는 TF 카드를 삽입하십시오! </string>
+	<string name="ml_promptBox_video_playerr"> 동영상 재생 실패 </string>
+	<string name="ml_sdcard_update_version_new"> 업그레이드 파일이 감지 되었습니까? 업그레이드 되었습니까? </string>
+	<string name="ml_sdcard_update_version_no"> 업그레이드되지 않음 </string>
+	<string name="ml_sdcard_update_version_now"> 지금 업그레이드하십시오. </string>
+	<string name="ml_bindwindow_title"> 드롭 다운 라이더 소유자 계정을 바인드하십시오. </string>
+	<string name="ml_bindwindow_text">"Drip Trip"또는 "Drip Drop"앱을 열고 [Shunting-Car Owner Service-Travel Bao-My Travel Treasure]를 입력하고 페이지 프롬프트에 따라 왼쪽의 QR 코드를 스캔하여 계정을 연결하십시오.</string>
+	<string name="ml_setting_menu">시스템 설정</string>
+	<string name="ml_lock_current_file"> 파일이 잠겨 있습니다! </string>
+	<string name="ml_unlock_current_file"> 파일 잠금이 해제되었습니다! </string>
+	<string name="ml_current_file_locked"> 파일이 잠겼습니다. 삭제할 수 없습니다! </string>
+	<string name="ml_promptBox_current_recording_off"> 현재 비디오 녹화 비디오 녹화를 켜십시오 꺼져 </string>
+	<string name="ml_no_tf"> 카드 없음 </string>
+	<string name="ml_motion_is_on">이동 수사</string>
+	<string name="ml_photo_Quality"> 이미지 품질 </string>
+	<string-array name="ml_photo_Quality">
+		<item>슈퍼 좋은</item>
+		<item>좋은</item>
+		<item>일반</item>
+	</string-array>
+	<string name="ml_device_carid_config"> 번호판 워터 마크 </string>
+	<string name="all_carchar">京湘津鄂沪粤渝琼冀川晋贵辽云吉陕黑甘苏青浙台皖藏闽蒙赣桂鲁宁豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingHandlerWindow</class>
+ <widget class="QDialog" name="SettingHandlerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Title</string>
+  </property>
+  <widget class="QGraphicsView" name="setting_handler_icon">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>72</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="setting_handler_label">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>137</y>
+     <width>64</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

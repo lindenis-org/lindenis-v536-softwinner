@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+		<file>playback_bg.png</file>
+		<file>return_y.png</file>
+		<file>return_y_h.png</file>
+         <file>silent.png</file>
+        <file>voice1.png</file>
+        <file>playback_pause.png</file>
+        <file>playback_start.png</file>
+        <file>play_stop.png</file>
+        <file>mp_setting.png</file>
+        <file>player_bg.png</file>
+        <file>return_btn1.png</file>
+        <file>playlist.png</file>
+        <file>no_video_image.png</file>
+        <file>playback.png</file>
+        <file>hdmi_mask.png</file>
+        <file>pb_playing_y.png</file>		
+		<file>pb_playing_n.png</file>
+		<file>pb_delete_y.png</file>	
+		<file>pb_delete_n.png</file>	
+		<file>voice_off.png</file>
+		<file>voice_on.png</file>
+		<file>no_file.png</file>
+		<file>no_sdcard.png</file>
+		<file>top_bg.png</file>
+		<file>bottom_bg.png</file>
+		<file>yi.png</file>
+		<file>file_select.png</file>
+		<file>file_photo.png</file>
+		<file>file_packing.png</file>
+		<file>file_urgent.png</file>
+		<file>file_video_A.png</file>
+        <file>file_video_B.png</file>
+		<file>file_video_SOS.png</file>
+		<file>file_video_SOS_A.png</file>
+		<file>file_video_SOS_B.png</file>
+		<file>file_select_h.png</file>
+		<file>file_select_v.png</file>
+		<file>playback_video_A.png</file>
+		<file>playback_video_B.png</file>
+		<file>playback_video_locked_A.png</file>
+		<file>playback_video_locked_B.png</file>
+    </qresource>
+</RCC>

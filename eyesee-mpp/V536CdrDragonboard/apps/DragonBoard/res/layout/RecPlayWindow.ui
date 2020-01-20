@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecordAndPlay</class>
+ <widget class="QDialog" name="RecordAndPlay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="gv_voice">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>630</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_voice">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>700</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>音量</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_play_pause">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>700</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>播放</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_play_pause">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>630</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_stop">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>700</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_stop">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>630</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_setting">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>700</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_setting">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>630</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cam0_switch">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>56</y>
+     <width>640</width>
+     <height>360</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_rec00">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>56</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAM0-REC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cam1_switch">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>56</y>
+     <width>640</width>
+     <height>360</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_rec01">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>56</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAM1-REC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progress_bar">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>750</y>
+     <width>1200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="return_btn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>cam0_switch</zorder>
+  <zorder>cam1_switch</zorder>
+  <zorder>gv_voice</zorder>
+  <zorder>tl_voice</zorder>
+  <zorder>tl_play_pause</zorder>
+  <zorder>gv_play_pause</zorder>
+  <zorder>tl_stop</zorder>
+  <zorder>gv_stop</zorder>
+  <zorder>tl_setting</zorder>
+  <zorder>gv_setting</zorder>
+  <zorder>tl_rec01</zorder>
+  <zorder>tl_rec00</zorder>
+  <zorder>progress_bar</zorder>
+  <zorder>return_btn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatusBarWindow</class>
+ <widget class="QDialog" name="StatusBarWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>56</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StatusBarWindow</string>
+  </property>
+  <widget class="QGraphicsView" name="hdmi_icon">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="tvout_icon">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="wifi_icon_on">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="wifi_icon_off">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="battery_icon">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>7</y>
+     <width>58</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>16</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="usb_icon">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="eth_icon">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bat_label">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>16</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>bat_lable</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="bluetooth_icon">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="tf_in">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="tf_out">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>7</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

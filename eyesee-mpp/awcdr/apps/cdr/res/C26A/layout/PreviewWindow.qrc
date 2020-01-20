@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg_transparent.png</file>
+		<file>promtp_full_bg.png</file>
+		<file>prompt_sdcard.png</file>
+		<file>prompt_phone_connet.png</file>
+        <file>black_bg.png</file>
+        <file>wifilogo.png</file>
+        <file>hdmi_mask.png</file>
+		<file>voice_off.png</file>
+		<file>voice_on.png</file>
+		<file>top_bg.png</file>
+		<file>bottom_bg.png</file>
+		<file>rec_hint.png</file>
+		<file>photocntbg.png</file>
+    </qresource>
+</RCC>

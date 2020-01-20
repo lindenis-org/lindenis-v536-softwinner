@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record"> video </string>
+	<string name="tl_takepic"> фотография </string>
+	<string name="tl_slowrec"> медленная фотография </string>
+	<string name="tl_playback"> собственный альбом </string>
+	<string name="tl_setting"> Настройка </string>
+	<string name="tl_shutdown"> shutdown </string>
+	<string name="ml_record_resolution_tips"> Советы. Чем больше кадров в секунду вы сохраняете во время записи, тем больше занимает видео </string>
+	<string name="ml_record_resolution"> размер видео </string>
+	<string name="ml_record_resolution_sub_head"> Качество видео </string>
+	<string-array name="ml_record_resolution">
+		<item> 4К </item>
+		<item> 2.7K </item>
+		<item> 1080P </item>
+	</string-array>
+	<string name="ml_vioce_record_function"> автомобильная запись </string>
+	<string-array name="ml_vioce_record_function">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_vehicle_record_function"> запись видео в автомобиле </string>
+	<string-array name="ml_vehicle_record_function">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips"> Советы. Чем больше кадров в секунду вы сохраняете во время записи, тем больше видео занимает </string>
+	<string name="ml_record_rear_resolution"> Регистратор задней точки </string>
+	<string name="ml_record_rear_resolution_sub_head"> Качество изображения регистратора задней точки </string>
+	<string name="ml_screen_brightness"> яркость экрана </string>
+	<string name="ml_screen_brightness_sub_head"> яркость экрана </string>
+	<string name="ml_screen_brightness_level"> уровень </string>
+	<string-array name="ml_screen_brightness">
+		<item> текущий уровень яркости: </item>
+	</string-array>
+	<string name="ml_voice_photo_tips"> Советы: "Когда вы говорите" Маленькая фотография муравья ", устройство сделает фотографию и сохранит ее в альбоме, когда распознает ваш заказ" </string>
+	<string name="ml_voice_photo"> голосовое фото </string>
+	<string name="ml_voice_photo_sub_head"> переключатель голосовой камеры </string>
+	<string-array name="ml_voice_photo">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_wifi_connect_tips"> Советы. Загрузите приложение проекта и используйте функцию подключения WIFI после сопряжения в соответствии с процессом сопряжения на стороне APP </string>
+	<string name="ml_wifi_connect"> WIFI </string>
+	<string name="ml_wifi_connect_sub_head"> настройки WIFI </string>
+	<string name="ml_wifi_connect_info"> информация о WIFI </string>
+	<string-array name="ml_wifi_connect">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+		<item> Просмотр информации о соединении WIFI </item>
+		<item> отсканируйте QR-код для загрузки приложения. </item>
+	</string-array>
+	<string name="ml_4g_network"> настройки сети 4G </string>
+	<string name="ml_4g_network_sub_head"> настройки сети 4G </string>
+	<string-array name="ml_4g_network">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+		<item> Информация о SIM-карте </item>
+	</string-array>
+	<string name="ml_system_acc"> Режим питания устройства </string>
+	<string name="ml_system_acc_sub_head"> режим питания устройства </string>
+	<string-array name="ml_system_acc">
+		<item> Батарейный источник питания ACC </item>
+		<item> Блок питания автомобильного прикуривателя </item>
+	</string-array>
+	<string name="ml_system_voice"> системный звуковой эффект </string>
+	<string name="ml_system_voice_sub_head"> системные звуковые эффекты </string>
+	<string name="ml_power_on_voice"> загрузочный звуковой эффект </string>
+	<string-array name="ml_power_on_voice">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_key_voice"> ключевые звуковые эффекты </string>
+	<string-array name="ml_key_voice">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_driver_report"> отчет о движении </string>
+	<string name="ml_driver_report_sub_head"> отчет о движении </string>
+	<string-array name="ml_driver_report">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_gps_switch"> Переключатель GPS </string>
+	<string name="ml_gps_switch_sub_head"> GPS-переключатель </string>
+	<string-array name="ml_gps_switch">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_speed_unit"> единица скорости </string>
+	<string name="ml_speed_unit_sub_head"> единица скорости </string>
+	<string-array name="ml_speed_unit">
+		<item> km/h </item>
+		<item> mil/h </item>
+	</string-array>
+	<string name="ml_timezone"> Выбор часового пояса </string>
+	<string name="ml_timezone_sub_head"> выбор часового пояса </string>
+	<string-array name="ml_timezone">
+		<item> UTC </item>
+		<item> UTC + 1 </item>
+		<item> UTC + 2 </item>
+		<item> UTC + 3 </item>
+		<item> UTC + 4 </item>
+		<item> UTC + 5 </item>
+		<item> UTC + 6 </item>
+		<item> UTC + 7 </item>
+		<item> UTC + 8 </item>
+		<item> UTC + 9 </item>
+		<item> UTC + 10 </item>
+		<item> UTC + 11 </item>
+		<item> UTC + 12 </item>
+		<item> UTC-11 </item>
+		<item> UTC-10 </item>
+		<item> UTC-9 </item>
+		<item> UTC-8 </item>
+		<item> UTC-7 </item>
+		<item> UTC-6 </item>
+		<item> UTC-5 </item>
+		<item> UTC-4 </item>
+		<item> UTC-3 </item>
+		<item> UTC-2 </item>
+		<item> UTC-1 </item>
+	</string-array>
+	<string name="ml_screen_disturb_mode"> Режим «Не беспокоить» </string>
+	<string-array name="ml_screen_disturb_mode">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_adas_tips"> Советы. После дополнительного и вставленного модуля GPS вождения автомобиля GM можно включить интеллектуальную функцию помощи при вождении </string>
+	<string name="ml_record_adas"> переключатель ADAS </string>
+	<string name="ml_record_adas_sub_head"> переключатель ADAS </string>
+	<string-array name="ml_record_adas">
+		<item> предупреждение о прямом столкновении </item>
+		<item> Напоминание о смещении полосы движения </item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning"> предупреждение о лобовом столкновении </string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding"> напоминание о смещении полосы </string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_watch_dog"> электронная собака </string>
+	<string name="ml_watch_dog_sub_head"> электронная собака </string>
+	<string-array name="ml_watch_dog">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+		<item> Объем приглашения: </item>
+		<item> update data </item>
+	</string-array>
+	<string name="ml_volume_select"> volume </string>
+	<string-array name="ml_volume_select">
+		<item> высокий </item>
+		<item> средний </item>
+		<item> нижний </item>
+	</string-array>
+	<string name="ml_probe_prompt"> запрос зонда </string>
+	<string-array name="ml_probe_prompt">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_speed_prompt"> подсказка скорости </string>
+	<string-array name="ml_speed_prompt">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips"> Советы. Водяной знак данных о вождении, включая «Точку GPS, скорость автомобиля, информацию о номере автомобиля и т. д., можно установить в приложении« Little Ant Driving Recorder`` »</string>
+	<string name="ml_record_timewatermark"> водяной знак данных </string>
+	<string name="ml_record_timewatermark_sub_head"> водяной знак данных вождения </string>
+	<string-array name="ml_record_timewatermark">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips"> Советы: автоматически сохраняйте 10 секунд экстренной записи после обнаружения столкновения </string>
+	<string name="ml_record_emerrecord"> экстренная запись </string>
+	<string name="ml_record_emerrecord_sub_head"> экстренное видео </string>
+	<string-array name="ml_record_emerrecord">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_emerrecordsen"> определение силы тяжести </string>
+	<string-array name="ml_record_emerrecordsen">
+		<item> высокий </item>
+		<item> средний </item>
+		<item> нижний </item>
+	</string-array>
+	<string name="ml_record_parkingmonitor"> режим парковки </string>
+	<string name="ml_record_parkingmonitor_sub_head"> Режим парковки </string>
+	<string-array name="ml_record_parkingmonitor">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_packing_warn_lamp"> Сигнальная лампа парковки </string>
+	<string-array name="ml_packing_warn_lamp">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor"> Мониторинг аварийной парковки </string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice"> Уведомление об исключении парковки </string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw"> видео парковочного цикла </string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution"> видео парковочного цикла </string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item> 1080P 5fps </item>
+		<item> 720P 15fps </item>
+		<item> 720P 5fps </item>
+		<item> 720P 2fps </item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips"> Советы. После включения функции «часы ожидания» время будет отображаться на экране, когда устройство находится на экране </string>
+	<string name="ml_record_standby_clock"> часы ожидания </string>
+	<string name="ml_record_standby_clock_sub_head"> часы ожидания </string>
+	<string-array name="ml_record_standby_clock">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_encodingtype"> тип кодировки </string>
+	<string-array name="ml_record_encodingtype">
+		<item> высокая степень сжатия </item>
+		<item> H264 </item>
+	</string-array>
+	<string name="ml_record_loop"> цикл видео </string>
+	<string-array name="ml_record_loop">
+		<item> 1 минута </item>
+		<item> 2 минуты </item>
+		<item> 3 минут </item>
+	</string-array>
+	<string name="ml_record_timelapse"> покадровое видео </string>
+	<string-array name="ml_record_timelapse">
+		<item> Закрыть </item>
+		<item> 0.5s </item>
+		<item> 1s </item>
+		<item> 2s </item>
+		<item> 5s </item>
+		<item> 10s </item>
+		<item> 30s </item>
+		<item> 60 </item>
+	</string-array>
+	<string name="ml_record_volume"> переключатель записи </string>
+	<string name="ml_record_volume_sub_head"> переключатель записи </string>
+	<string-array name="ml_record_volume">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_motion_detect"> Обнаружение движения </string>
+	<string name="ml_motion_detect_sub_head"> Обнаружение движения </string>
+	<string-array name="ml_motion_detect">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_eis"> электронная защита от сотрясений </string>
+	<string-array name="ml_record_eis">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_record_slowmotion"> медленная фотография </string>
+	<string-array name="ml_record_slowmotion">
+		<item> 1080P120FPS </item>
+		<item> 1080P60FPS </item>
+		<item> 720P240FPS </item>
+		<item> 720P120FPS </item>
+	</string-array>
+	<string name="ml_photo_resolution"> обычная фотография </string>
+	<string-array name="ml_photo_resolution">
+		<item> 8M </item>
+		<item> 13M </item>
+		<item> 16M </item>
+	</string-array>
+	<string name="ml_photo_timed"> синхронизированная фотография </string>
+	<string-array name="ml_photo_timed">
+		<item> Закрыть </item>
+		<item> 3S </item>
+		<item> 5S </item>
+		<item> 10S </item>
+		<item> 20S </item>
+	</string-array>
+	<string name="ml_photo_auto"> автоматическое фото </string>
+	<string-array name="ml_photo_auto">
+		<item> Закрыть </item>
+		<item> 3S </item>
+		<item> 10S </item>
+		<item> 15S </item>
+		<item> 20S </item>
+		<item> 30S </item>
+	</string-array>
+	<string name="ml_photo_dramashot"> фотография дорожки движения </string>
+	<string-array name="ml_photo_dramashot">
+		<item> Закрыть </item>
+		<item> 3P/S </item>
+		<item> 5P/S </item>
+		<item> 10P/S </item>
+	</string-array>
+	<string name="ml_camera_exposure"> экспозиция </string>
+	<string-array name="ml_camera_exposure">
+		<item> -3 </item>
+		<item> -2 </item>
+		<item> -1 </item>
+		<item> 0 </item>
+		<item> 1 </item>
+		<item> 2 </item>
+		<item> 3 </item>
+	</string-array>
+	<string name="ml_camera_whitebalance"> баланс белого </string>
+	<string-array name="ml_camera_whitebalance">
+		<item> Авто </item>
+		<item> солнечный </item>
+		<item> облачный день </item>
+		<item> лампа накаливания </item>
+		<item> флуоресцентный </item>
+	</string-array>
+	<string name="ml_camera_imagerotation"> поворот изображения </string>
+	<string-array name="ml_camera_imagerotation">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency"> частота источника света </string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item> 50Гц </item>
+		<item> 60Гц </item>
+	</string-array>
+	<string name="ml_camera_ledindicator"> светодиодный индикатор </string>
+	<string-array name="ml_camera_ledindicator">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver"> Спящий режим экрана </string>
+	<string name="ml_camera_autoscreensaver_sub_head"> Автоматически закрывать экран </string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item> 10 секунд </item>
+		<item> 30 секунд </item>
+		<item> 1 минута </item>
+		<item> Закрыть </item>
+	</string-array>
+	<string name="ml_camera_timedshutdown"> выключение по времени </string>
+	<string-array name="ml_camera_timedshutdown">
+		<item> Закрыть </item>
+		<item> 3 минуты </item>
+		<item> 5 минут </item>
+		<item> 10 минут </item>
+	</string-array>
+	<string name="ml_camera_timewatermark"> отметка времени </string>
+	<string-array name="ml_camera_timewatermark">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration"> исправление искажения </string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_wifi_select"> WIFI </string>
+	<string-array name="ml_wifi_select">
+		<item> Закрыть </item>
+		<item> Открыть </item>
+	</string-array>
+	<string name="ml_device_language"> настройки языка </string>
+	<string name="ml_device_language_sub_head"> настройка языка </string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime"> дата-время </string>
+	<string-array name="ml_device_datetime">
+		<item> / </item>
+		<item> / </item>
+		<item> : </item>
+		<item> : </item>
+	</string-array>
+	<string name="ml_device_date_config"> установка даты </string>
+	<string name="date_year"> год </string>
+	<string name="date_month"> month </string>
+	<string name="date_day"> день </string>
+	<string name="ml_device_time_config"> установка времени </string>
+	<string name="time_hour"> час </string>
+	<string name="time_minute"> минута </string>
+	<string name="time_second"> секунд </string>
+	<string name="ml_device_datetime_format"> формат даты </string>
+	<string name="ml_device_time_save_tips"> Советы. Сетевое время текущего устройства находится в часовом поясе. Если время указано неверное, вы можете нажать кнопку «Обновить», чтобы обновить сетевое время </string>
+	<string name="ml_device_time_save"> Экономьте время </string>
+	<string name="ml_device_time"> date </string>
+	<string name="ml_device_time_sub_head"> дата </string>
+	<string name="ml_device_time_current"> текущее время </string>
+	<string-array name="ml_device_time">
+		<item> Обновить сетевое время </item>
+	</string-array>
+	<string name="ml_device_voicestatus"> звук </string>
+	<string-array name="ml_device_voicestatus">
+		<item> Закрыть </item>
+		<item> 30% </item>
+		<item> 50% </item>
+		<item> 80% </item>
+		<item> 100% </item>
+	</string-array>
+	<string name="ml_device_resetfactory"> Восстановить заводские настройки </string>
+	<string-array name="ml_device_resetfactory">
+		<item> OK </item>
+		<item> Отмена </item>
+	</string-array>
+	<string name="ml_device_resetselection"> подтвердить сброс к заводским настройкам? </string>
+	<string name="ml_confirm_reboot"> Хотите перезапустить? </string>
+	<string name="ml_confirm_ok"> ОК </string>
+	<string name="ml_confirm_no"> Отмена </string>
+	<string name="ml_device_format"> Формат </string>
+	<string-array name="ml_device_format">
+		<item> OK </item>
+		<item> Отмена </item>
+	</string-array>
+	<string name="ml_device_format_doing"> Форматирование ... </string>
+	<string name="ml_device_format_failed"> Форматирование не выполнено </string>
+	<string name="ml_device_format_success"> Форматирование завершено </string>
+	<string name="ml_turn_on"> open </string>
+	<string name="ml_turn_off"> выключен </string>
+	<string name="ml_quit_exit"> Нажмите кнопку вверх, чтобы выйти </string>
+	<string name="ml_camera_wifiswitch"> информация о WIFI </string>
+	<string name="ml_camera_wifiswitch_ssid"> WIFI name: </string>
+	<string name="ml_camera_wifiswitch_passwd"> пароль WIFI: </string>
+	<string name="ml_camera_wifiswitch_tip"> Длительно нажмите кнопку видео, чтобы выйти из WIFI </string>
+	<string name="ml_prompt"> теплые советы </string>
+	<string name="ml_prompt_tf_cap_no_support"> Емкость карты памяти не поддерживается, вставьте карту памяти емкостью 32G / 64G </string>
+	<string name="ml_prompt_tf_null"> Карта TF не обнаружена, вставьте карту TF! </string>
+	<string name="ml_prompt_tf_full"> Недостаточно места на карте TF! </string>
+	<string name="ml_prompt_tf_fs_error"> Формат файловой системы SD-карты не соответствует требованиям, отформатирован? </string>
+	<string name="ml_prompt_tf_low_speed"> Чтобы обеспечить нормальную работу записывающего устройства, используйте высокоскоростную карту памяти класса 10 (рекомендуемая скорость чтения превышает 80 МБ / с) </string>
+	<string name="ml_prompt_bat_full"> Батарея полностью заряжена! </string>
+	<string name="ml_prompt_bat_low"> низкий заряд батареи, выключите через 5 секунд! </string>
+	<string name="ml_prompt_database_full"> База данных заполнена, а старые записи будут перезаписаны! </string>
+	<string name="ml_prompt_camera_error"> Неверный сбор изображений, камера будет повторно инициализирована! </string>
+	<string name="ml_prompt_unsupported_func"> Нельзя включить текущий режим! </string>
+	<string name="ml_prompt_update_count_down"> Устройство автоматически обновит систему через 2 секунды. Ожидается, что оно будет недоступно в течение 5 минут. Обратите внимание на безопасность вождения. </string>
+	<string name="ml_prompt_emergency_recording"> Экстренная запись не прерывается! </string>
+	<string name="ml_prompt_power_disconnected"> Питание было отключено и будет автоматически отключено! </string>
+	<string name="ml_prompt_sdcard_format"> выполняет форматирование, пожалуйста, подождите! </string>
+	<string name="ml_prompt_wifi_connect_ok"> Подключен к приложению «Драйвер капельного режима» через WIFI, используйте приложение на стороне приложения </string>
+	<string name="ml_prompt_videoplay_error"> Ошибка воспроизведения видео! </string>
+	<string name="ml_prompt_tf_formating"> выполняет форматирование, пожалуйста, подождите ... </string>
+	<string name="ml_prompt_tf_format_finish"> Форматирование завершено </string>
+	<string name="ml_prompt_tf_format_failed"> Не удалось отформатировать карту памяти </string>
+	<string name="ml_prompt_update_net_time"> Синхронизация сетевого времени завершена </string>
+	<string name="ml_prompt_update_net_time_fail"> Нет сигнала 4G, синхронизация не удалась </string>
+	<string name="ml_prompt_reset_factory_ing"> Восстановите заводские настройки, подождите ... </string>
+	<string name="ml_prompt_reset_factory"> Восстановление заводских настроек завершено </string>
+	<string name="ml_prompt_standbymode"> Питание было отключено, оно будет отключено </string>
+	<string name="ml_prompt_version_no_exist"> Новая прошивка не обнаружена </string>
+	<string name="ml_prompt_version_invalid"> Обнаружена неверная прошивка </string>
+	<string name="ml_prompt_resolution_ing"> Переключение разрешения, пожалуйста, подождите ... </string>
+	<string name="ml_prompt_resolution_finish"> Разрешение переключателя завершено </string>
+	<string name="ml_prompt_prepare_update"> Готовы к обновлению, подождите ... </string>
+	<string name="info_dialog"> информация </string>
+	<string name="confirm"> OK </string>
+	<string name="cancel"> Cancel </string>
+	<string name="tl_playlist"> Пожалуйста, выберите файл воспроизведения </string>
+	<string name="delete_dialog"> delete </string>
+	<string name="delete_info"> Вы уверены, что хотите удалить этот файл? </string>
+	<string name="delete_info_video"> удалять ли видео </string>
+	<string name="delete_info_error_video"> Это видео повреждено, оно удалено? </string>
+	<string name="delete_info_error_photo"> Это рисунок повреждено, оно удалено? </string>
+	<string name="delete_info_photo"> удалять ли картинку </string>
+	<string name="delete_info_allselected"> удалять ли выбранный файл </string>
+	<string name="tl_usb_connect"> USB подключен </string>
+	<string name="tl_usb_charge"> режим зарядки </string>
+	<string name="tl_usb_mass_storage"> Открыть запоминающее устройство USB </string>
+	<string name="tl_usb_webcam"> режим камеры </string>
+	<string name="update_dialog_title"> Обновление системы </string>
+	<string name="ml_device_deviceinfo"> информация об устройстве </string>
+	<string name="ml_device_deviceinfo_sub_head"> информация об устройстве </string>
+	<string name="ml_device_deviceinfo_name"> Название продукта:  </string>
+	<string name="ml_device_deviceinfo_make"> Производитель:  </string>
+	<string name="ml_device_deviceinfo_sn"> Код SN устройства: </string>
+	<string name="ml_device_deviceinfo_account_id"> идентификатор учетной записи: </string>
+	<string name="ml_device_deviceinfo_imei_id"> IMEI: </string>
+	<string name="ml_device_deviceinfo_sim"> идентификатор SIM-карты: </string>
+	<string name="ml_device_deviceinfo_view"> Просмотр информации об устройстве и SIM-карте </string>
+	<string name="ml_device_sdcard_info"> информация о карте </string>
+	<string name="ml_device_sdcard_info_sub_head"> информация о карте </string>
+	<string name="ml_device_sdcard_capacity"> Доступно / Всего </string>
+	<string name="ml_device_sdcard_format"> Форматировать карту памяти </string>
+	<string name="ml_device_sdcard_capacity_used"> Карта памяти уже используется: </string>
+	<string name="ml_device_sdcard_total_capacity"> общая емкость карты памяти: </string>
+	<string name="ml_device_version_update"> обновление версии </string>
+	<string name="ml_device_version_update_sub_head"> обновление версии </string>
+	<string name="ml_device_version_info"> В текущей системе есть новая версия для обновления </string>
+	<string name="ml_device_version_current"> Версия системы: </string>
+	<string name="ml_device_version_new"> Текущая система является последней версией </string>
+	<string name="ml_device_version_new_can_upgraded"> Новая версия может быть обновлена, общее количество пакетов </string>
+	<string name="ml_device_version_update_now"> Обновить сейчас </string>
+	<string name="ml_device_version_update_detect"> Определить обновления </string>
+	<string name="ml_device_4g_module_version_current"> версия прошивки сети 4G: </string>
+	<string name="all_letters"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+	<string name="all_digit_num"> 0123456789 </string>
+	<string name="save_dialog"> Сохранить </string>
+	<string name="save_info"> Хотите сохранить настройки? </string>
+	<string name="ml_device_dash_camera_tips"> Советы: если вы включаете функцию записи в автомобиле, когда вы записываете видео записи вождения, камера в автомобиле также записывает видео в автомобиле </string>
+	<string name="ml_promptBox_record_voice_on"> записанный звук включен </string>
+	<string name="ml_promptBox_record_voice_off"> записанный звук отключен </string>
+	<string name="ml_promptBox_recording_on"> Запись видео включена </string>
+	<string name="ml_promptBox_recording_off"> Запись видео выключена </string>
+	<string name="ml_promptBox_mobile_connected"> Подключена мобильная передача </string>
+	<string name="ml_promptBox_mobile_disconnected"> Мобильная передача отключена </string>
+	<string name="ml_promptBox_gps_connected"> GPS подключен </string>
+	<string name="ml_promptBox_gps_disconnected"> GPS отключен </string>
+	<string name="ml_promptBox_device_recording"> Устройство все еще выполняет запись </string>
+	<string name="ml_promptBox_device_photoing"> Устройство все еще делает фотографии </string>
+	<string name="ml_promptBox_standby"> готов к переходу в режим ожидания </string>
+	<string name="ml_promptBox_last_video"> Уже последний файл </string>
+	<string name="ml_promptBox_first_video"> Уже первый файл </string>
+	<string name="ml_promptBox_tf_insert"> Обнаружено, что SD-карта вставлена ​​</string>
+	<string name="ml_promptBox_tf_out"> Обнаружено, что SD-карта была удалена </string>
+	<string name="ml_promptBox_park_video"> видео о парковке, эта операция запрещена </string>
+	<string name="ml_wifi_app_download_qr_code"> Мобильное сканирование QR-кода для получения ссылки на скачивание приложения </string>
+	<string name="ml_traffic_info_query"> Запрос информации о трафике </string>
+	<string name="ml_traffic_surplus"> Осталось потока: </string>
+	<string name="ml_traffic_total"> общий трафик пакета: </string>
+	<string name="ml_flow_recharge"> пополнение потока </string>
+	<string name="ml_scan_qr_code_recharge"> Сканирование мобильного телефона при пополнении трафика QR-кода </string>
+	<string name="ml_sim_info_query"> Запрос информации о SIM-карте </string>
+	<string name="ml_sim_card_id"> Идентификатор SIM-карты: xxxxx </string>
+	<string name="ml_sim_network_business"> Сетевик: China Mobile </string>
+	<string name="ml_button_dialog_refresh_network_time"> обновлять ли сетевое время </string>
+	<string name="ml_button_dialog_manual_update_time"> Нужно ли настраивать время вручную </string>
+	<string name="ml_button_dialog_format_sdcard"> Вы уверены, что отформатировали карту памяти? </string>
+	<string name="ml_button_dialog_4g_network_open"> Обновление данных должно включать функцию передачи по сети 4G, независимо от того, нужно ли ее открывать </string>
+	<string name="ml_button_dialog_record_loop_open"> Для записи цикла парковки необходимо включить мониторинг нарушения парковки, независимо от того, открывать ли это </string>
+	<string name="ml_button_dialog_record_loop_open_fail"> После правильной вставки маленькой строки отслеживания парковки муравья и включения функции «парковочного контроля» вы можете включить функцию «запись парковочного цикла» </string>
+	<string name="ml_button_dialog_adas_open_fail"> Эту функцию необходимо правильно вставить в GPS-модуль маленького муравейника, попробуйте еще раз после вставки </string>
+	<string name="ml_button_dialog_watchdog_open_fail"> Эту функцию необходимо правильно вставить в GPS-модуль маленького муравейника, попробуйте еще раз после вставки </string>
+	<string name="ml_button_dialog_download_packet_version"> Загрузка пакета </string>
+	<string name="ml_button_dialog_download_packet_watchdog"> Загрузка пакета </string>
+	<string name="ml_button_dialog_install_packet_version"> Установка пакета </string>
+	<string name="ml_button_dialog_install_packet_watchdog"> Установка пакета </string>
+	<string name="ml_button_dialog_install_current_city_packet_finished"> установка завершена, текущий пакет города обновлен </string>
+	<string name="ml_button_dialog_install_national_city_packet_finished"> установка завершена, пакет данных национального города обновлен </string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal"> Ошибка загрузки, проверьте, нормально ли работает сеть устройства </string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow"> Загрузка не удалась, оставшийся трафик недостаточен </string>
+	<string name="ml_button_dialog_install_version_finish"> установка завершена, текущая версия системы обновлена ​​</string>
+	<string name="ml_button_dialog_more_img"> Обнаружено несколько прошивок, убедитесь, что есть только одна </string>
+	<string name="ml_button_dialog_check_md5_fail"> Не удалось определить значение микропрограммы MD5, микропрограмма недействительна </string>
+	<string name="ml_button_dialog_open_fail"> открыть не удалось </string>
+	<string name="ml_button_dialog_know"> я знаю </string>
+	<string name="ml_button_dialog_open_now"> Открыть сейчас </string>
+	<string name="ml_button_dialog_retry"> повторите попытку </string>
+	<string name="ml_button_dialog_recharge_now"> зарядить сейчас </string>
+	<string name="ml_playback_front_camera_video"> видео с передним объективом </string>
+	<string name="ml_preview_record_front_rear"> двойной внутри и снаружи автомобиля </string>
+	<string name="ml_preview_record_front"> одиночная запись в автомобиле </string>
+	<string name="ml_preview_record_rear"> вне одиночной записи автомобиля </string>
+	<string name="ml_preview_record_pause"> остановить запись </string>
+	<string name="ml_preview_recording"> запись </string>
+	<string name="ml_preview_drip_notice"> Объявление о потоке </string>
+	<string name="ml_ota_install_packet"> Установка пакета </string>
+	<string name="ml_ota_install_notice"> Не выключайте автомобиль и не выключайте устройство </string>
+	<string name="ml_ota_install_failed"> Сбой установки пакета, готов к перезапуску </string>
+	<string name="ml_ota_install_finsh"> Установка завершена, обновление завершено после перезагрузки </string>
+	<string name="ml_ota_instal_check_md5_fail"> Не удалось определить значение прошивки MD5, прошивка недействительна </string>
+	<string name="ml_ota_instal_found_img_fail"> Микропрограмма еще не обнаружена </string>
+	<string name="ml_sdvcam_ota_fail"> Ошибка обновления, перезапустите, если все прошло успешно, попробуйте еще раз, пожалуйста, используйте режим сильной кисти для карт, если перезапуск не удался </string>
+	<string name="ml_playback_no_file"> Нет файлов для просмотра </string>
+	<string name="ml_playback_no_sdcard"> Карта TF не обнаружена, вставьте карту TF! </string>
+	<string name="ml_promptBox_video_playerr"> Ошибка воспроизведения видео </string>
+	<string name="ml_sdcard_update_version_new"> Обнаружен ли файл обновления, обновляется ли он? </string>
+	<string name="ml_sdcard_update_version_no"> Не обновлено </string>
+	<string name="ml_sdcard_update_version_now"> Обновить сейчас </string>
+	<string name="ml_bindwindow_title"> Привязать раскрывающуюся учетную запись владельца райдера </string>
+	<string name="ml_bindwindow_text"> Откройте приложение «Drip Trip» или «Drip Run», введите [Сервис маневров-автовладельца-Travel Bao-My Travel Treasure], отсканируйте QR-код слева в соответствии с подсказкой страницы. Сделайте привязки аккаунта. </string>
+	<string name="ml_setting_menu"> Системные настройки </string>
+	<string name="ml_lock_current_file"> Файл заблокирован! </string>
+	<string name="ml_unlock_current_file"> Файл разблокирован! </string>
+	<string name="ml_current_file_locked"> файл заблокирован, удаление запрещено! </string>
+	<string name="ml_promptBox_current_recording_off"> Текущая запись видео отключена, сначала запустите запись видео </string>
+	<string name="ml_no_tf"> нет карты </string>
+	<string name="ml_motion_is_on">обнаружение движения включено</string>
+	<string name="ml_photo_Quality"> Качество изображения </string>
+	<string-array name="ml_photo_Quality">
+		<item> super good </item>
+		<item> хорошо </item>
+		<item> General </item>
+	</string-array>
+	<string name="ml_device_carid_config"> водяной знак номерного знака </string>
+	<string name="all_carchar">京湘津鄂沪粤渝琼冀川晋贵辽云吉陕黑甘苏青浙台皖藏闽蒙赣桂鲁宁豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

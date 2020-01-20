@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>USBModeWindow</class>
+ <widget class="QDialog" name="USBModeWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Title</string>
+  </property>
+  <widget class="QLabel" name="tl_usb_connect">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>USB Connected</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_charge">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>240</y>
+     <width>340</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_mass_storage">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>310</y>
+     <width>340</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_uvc">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>380</y>
+     <width>340</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_mode">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>240</y>
+     <width>220</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>gv_webcam</zorder>
+  <zorder>gv_uvc</zorder>
+  <zorder>gv_mass_storage</zorder>
+  <zorder>gv_charge</zorder>
+  <zorder>tl_title</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

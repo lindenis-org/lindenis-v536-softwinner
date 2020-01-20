@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>status_usb.png</file>
+        <file>status_wifi.png</file>
+        <file>status_bt.png</file>
+        <file>status_hdmi.png</file>
+        <file>battery.png</file>
+        <file>status_eth.png</file>
+        <file>status_tvout.png</file>
+        <file>wifi_on.png</file>
+        <file>wifi_off.png</file>
+        <file>tf_in.png</file>
+        <file>tf_out.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record"> วิดีโอ </string>
+	<string name="tl_takepic"> รูปถ่าย </string>
+	<string name="tl_slowrec"> การถ่ายภาพช้า </string>
+	<string name="tl_playback"> เนทีฟอัลบั้ม </string>
+	<string name="tl_setting"> การตั้งค่า </string>
+	<string name="tl_shutdown"> ปิดการทำงาน </string>
+	<string name="ml_record_resolution_tips"> เคล็ดลับ: ยิ่งคุณบันทึก fps มากขึ้นในระหว่างการบันทึกวิดีโอก็จะยิ่งมีขนาดใหญ่ขึ้น </string>
+	<string name="ml_record_resolution"> ขนาดวิดีโอ </string>
+	<string name="ml_record_resolution_sub_head"> คุณภาพวิดีโอ </string>
+	<string-array name="ml_record_resolution">
+		<item> 4K </item>
+		<item> 2.7K </item>
+		<item> 1080P </item>
+	</string-array>
+	<string name="ml_vioce_record_function"> การบันทึกในรถยนต์ </string>
+	<string-array name="ml_vioce_record_function">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_vehicle_record_function"> การบันทึกวิดีโอในรถยนต์ </string>
+	<string-array name="ml_vehicle_record_function">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips"> เคล็ดลับ: ยิ่งคุณบันทึกภาพต่อวินาทีสูงขึ้นในระหว่างการบันทึกวิดีโอยิ่งมีขนาดใหญ่ขึ้น </string>
+	<string name="ml_record_rear_resolution"> บันทึกมุมมองด้านหลัง </string>
+	<string name="ml_record_rear_resolution_sub_head"> คุณภาพของภาพตัวบันทึกย้อนแสง </string>
+	<string name="ml_screen_brightness"> ความสว่างหน้าจอ </string>
+	<string name="ml_screen_brightness_sub_head"> ความสว่างหน้าจอ </string>
+	<string name="ml_screen_brightness_level"> ระดับ </string>
+	<string-array name="ml_screen_brightness">
+		<item> ระดับความสว่างปัจจุบัน: </item>
+	</string-array>
+	<string name="ml_voice_photo_tips"> เคล็ดลับ: "เมื่อคุณพูดว่า" Little Ant Photograph "อุปกรณ์จะถ่ายรูปและบันทึกไว้ในอัลบั้มเมื่อคำสั่งซื้อของคุณรู้จัก" </string>
+	<string name="ml_voice_photo"> รูปถ่ายเสียง </string>
+	<string name="ml_voice_photo_sub_head"> สวิตช์กล้องเสียง </string>
+	<string-array name="ml_voice_photo">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_wifi_connect_tips"> เคล็ดลับ: โปรดดาวน์โหลดแอพของโครงการและใช้ฟังก์ชั่นการเชื่อมต่อ WiFi หลังจากจับคู่ตามกระบวนการจับคู่ฝั่งแอป </string>
+	<string name="ml_wifi_connect"> WIFI </string>
+	<string name="ml_wifi_connect_sub_head"> การตั้งค่า WiFi </string>
+	<string name="ml_wifi_connect_info"> ข้อมูล WIFI </string>
+	<string-array name="ml_wifi_connect">
+		<item> ปิด </item>
+		<item> เปิด </item>
+		<item> ดูข้อมูลการเชื่อมต่อ WiFi </item>
+		<item> สแกนรหัส QR เพื่อดาวน์โหลดแอป </item>
+	</string-array>
+	<string name="ml_4g_network"> การตั้งค่าเครือข่าย 4G </string>
+	<string name="ml_4g_network_sub_head"> การตั้งค่าเครือข่าย 4G </string>
+	<string-array name="ml_4g_network">
+		<item> ปิด </item>
+		<item> เปิด </item>
+		<item> ข้อมูลซิมการ์ด </item>
+	</string-array>
+	<string name="ml_system_acc"> โหมดพลังงานของอุปกรณ์ </string>
+	<string name="ml_system_acc_sub_head"> โหมดพลังงานของอุปกรณ์ </string>
+	<string-array name="ml_system_acc">
+		<item> ACC แหล่งจ่ายไฟแบบ line-down ACC </item>
+		<item> แหล่งจ่ายไฟที่จุดบุหรี่รถยนต์ </item>
+	</string-array>
+	<string name="ml_system_voice"> เอฟเฟกต์เสียงระบบ </string>
+	<string name="ml_system_voice_sub_head"> เอฟเฟกต์เสียงระบบ </string>
+	<string name="ml_power_on_voice"> เอฟเฟกต์เสียงบูต </string>
+	<string-array name="ml_power_on_voice">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_key_voice"> เอฟเฟกต์เสียงหลัก </string>
+	<string-array name="ml_key_voice">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_driver_report"> รายงานการขับขี่ </string>
+	<string name="ml_driver_report_sub_head"> รายงานการขับขี่ </string>
+	<string-array name="ml_driver_report">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_gps_switch"> สวิตช์ GPS </string>
+	<string name="ml_gps_switch_sub_head"> สวิตช์ GPS </string>
+	<string-array name="ml_gps_switch">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_speed_unit"> หน่วยความเร็ว </string>
+	<string name="ml_speed_unit_sub_head"> หน่วยความเร็ว </string>
+	<string-array name="ml_speed_unit">
+		<item> km/h </item>
+		<item> mil/h </item>
+	</string-array>
+	<string name="ml_timezone"> การเลือกโซนเวลา </string>
+	<string name="ml_timezone_sub_head"> การเลือกโซนเวลา </string>
+	<string-array name="ml_timezone">
+		<item> UTC </item>
+		<item> UTC + 1 </item>
+		<item> UTC + 2 </item>
+		<item> UTC + 3 </item>
+		<item> UTC + 4 </item>
+		<item> UTC + 5 </item>
+		<item> UTC + 6 </item>
+		<item> UTC + 7 </item>
+		<item> UTC + 8 </item>
+		<item> UTC + 9 </item>
+		<item> UTC + 10 </item>
+		<item> UTC + 11 </item>
+		<item> UTC + 12 </item>
+		<item> UTC-11 </item>
+		<item> UTC-10 </item>
+		<item> UTC-9 </item>
+		<item> UTC-8 </item>
+		<item> UTC-7 </item>
+		<item> UTC-6 </item>
+		<item> UTC-5 </item>
+		<item> UTC-4 </item>
+		<item> UTC-3 </item>
+		<item> UTC-2 </item>
+		<item> UTC-1 </item>
+	</string-array>
+	<string name="ml_screen_disturb_mode"> ห้ามรบกวนโหมด </string>
+	<string-array name="ml_screen_disturb_mode">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_adas_tips"> เคล็ดลับ: หลังจากโมดูลตัวบันทึกการขับขี่ GM ที่เป็นอุปกรณ์เสริมและใส่โมดูล GPS คุณสามารถเปิดฟังก์ชั่นความช่วยเหลือการขับขี่อัจฉริยะ </string>
+	<string name="ml_record_adas"> สวิตช์ ADAS </string>
+	<string name="ml_record_adas_sub_head"> สวิตช์ ADAS </string>
+	<string-array name="ml_record_adas">
+		<item> คำเตือนการชนไปข้างหน้า </item>
+		<item> การแจ้งเตือนการหักล้างช่องทาง </item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning"> คำเตือนการชนด้านหน้า </string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding"> ตัวเตือนการชดเชยออฟเลน </string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_watch_dog"> สุนัขอิเล็กทรอนิกส์ </string>
+	<string name="ml_watch_dog_sub_head"> สุนัขอิเล็กทรอนิกส์ </string>
+	<string-array name="ml_watch_dog">
+		<item> ปิด </item>
+		<item> เปิด </item>
+		<item> ระดับเสียงพรอมต์: </item>
+		<item> การอัปเดตข้อมูล </item>
+	</string-array>
+	<string name="ml_volume_select"> ปริมาณ </string>
+	<string-array name="ml_volume_select">
+		<item> สูง </item>
+		<item> ใน </item>
+		<item> ต่ำกว่า </item>
+	</string-array>
+	<string name="ml_probe_prompt"> พรอมต์สอบสวน </string>
+	<string-array name="ml_probe_prompt">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_speed_prompt"> พรอมต์ความเร็ว </string>
+	<string-array name="ml_speed_prompt">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips"> เคล็ดลับ: ลายน้ำข้อมูลการขับขี่รวมถึง "จุดพิกัด GPS ความเร็วรถข้อมูลแผ่นป้ายทะเบียน ฯลฯ สามารถตั้งค่าได้ใน" แอป Little มดขับรถบันทึก `APP" </string>
+	<string name="ml_record_timewatermark"> ลายน้ำข้อมูล </string>
+	<string name="ml_record_timewatermark_sub_head"> กำลังขับลายน้ำข้อมูล </string>
+	<string-array name="ml_record_timewatermark">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips"> เคล็ดลับ: บันทึกการเหตุฉุกเฉิน 10 วินาทีโดยอัตโนมัติหลังจากตรวจพบการชน </string>
+	<string name="ml_record_emerrecord"> การบันทึกฉุกเฉิน </string>
+	<string name="ml_record_emerrecord_sub_head"> วิดีโอฉุกเฉิน </string>
+	<string-array name="ml_record_emerrecord">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_emerrecordsen"> การตรวจจับแรงโน้มถ่วง </string>
+	<string-array name="ml_record_emerrecordsen">
+		<item> สูง </item>
+		<item> ใน </item>
+		<item> ต่ำกว่า </item>
+	</string-array>
+	<string name="ml_record_parkingmonitor"> โหมดการจอดรถ </string>
+	<string name="ml_record_parkingmonitor_sub_head"> โหมดที่จอดรถ </string>
+	<string-array name="ml_record_parkingmonitor">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_packing_warn_lamp"> ไฟเตือนการจอดรถ </string>
+	<string-array name="ml_packing_warn_lamp">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor"> การตรวจสอบความผิดปกติของที่จอดรถ </string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice"> การแจ้งเตือนการยกเว้นที่จอดรถ </string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw"> วิดีโอห่วงการจอดรถ </string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution"> วิดีโอห่วงการจอดรถ </string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item> 1080P 5fps </item>
+		<item> 720P 15fps </item>
+		<item> 720P 5fps </item>
+		<item> 720P 2fps </item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips"> เคล็ดลับ: หลังจากเปิดใช้งานฟังก์ชั่น "นาฬิกาสแตน" เวลาจะปรากฏบนหน้าจอเมื่ออุปกรณ์อยู่ในหน้าจอ </string>
+	<string name="ml_record_standby_clock"> นาฬิกาสแตนด์บาย </string>
+	<string name="ml_record_standby_clock_sub_head"> นาฬิกาสแตนด์บาย </string>
+	<string-array name="ml_record_standby_clock">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_encodingtype"> ประเภทการเข้ารหัส </string>
+	<string-array name="ml_record_encodingtype">
+		<item> การบีบอัดสูง </item>
+		<item> H264 </item>
+	</string-array>
+	<string name="ml_record_loop"> วิดีโอวนรอบ </string>
+	<string-array name="ml_record_loop">
+		<item> 1 นาที </item>
+		<item> 2 นาที </item>
+		<item> 3 นาที </item>
+	</string-array>
+	<string name="ml_record_timelapse"> วิดีโอไทม์แลปส์ </string>
+	<string-array name="ml_record_timelapse">
+		<item> ปิด </item>
+		<item> 0.5s </item>
+		<item> 1s </item>
+		<item> 2s </item>
+		<item> 5s </item>
+		<item> 10s </item>
+		<item> 30s </item>
+		<item> 60s </item>
+	</string-array>
+	<string name="ml_record_volume"> สวิตช์การบันทึก </string>
+	<string name="ml_record_volume_sub_head"> สวิตช์การบันทึก </string>
+	<string-array name="ml_record_volume">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_motion_detect"> การตรวจจับการเคลื่อนไหว </string>
+	<string name="ml_motion_detect_sub_head"> การตรวจจับการเคลื่อนไหว </string>
+	<string-array name="ml_motion_detect">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_eis"> ระบบป้องกันการสั่นไหวอิเล็กทรอนิกส์ </string>
+	<string-array name="ml_record_eis">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_record_slowmotion"> การถ่ายภาพช้า </string>
+	<string-array name="ml_record_slowmotion">
+		<item> 1080P120FPS </item>
+		<item> 1080P60FPS </item>
+		<item> 720P240FPS </item>
+		<item> 720P120FPS </item>
+	</string-array>
+	<string name="ml_photo_resolution"> ภาพถ่ายปกติ </string>
+	<string-array name="ml_photo_resolution">
+		<item> 8M </item>
+		<item> 13M </item>
+		<item> 16M </item>
+	</string-array>
+	<string name="ml_photo_timed"> ภาพถ่ายที่ตั้งเวลา </string>
+	<string-array name="ml_photo_timed">
+		<item> ปิด </item>
+		<item> 3S </item>
+		<item> 5S </item>
+		<item> 10S </item>
+		<item> 20S </item>
+	</string-array>
+	<string name="ml_photo_auto"> ภาพถ่ายอัตโนมัติ </string>
+	<string-array name="ml_photo_auto">
+		<item> ปิด </item>
+		<item> 3S </item>
+		<item> 10S </item>
+		<item> 15S </item>
+		<item> 20S </item>
+		<item> 30S </item>
+	</string-array>
+	<string name="ml_photo_dramashot"> ภาพเคลื่อนไหวแทร็ก </string>
+	<string-array name="ml_photo_dramashot">
+		<item> ปิด </item>
+		<item> 3P / S </item>
+		<item> 5P / S </item>
+		<item> 10P / S </item>
+	</string-array>
+	<string name="ml_camera_exposure"> exposure </string>
+	<string-array name="ml_camera_exposure">
+		<item> -3 </item>
+		<item> -2 </item>
+		<item> -1 </item>
+		<item> 0 </item>
+		<item> 1 </item>
+		<item> 2 </item>
+		<item> 3 </item>
+	</string-array>
+	<string name="ml_camera_whitebalance"> สมดุลสีขาว </string>
+	<string-array name="ml_camera_whitebalance">
+		<item> Auto </item>
+		<item> แดด </item>
+		<item> วันที่มีเมฆ </item>
+		<item> หลอดไส้ </item>
+		<item> เรืองแสง </item>
+	</string-array>
+	<string name="ml_camera_imagerotation"> การหมุนรูปภาพ </string>
+	<string-array name="ml_camera_imagerotation">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency"> ความถี่ของแหล่งกำเนิดแสง </string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item>50Hz</item>
+		<item>60Hz</item>
+	</string-array>
+	<string name="ml_camera_ledindicator"> ไฟแสดงสถานะ LED </string>
+	<string-array name="ml_camera_ledindicator">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver"> การจำศีลบนหน้าจอ </string>
+	<string name="ml_camera_autoscreensaver_sub_head"> ปิดหน้าจอโดยอัตโนมัติ </string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item> 10 วินาที </item>
+		<item> 30 วินาที </item>
+		<item> 1 นาที </item>
+		<item> ปิด </item>
+	</string-array>
+	<string name="ml_camera_timedshutdown"> การปิดระบบที่กำหนดเวลา </string>
+	<string-array name="ml_camera_timedshutdown">
+		<item> ปิด </item>
+		<item> 3 นาที </item>
+		<item> 5 นาที </item>
+		<item> 10 นาที </item>
+	</string-array>
+	<string name="ml_camera_timewatermark"> ลายน้ำเวลา </string>
+	<string-array name="ml_camera_timewatermark">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration"> การแก้ไขการบิดเบือน </string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_wifi_select"> WIFI </string>
+	<string-array name="ml_wifi_select">
+		<item> ปิด </item>
+		<item> เปิด </item>
+	</string-array>
+	<string name="ml_device_language"> การตั้งค่าภาษา </string>
+	<string name="ml_device_language_sub_head"> การตั้งค่าภาษา </string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime"> date-time </string>
+	<string-array name="ml_device_datetime">
+		<item> / </item>
+		<item> / </item>
+		<item> : </item>
+		<item> : </item>
+	</string-array>
+	<string name="ml_device_date_config"> การตั้งค่าวันที่ </string>
+	<string name="date_year"> ปี </string>
+	<string name="date_month"> เดือน </string>
+	<string name="date_day"> day </string>
+	<string name="ml_device_time_config"> การตั้งค่าเวลา </string>
+	<string name="time_hour"> ชั่วโมง </string>
+	<string name="time_minute"> นาที </string>
+	<string name="time_second"> วินาที </string>
+	<string name="ml_device_datetime_format"> รูปแบบวันที่ </string>
+	<string name="ml_device_time_save_tips"> เคล็ดลับ: เวลาเครือข่ายของอุปกรณ์ปัจจุบันอยู่ในโซนเวลาหากเวลาไม่ถูกต้องคุณสามารถคลิกปุ่ม "รีเฟรช" เพื่ออัปเดตเวลาเครือข่าย </string>
+	<string name="ml_device_time_save"> ประหยัดเวลา </string>
+	<string name="ml_device_time"> date </string>
+	<string name="ml_device_time_sub_head"> date </string>
+	<string name="ml_device_time_current"> เวลาปัจจุบัน </string>
+	<string-array name="ml_device_time">
+		<item> รีเฟรชเวลาเครือข่าย </item>
+	</string-array>
+	<string name="ml_device_voicestatus"> sound </string>
+	<string-array name="ml_device_voicestatus">
+		<item> ปิด </item>
+		<item> 30% </item>
+		<item> 50% </item>
+		<item> 80% </item>
+		<item> 100% </item>
+	</string-array>
+	<string name="ml_device_resetfactory"> กู้คืนการตั้งค่าจากโรงงาน </string>
+	<string-array name="ml_device_resetfactory">
+		<item> ตกลง </item>
+		<item> ยกเลิก </item>
+	</string-array>
+	<string name="ml_device_resetselection"> ยืนยันการรีเซ็ตเป็นค่าเริ่มต้นจากโรงงานหรือไม่ </string>
+	<string name="ml_confirm_reboot"> คุณต้องการเริ่มต้นใหม่หรือไม่ </string>
+	<string name="ml_confirm_ok"> ตกลง </string>
+	<string name="ml_confirm_no"> ยกเลิก </string>
+	<string name="ml_device_format"> รูปแบบ </string>
+	<string-array name="ml_device_format">
+		<item> ตกลง </item>
+		<item> ยกเลิก </item>
+	</string-array>
+	<string name="ml_device_format_doing"> กำลังจัดรูปแบบ ... </string>
+	<string name="ml_device_format_failed"> การจัดรูปแบบล้มเหลว </string>
+	<string name="ml_device_format_success"> การจัดรูปแบบเสร็จสมบูรณ์ </string>
+	<string name="ml_turn_on"> เปิด </string>
+	<string name="ml_turn_off"> ปิด </string>
+	<string name="ml_quit_exit"> กดปุ่มขึ้นเพื่อออก </string>
+	<string name="ml_camera_wifiswitch"> ข้อมูล WIFI </string>
+	<string name="ml_camera_wifiswitch_ssid"> ชื่อ WIFI: </string>
+	<string name="ml_camera_wifiswitch_passwd"> รหัสผ่าน WIFI: </string>
+	<string name="ml_camera_wifiswitch_tip"> กดปุ่มวิดีโอค้างไว้เพื่อออกจาก WIFI </string>
+	<string name="ml_prompt"> เคล็ดลับที่อบอุ่น </string>
+	<string name="ml_prompt_tf_cap_no_support"> ไม่รองรับความจุการ์ดหน่วยความจำโปรดใส่การ์ดหน่วยความจำที่มีความจุ 32G / 64G </string>
+	<string name="ml_prompt_tf_null"> ตรวจไม่พบการ์ด TF โปรดใส่การ์ด TF! </string>
+	<string name="ml_prompt_tf_full"> พื้นที่เก็บข้อมูลการ์ด TF ไม่เพียงพอ! </string>
+	<string name="ml_prompt_tf_fs_error"> รูปแบบระบบไฟล์การ์ด SD ไม่ตรงตามข้อกำหนดมันมีการฟอร์แมตหรือไม่? </string>
+	<string name="ml_prompt_tf_low_speed"> เพื่อให้การทำงานของเครื่องบันทึกการขับขี่เป็นไปตามปกติโปรดใช้การ์ดหน่วยความจำความเร็วสูง Class 10 (ความเร็วในการอ่านที่แนะนำมากกว่า 80MB / s) </string>
+	<string name="ml_prompt_bat_full"> แบตเตอรี่เต็ม! </string>
+	<string name="ml_prompt_bat_low"> แบตเตอรีต่ำปิดตัวลงหลังจาก 5s! </string>
+	<string name="ml_prompt_database_full"> ฐานข้อมูลเต็มและข้อมูลเก่าจะถูกเขียนทับ! </string>
+	<string name="ml_prompt_camera_error"> การเก็บภาพผิดปกติกล้องจะทำการเริ่มต้นใหม่! </string>
+	<string name="ml_prompt_unsupported_func"> ไม่สามารถเปิดใช้งานโหมดปัจจุบันได้! </string>
+	<string name="ml_prompt_update_count_down"> อุปกรณ์จะอัปเกรดระบบโดยอัตโนมัติหลังจาก 2 วินาทีคาดว่าจะใช้งานไม่ได้เป็นเวลา 5 นาทีโปรดใส่ใจกับความปลอดภัยในการขับขี่ </string>
+	<string name="ml_prompt_emergency_recording"> การบันทึกฉุกเฉินไม่สามารถถูกขัดจังหวะได้! </string>
+	<string name="ml_prompt_power_disconnected"> พลังงานถูกตัดการเชื่อมต่อและจะถูกปิดโดยอัตโนมัติ! </string>
+	<string name="ml_prompt_sdcard_format"> กำลังจัดรูปแบบโปรดรอสักครู่! </string>
+	<string name="ml_prompt_wifi_connect_ok"> เชื่อมต่อกับแอพ "Drip Driver" ผ่าน WIFI โปรดดำเนินการที่ด้าน APP </string>
+	<string name="ml_prompt_videoplay_error"> การเล่นวิดีโอล้มเหลว! </string>
+	<string name="ml_prompt_tf_formating"> กำลังจัดรูปแบบโปรดรอ ... </string>
+	<string name="ml_prompt_tf_format_finish"> การจัดรูปแบบเสร็จสมบูรณ์ </string>
+	<string name="ml_prompt_tf_format_failed"> ไม่สามารถฟอร์แมตการ์ดหน่วยความจำ </string>
+	<string name="ml_prompt_update_net_time"> เวลาเครือข่ายการซิงค์เสร็จสมบูรณ์ </string>
+	<string name="ml_prompt_update_net_time_fail"> ไม่มีสัญญาณ 4G การซิงโครไนซ์ล้มเหลว </string>
+	<string name="ml_prompt_reset_factory_ing"> กู้คืนการตั้งค่าจากโรงงานโปรดรอ ... </string>
+	<string name="ml_prompt_reset_factory"> กู้คืนการตั้งค่าจากโรงงานเสร็จสมบูรณ์ </string>
+	<string name="ml_prompt_standbymode"> พลังงานถูกตัดการเชื่อมต่อแล้วจะถูกปิด </string>
+	<string name="ml_prompt_version_no_exist"> ไม่พบเฟิร์มแวร์ใหม่ </string>
+	<string name="ml_prompt_version_invalid"> ตรวจพบเฟิร์มแวร์ไม่ถูกต้อง </string>
+	<string name="ml_prompt_resolution_ing"> การสลับความละเอียดโปรดรอ ... </string>
+	<string name="ml_prompt_resolution_finish"> ความละเอียดของสวิตช์เสร็จสมบูรณ์ </string>
+	<string name="ml_prompt_prepare_update"> พร้อมอัปเกรดโปรดรอ ... </string>
+	<string name="info_dialog"> ข้อมูล </string>
+	<string name="confirm"> ตกลง </string>
+	<string name="cancel"> ยกเลิก </string>
+	<string name="tl_playlist"> กรุณาเลือกที่จะเล่นไฟล์ </string>
+	<string name="delete_dialog"> ลบ </string>
+	<string name="delete_info"> คุณแน่ใจที่จะลบไฟล์นี้? </string>
+	<string name="delete_info_video"> ว่าจะลบวิดีโอ </string>
+	<string name="delete_info_error_video"> วิดีโอนี้เสียหายมันถูกลบไปหรือไม่ </string>
+	<string name="delete_info_error_photo"> ภาพนี้เสียหายหรือไม่ลบ </string>
+	<string name="delete_info_photo"> ว่าจะลบรูปภาพ </string>
+	<string name="delete_info_allselected"> ว่าจะลบไฟล์ที่เลือก </string>
+	<string name="tl_usb_connect"> เชื่อมต่อ USB แล้ว </string>
+	<string name="tl_usb_charge"> โหมดการชาร์จ </string>
+	<string name="tl_usb_mass_storage"> เปิดอุปกรณ์เก็บข้อมูล USB </string>
+	<string name="tl_usb_webcam"> โหมดกล้อง </string>
+	<string name="update_dialog_title"> การอัปเกรดระบบ </string>
+	<string name="ml_device_deviceinfo"> ข้อมูลอุปกรณ์ </string>
+	<string name="ml_device_deviceinfo_sub_head"> ข้อมูลอุปกรณ์ </string>
+	<string name="ml_device_deviceinfo_name"> ชื่อผลิตภัณฑ์:  </string>
+	<string name="ml_device_deviceinfo_make"> ผู้ผลิต:  </string>
+	<string name="ml_device_deviceinfo_sn"> รหัส SN ของอุปกรณ์: </string>
+	<string name="ml_device_deviceinfo_account_id"> รหัสบัญชี: </string>
+	<string name="ml_device_deviceinfo_imei_id"> IMEI: </string>
+	<string name="ml_device_deviceinfo_sim"> รหัสซิมการ์ด: </string>
+	<string name="ml_device_deviceinfo_view"> ดูอุปกรณ์และข้อมูลซิมการ์ด </string>
+	<string name="ml_device_sdcard_info"> ข้อมูลบัตร </string>
+	<string name="ml_device_sdcard_info_sub_head"> ข้อมูลบัตร </string>
+	<string name="ml_device_sdcard_capacity"> ใช้ได้ / รวม </string>
+	<string name="ml_device_sdcard_format"> การ์ดหน่วยความจำรูปแบบ </string>
+	<string name="ml_device_sdcard_capacity_used"> การ์ดหน่วยความจำที่ใช้: </string>
+	<string name="ml_device_sdcard_total_capacity"> รวมการ์ดหน่วยความจำความจุ: </string>
+	<string name="ml_device_version_update"> อัพเกรด </string>
+	<string name="ml_device_version_update_sub_head"> อัพเกรด </string>
+	<string name="ml_device_version_info"> รุ่นใหม่ของระบบปัจจุบันสามารถอัพเกรด </string>
+	<string name="ml_device_version_current"> ระบบเวอร์ชัน: </string>
+	<string name="ml_device_version_new"> ระบบปัจจุบันขึ้นอยู่กับวัน </string>
+	<string name="ml_device_version_new_can_upgraded"> สามารถอัพเกรดเป็นรุ่นใหม่แพ็คเก็ตรวม </string>
+	<string name="ml_device_version_update_now"> ปรับปรุงเดี๋ยวนี้ </string>
+	<string name="ml_device_version_update_detect"> การตรวจสอบการอัปเดต </string>
+	<string name="ml_device_4g_module_version_current"> 4G รุ่นเฟิร์มแวเครือข่าย: </string>
+	<string name="all_letters"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+	<string name="all_digit_num"> 0123456789 </string>
+	<string name="save_dialog"> บันทึก </string>
+	<string name="save_info"> ว่าจะบันทึกการตั้งค่า? </string>
+	<string name="ml_device_dash_camera_tips"> เคล็ดลับ: ถ้าคุณเปิดฟังก์ชั่นการบันทึกในรถเมื่อคุณบันทึกวิดีโอบันทึกการขับขี่, กล้องในรถยังบันทึกวิดีโอในรถ </string>
+	<string name="ml_promptBox_record_voice_on"> อยู่ในบันทึกเสียง </string>
+	<string name="ml_promptBox_record_voice_off"> บันทึกเสียงปิด </string>
+	<string name="ml_promptBox_recording_on"> บันทึกวิดีโอถูกเปิด </string>
+	<string name="ml_promptBox_recording_off"> บันทึกวิดีโอถูกปิด </string>
+	<string name="ml_promptBox_mobile_connected"> ส่งมือถือเชื่อมต่อ </string>
+	<string name="ml_promptBox_mobile_disconnected"> ส่งมือถือเชื่อมต่อ </string>
+	<string name="ml_promptBox_gps_connected"> จีพีเอสที่เชื่อมต่อ </string>
+	<string name="ml_promptBox_gps_disconnected"> จีพีเอสตัดการเชื่อมต่อ </string>
+	<string name="ml_promptBox_device_recording"> อุปกรณ์บันทึกยังคงอยู่ใน </string>
+	<string name="ml_promptBox_device_photoing"> อุปกรณ์ยังอยู่ในกล้อง </string>
+	<string name="ml_promptBox_standby"> พร้อมที่จะเข้าสู่โหมดสแตนด์บาย </string>
+	<string name="ml_promptBox_last_video"> เป็นไฟล์สุดท้ายแล้ว </string>
+	<string name="ml_promptBox_first_video"> เป็นไฟล์แรกแล้ว </string>
+	<string name="ml_promptBox_tf_insert"> การ์ด SD จะถูกแทรกมีการตรวจพบ </string>
+	<string name="ml_promptBox_tf_out"> ตรวจพบการ์ด SD ถอดออก </string>
+	<string name="ml_promptBox_park_video"> หยุดจอวิดีโอที่ห้ามการดำเนินการ </string>
+	<string name="ml_wifi_app_download_qr_code"> โทรศัพท์มือถือในการสแกนรหัสสองมิติที่ได้มาเชื่อมโยงการดาวน์โหลด APP </string>
+	<string name="ml_traffic_info_query"> แบบสอบถามข้อมูลการจราจร </string>
+	<string name="ml_traffic_surplus"> การไหลที่เหลือ: </string>
+	<string name="ml_traffic_total"> แพคเกจการไหลรวม: </string>
+	<string name="ml_flow_recharge"> การไหลเติมเงิน </string>
+	<string name="ml_scan_qr_code_recharge"> โทรศัพท์มือถือในการสแกนสองมิติเติมเงินไหลรหัส </string>
+	<string name="ml_sim_info_query"> แบบสอบถามข้อมูลซิมการ์ด </string>
+	<string name="ml_sim_card_id"> รหัสซิมการ์ด: xxxxx </string>
+	<string name="ml_sim_network_business"> ประกอบการเครือข่าย: มือถือจีน </string>
+	<string name="ml_button_dialog_refresh_network_time"> ว่าจะฟื้นฟูเครือข่ายเวลา </string>
+	<string name="ml_button_dialog_manual_update_time"> ว่าจะปรับเวลาด้วยตนเอง </string>
+	<string name="ml_button_dialog_format_sdcard"> ยืนยันรูปแบบการ์ดหน่วยความจำ? </string>
+	<string name="ml_button_dialog_4g_network_open"> เครือข่าย 4G ต้องเปิดฟังก์ชั่นการส่งข้อมูลอัปเดตว่าจะเปิด </string>
+	<string name="ml_button_dialog_record_loop_open"> บันทึกที่จอดรถห่วงต้องเปิดที่จอดรถการตรวจสอบข้อยกเว้นว่าจะเปิด </string>
+	<string name="ml_button_dialog_record_loop_open_fail"> หลังจากใส่สายการตรวจสอบมดที่จอดรถขนาดเล็กอย่างถูกต้องและเปิดฟังก์ชั่น "การตรวจสอบความผิดปกติในการจอดรถ" แล้วคุณสามารถเปิดฟังก์ชั่น</string>
+	<string name="ml_button_dialog_adas_open_fail"> คุณลักษณะนี้ต้องการมดขนาดเล็กใส่อย่างถูกต้อง tachograph โมดูลจีพีเอโปรดลองแทรกอีกครั้ง </string>
+	<string name="ml_button_dialog_watchdog_open_fail"> คุณลักษณะนี้ต้องการมดขนาดเล็กใส่อย่างถูกต้อง tachograph โมดูลจีพีเอโปรดลองแทรกอีกครั้ง </string>
+	<string name="ml_button_dialog_download_packet_version"> ดาวน์โหลดแพ็คเก็ต </string>
+	<string name="ml_button_dialog_download_packet_watchdog"> ดาวน์โหลดแพ็คเก็ต </string>
+	<string name="ml_button_dialog_install_packet_version"> การติดตั้งแพ็คเกจ </string>
+	<string name="ml_button_dialog_install_packet_watchdog"> การติดตั้งแพ็กเกจ </string>
+	<string name="ml_button_dialog_install_current_city_packet_finished"> การติดตั้งเสร็จสมบูรณ์แพ็กเก็ตเมืองปัจจุบันได้รับการอัปเดต </string>
+	<string name="ml_button_dialog_install_national_city_packet_finished"> การติดตั้งเสร็จสิ้นแพคเกจข้อมูลเมืองระดับชาติได้รับการปรับปรุง </string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal"> การดาวน์โหลดล้มเหลวโปรดตรวจสอบว่าเครือข่ายอุปกรณ์นั้นปกติหรือไม่ </string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow"> การดาวน์โหลดล้มเหลวปริมาณการใช้งานที่เหลืออยู่ของคุณไม่เพียงพอ </string>
+	<string name="ml_button_dialog_install_version_finish"> การติดตั้งเสร็จสมบูรณ์เวอร์ชั่นของระบบปัจจุบันได้รับการปรับปรุง </string>
+	<string name="ml_button_dialog_more_img"> ตรวจพบเฟิร์มแวร์หลายตัวโปรดตรวจสอบให้แน่ใจว่ามีเพียงหนึ่ง </string>
+	<string name="ml_button_dialog_check_md5_fail"> ไม่สามารถตรวจจับค่า MD5 ของเฟิร์มแวร์ได้เฟิร์มแวร์ไม่ถูกต้อง </string>
+	<string name="ml_button_dialog_open_fail"> การเปิดล้มเหลว </string>
+	<string name="ml_button_dialog_know"> ฉันรู้ </string>
+	<string name="ml_button_dialog_open_now"> เปิดทันที </string>
+	<string name="ml_button_dialog_retry"> ลองอีกครั้ง </string>
+	<string name="ml_button_dialog_recharge_now"> การเรียกเก็บเงินทันที </string>
+	<string name="ml_playback_front_camera_video"> วิดีโอเลนส์ด้านหน้า </string>
+	<string name="ml_preview_record_front_rear"> สองครั้งที่ด้านในและด้านนอกรถ </string>
+	<string name="ml_preview_record_front"> บันทึกเดี่ยวในรถยนต์ </string>
+	<string name="ml_preview_record_rear"> ภายนอกรถบันทึกเดียว </string>
+	<string name="ml_preview_record_pause"> หยุดการบันทึก </string>
+	<string name="ml_preview_recording"> การบันทึก </string>
+	<string name="ml_preview_drip_notice"> ประกาศหยด </string>
+	<string name="ml_ota_install_packet"> การติดตั้งแพ็คเกจ </string>
+	<string name="ml_ota_install_notice"> อย่าปิดรถหรือปิดอุปกรณ์ </string>
+	<string name="ml_ota_install_failed"> การติดตั้งแพ็กเกจล้มเหลวพร้อมที่จะรีสตาร์ท </string>
+	<string name="ml_ota_install_finsh"> การติดตั้งเสร็จสมบูรณ์การอัพเกรดเสร็จสมบูรณ์หลังจากรีบูต </string>
+	<string name="ml_ota_instal_check_md5_fail"> ไม่สามารถตรวจจับค่า MD5 ของเฟิร์มแวร์ได้เฟิร์มแวร์นั้นไม่ถูกต้อง </string>
+	<string name="ml_ota_instal_found_img_fail"> ตรวจไม่พบเฟิร์มแวร์ </string>
+	<string name="ml_sdvcam_ota_fail"> ข้อผิดพลาดในการอัปเกรดเริ่มต้นใหม่หากสำเร็จโปรดลองอีกครั้งโปรดใช้โหมดการ์ดแปรงแรง ๆ หากการรีสตาร์ทล้มเหลว </string>
+	<string name="ml_playback_no_file"> ไม่มีไฟล์ที่จะเรียกดู </string>
+	<string name="ml_playback_no_sdcard"> ตรวจไม่พบการ์ด TF โปรดใส่การ์ด TF! </string>
+	<string name="ml_promptBox_video_playerr"> การเล่นวิดีโอล้มเหลว </string>
+	<string name="ml_sdcard_update_version_new"> ตรวจพบไฟล์อัพเกรดหรือไม่อัพเกรดอยู่หรือไม่? </string>
+	<string name="ml_sdcard_update_version_no"> ไม่ได้อัปเกรด </string>
+	<string name="ml_sdcard_update_version_now"> อัปเกรดทันที </string>
+	<string name="ml_bindwindow_title"> ผูกบัญชีเจ้าของไรเดอร์แบบหล่นลง </string>
+	<string name="ml_bindwindow_text"> เปิดแอป "Drip Trip" หรือ "Drip Run" ป้อน [สมบัติการบริการเจ้าของรถยนต์ - การท่องเที่ยว Bao-My Travel Treasure] สแกนรหัส QR ทางด้านซ้ายตามข้อความแจ้งเพจ ทำการผูกบัญชี </string>
+	<string name="ml_setting_menu"> การตั้งค่าระบบ </string>
+	<string name="ml_lock_current_file"> ไฟล์ถูกล็อค! </string>
+	<string name="ml_unlock_current_file"> ไฟล์ถูกปลดล็อค! </string>
+	<string name="ml_current_file_locked"> ไฟล์ถูกล็อคห้ามมิให้ลบ! </string>
+	<string name="ml_promptBox_current_recording_off"> ปิดการบันทึกวิดีโอปัจจุบันโปรดเริ่มการบันทึกวิดีโอก่อน </string>
+	<string name="ml_no_tf"> ไม่มีการ์ด </string>
+	<string name="ml_motion_is_on">ตรวจจับโทรศัพท์มือถือเปิด</string>
+	<string name="ml_photo_Quality"> คุณภาพของภาพ </string>
+	<string-array name="ml_photo_Quality">
+		<item> ดีมาก </item>
+		<item> ดี </item>
+		<item> ทั่วไป </item>
+	</string-array>
+	<string name="ml_device_carid_config"> ลายน้ำป้ายทะเบียน </string>
+	<string name="all_carchar">京湘津鄂沪粤渝琼冀川晋贵辽云吉陕黑甘苏青浙台皖藏闽蒙赣桂鲁宁豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>197</x>
+    <y>124</y>
+    <width>460</width>
+    <height>232</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="info_text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>400</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>info</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dialog_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>460</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dialog_progress_bar_background">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>122</y>
+     <width>396</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string></string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dialog_progress_bar_top_color">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>122</y>
+     <width>0</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string></string>
+   </property>
+  </widget>
+  <widget class="QPushButtonOK" name="confirm_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>176</y>
+     <width>230</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButtonCancel" name="cancel_button">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>176</y>
+     <width>230</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="dialog_icon1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>50</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="dialog_icon2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>25</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="dialog_icon3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>25</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="dialog_icon4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>25</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

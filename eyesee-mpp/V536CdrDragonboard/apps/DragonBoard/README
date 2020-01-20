@@ -1,0 +1,55 @@
+1. 主要针对V40平台
+
+2. 编译、测试
+	step 1：进入DragonBoard目录下， 输入 mk
+	step 2：把生成的 dragonboard， ddrtester， keytester， mic_spk_tester等可执行文件拷贝到SD卡
+	step 3：SD插到板子上，系统运行起来后，进入 /mnt/extsd/DragonBoard 目录， 输入 ./dragonboard 开始运行测试程序
+	step 4: 从屏幕上可以看到各个测试项是否正确。如果正确会有pass、绿色背景显示。
+	        语音输出需要接上耳机、喇叭，触摸屏测试需要点击触摸屏，按键测试需要手动点击按键。
+
+3. source code tree:
+   DragonBoard
+        |
+        |---build.mk
+        |
+        |---core
+        |   |---build.mk
+        |   |---changelog
+        |   \---dragonboard.cpp
+        |
+        |---inc
+        |   |---build.mk
+        |   |---dragonboard.cfg
+        |   |---dragonboard.h
+        |   \---parser.c(NOT compile)
+        |
+        |---README
+        |
+        \---testcase
+            |---build.mk
+            |---ddrtester
+            |   |---build.mk
+            |   \---ddrtester.c
+			|   |---build.mk
+            |   \---keytester.c
+            |---mictester
+            |   |---build.mk
+            |   \---mic_spk_tester.c
+            |---nortester
+            |   |---build.mk
+            |   \---nortester.c
+            |---rtctester
+            |   |---build.mk
+            |   \---rtctester.c
+            |---tptester
+            |   |---build.mk
+            |   \---tptester.c
+            |---tftester
+            |   |---build.mk
+            |   \---tftester.c
+            |---videotester
+            |   |---build.mk
+            |   \---RecordDemo.cpp
+            \---wifitester
+                |---build.mk
+                \---wifitester_v3.c

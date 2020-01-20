@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record">錄像</string>
+	<string name="tl_takepic">拍照</string>
+	<string name="tl_slowrec">慢攝影</string>
+	<string name="tl_playback">本機相冊</string>
+	<string name="tl_setting">設置</string>
+	<string name="tl_shutdown">關機</string>
+	<string name="ml_record_resolution_tips">Tips:錄製時保存fps越多,視頻佔用空間越大</string>
+	<string name="ml_record_resolution">視頻尺寸</string>
+	<string name="ml_record_resolution_sub_head">視頻質量</string>
+	<string-array name="ml_record_resolution">
+		<item>4K</item>
+		<item>2.7K</item>
+		<item>1080P</item>
+	</string-array>
+	<string name="ml_vioce_record_function">車內錄音</string>
+	<string-array name="ml_vioce_record_function">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_vehicle_record_function">車內視屏錄製</string>
+	<string-array name="ml_vehicle_record_function">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips">Tips:錄製時保存fps越多,視頻佔用空間越大</string>
+	<string name="ml_record_rear_resolution">後視記錄儀</string>
+	<string name="ml_record_rear_resolution_sub_head">後視記錄儀圖像質量</string>
+	<string name="ml_screen_brightness">屏幕亮度</string>
+	<string name="ml_screen_brightness_sub_head">屏幕亮度</string>
+	<string name="ml_screen_brightness_level"> 級</string>
+	<string-array name="ml_screen_brightness">
+		<item>當前亮度等級: </item>
+	</string-array>
+	<string name="ml_voice_photo_tips">Tips:"當說出`小蟻拍照`後,設備識別到您的指令時,會立即拍照照片並保存在相冊裡"</string>
+	<string name="ml_voice_photo">語音拍照</string>
+	<string name="ml_voice_photo_sub_head">語音拍照開關</string>
+	<string-array name="ml_voice_photo">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_wifi_connect_tips">Tips:請下載該項目的APP,按照APP端配對流程配對後便可使用WIFI連接功能</string>
+	<string name="ml_wifi_connect">WIFI</string>
+	<string name="ml_wifi_connect_sub_head">WIFI設置</string>
+	<string name="ml_wifi_connect_info">WIFI信息</string>
+	<string-array name="ml_wifi_connect">
+		<item>關閉</item>
+		<item>開啟</item>
+		<item>查看WIFI連接信息</item>
+		<item>掃描二維碼下載 APP.</item>
+	</string-array>
+	<string name="ml_4g_network">4G網絡設置</string>
+	<string name="ml_4g_network_sub_head">4G網絡設置</string>
+	<string-array name="ml_4g_network">
+		<item>關閉</item>
+		<item>打開</item>
+		<item>SIM卡信息</item>
+	</string-array>
+	<string name="ml_system_acc">設備供電模式</string>
+	<string name="ml_system_acc_sub_head">設備供電模式</string>
+	<string-array name="ml_system_acc">
+		<item>ACC 降壓線供電</item>
+		<item>車載點煙器供電</item>
+	</string-array>
+	<string name="ml_system_voice">系統音效</string>
+	<string name="ml_system_voice_sub_head">系統音效</string>
+	<string name="ml_power_on_voice">開機音效</string>
+	<string-array name="ml_power_on_voice">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_key_voice">按鍵音效</string>
+	<string-array name="ml_key_voice">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_driver_report">駕駛報告</string>
+	<string name="ml_driver_report_sub_head">駕駛報告</string>
+	<string-array name="ml_driver_report">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_gps_switch">GPS開關</string>
+	<string name="ml_gps_switch_sub_head">GPS開關</string>
+	<string-array name="ml_gps_switch">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_speed_unit">速度單位</string>
+	<string name="ml_speed_unit_sub_head">速度單位</string>
+	<string-array name="ml_speed_unit">
+		<item>公里/小時</item>
+		<item>英里/小時</item>
+	</string-array>
+	<string name="ml_timezone">時區選擇</string>
+	<string name="ml_timezone_sub_head">時區選擇</string>
+	<string-array name="ml_timezone">
+		<item>UTC</item>
+		<item>UTC+1</item>
+		<item>UTC+2</item>
+		<item>UTC+3</item>
+		<item>UTC+4</item>
+		<item>UTC+5</item>
+		<item>UTC+6</item>
+		<item>UTC+7</item>
+		<item>UTC+8</item>
+		<item>UTC+9</item>
+		<item>UTC+10</item>
+		<item>UTC+11</item>
+		<item>UTC+12</item>
+		<item>UTC-11</item>
+		<item>UTC-10</item>
+		<item>UTC-9</item>
+		<item>UTC-8</item>
+		<item>UTC-7</item>
+		<item>UTC-6</item>
+		<item>UTC-5</item>
+		<item>UTC-4</item>
+		<item>UTC-3</item>
+		<item>UTC-2</item>
+		<item>UTC-1</item>
+	</string-array>
+	<string name="ml_screen_disturb_mode">免打擾模式</string>
+	<string-array name="ml_screen_disturb_mode">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_adas_tips">Tips:在選配並插入小蟻行車記錄儀GPS模塊後,可以開啟智能駕駛輔助功能</string>
+	<string name="ml_record_adas">ADAS開關</string>
+	<string name="ml_record_adas_sub_head">ADAS開關</string>
+	<string-array name="ml_record_adas">
+		<item>前方碰撞預警</item>
+		<item>車道偏移提醒</item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning">前方碰撞預警</string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding">車道偏移提醒</string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_watch_dog">電子狗</string>
+	<string name="ml_watch_dog_sub_head">電子狗</string>
+	<string-array name="ml_watch_dog">
+		<item>關閉</item>
+		<item>打開</item>
+		<item>提示音量: </item>
+		<item>數據更新</item>
+	</string-array>
+	<string name="ml_volume_select">音量</string>
+	<string-array name="ml_volume_select">
+		<item>高</item>
+		<item>中</item>
+		<item>低</item>
+	</string-array>
+	<string name="ml_probe_prompt">探頭提示</string>
+	<string-array name="ml_probe_prompt">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_speed_prompt">超速提示</string>
+	<string-array name="ml_speed_prompt">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips">Tips:行車數據水印,包含"GPS坐標點、車速、車牌信息等,可以在`小蟻行車記錄儀`APP中進行詳細設置"</string>
+	<string name="ml_record_timewatermark">數據水印</string>
+	<string name="ml_record_timewatermark_sub_head">行車數據水印</string>
+	<string-array name="ml_record_timewatermark">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips">Tips:偵測到碰撞後,自動保存10秒緊急錄像</string>
+	<string name="ml_record_emerrecord">緊急錄像</string>
+	<string name="ml_record_emerrecord_sub_head">緊急錄像</string>
+	<string-array name="ml_record_emerrecord">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_emerrecordsen">重力感應</string>
+	<string-array name="ml_record_emerrecordsen">
+		<item>高</item>
+		<item>中</item>
+		<item>低</item>
+	</string-array>
+	<string name="ml_record_parkingmonitor">停車模式</string>
+	<string name="ml_record_parkingmonitor_sub_head">停車模式</string>
+	<string-array name="ml_record_parkingmonitor">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_packing_warn_lamp">駐車警示燈</string>
+	<string-array name="ml_packing_warn_lamp">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor">駐車異常監控</string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice">駐車異常通知</string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw">停車循環錄影</string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution">停車循環錄影</string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item>1080P 5fps</item>
+		<item>720P 15fps</item>
+		<item>720P 5fps</item>
+		<item>720P 2fps</item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips">Tips:開啟"待機時鐘"功能後,在設備息屏時,會在屏幕中展示時間</string>
+	<string name="ml_record_standby_clock">待機時鐘</string>
+	<string name="ml_record_standby_clock_sub_head">待機時鐘</string>
+	<string-array name="ml_record_standby_clock">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_encodingtype">編碼類型</string>
+	<string-array name="ml_record_encodingtype">
+		<item>高壓縮</item>
+		<item>H264</item>
+	</string-array>
+	<string name="ml_record_loop">循環錄影</string>
+	<string-array name="ml_record_loop">
+		<item>1分鐘</item>
+		<item>2分鐘</item>
+		<item>3分鐘</item>
+	</string-array>
+	<string name="ml_record_timelapse">縮時錄影</string>
+	<string-array name="ml_record_timelapse">
+		<item>關閉</item>
+		<item>0.5s</item>
+		<item>1s</item>
+		<item>2s</item>
+		<item>5s</item>
+		<item>10s</item>
+		<item>30s</item>
+		<item>60s</item>
+	</string-array>
+	<string name="ml_record_volume">錄音開關</string>
+	<string name="ml_record_volume_sub_head">錄音開關</string>
+	<string-array name="ml_record_volume">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_motion_detect">移動偵測</string>
+	<string name="ml_motion_detect_sub_head">移動偵測</string>
+	<string-array name="ml_motion_detect">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_eis">電子防抖</string>
+	<string-array name="ml_record_eis">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_record_slowmotion">慢攝影</string>
+	<string-array name="ml_record_slowmotion">
+		<item>1080P120FPS</item>
+		<item>1080P60FPS</item>
+		<item>720P240FPS</item>
+		<item>720P120FPS</item>
+	</string-array>
+	<string name="ml_photo_resolution">正常拍照</string>
+	<string-array name="ml_photo_resolution">
+		<item>8M</item>
+		<item>13M</item>
+		<item>16M</item>
+	</string-array>
+	<string name="ml_photo_timed">定時拍照</string>
+	<string-array name="ml_photo_timed">
+		<item>關閉</item>
+		<item>3S</item>
+		<item>5S</item>
+		<item>10S</item>
+		<item>20S</item>
+	</string-array>
+	<string name="ml_photo_auto">自動拍照</string>
+	<string-array name="ml_photo_auto">
+		<item>關閉</item>
+		<item>3S</item>
+		<item>10S</item>
+		<item>15S</item>
+		<item>20S</item>
+		<item>30S</item>
+	</string-array>
+	<string name="ml_photo_dramashot">運動軌跡拍照</string>
+	<string-array name="ml_photo_dramashot">
+		<item>關閉</item>
+		<item>3P/S</item>
+		<item>5P/S</item>
+		<item>10P/S</item>
+	</string-array>
+	<string name="ml_camera_exposure">曝光</string>
+	<string-array name="ml_camera_exposure">
+		<item>-3</item>
+		<item>-2</item>
+		<item>-1</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string name="ml_camera_whitebalance">白平衡</string>
+	<string-array name="ml_camera_whitebalance">
+		<item>自動</item>
+		<item>晴天</item>
+		<item>陰天</item>
+		<item>白熾光</item>
+		<item>熒光</item>
+	</string-array>
+	<string name="ml_camera_imagerotation">影像旋轉</string>
+	<string-array name="ml_camera_imagerotation">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency">光源頻率</string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item>50Hz</item>
+		<item>60Hz</item>
+	</string-array>
+	<string name="ml_camera_ledindicator">LED指示燈</string>
+	<string-array name="ml_camera_ledindicator">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver">屏幕休眠</string>
+	<string name="ml_camera_autoscreensaver_sub_head">自動關閉屏幕</string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item>10秒</item>
+		<item>30秒</item>
+		<item>1分鐘</item>
+		<item>關閉</item>
+	</string-array>
+	<string name="ml_camera_timedshutdown">定時關機</string>
+	<string-array name="ml_camera_timedshutdown">
+		<item>關閉</item>
+		<item>3分鐘</item>
+		<item>5分鐘</item>
+		<item>10分鐘</item>
+	</string-array>
+	<string name="ml_camera_timewatermark">時間水印</string>
+	<string-array name="ml_camera_timewatermark">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration">畸變矯正</string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item>關閉</item>
+		<item>打開</item>
+	</string-array>
+	<string name="ml_wifi_select">WIFI</string>
+	<string-array name="ml_wifi_select">
+		<item>關閉</item>
+		<item>開啟</item>
+	</string-array>
+	<string name="ml_device_language">語言設置</string>
+	<string name="ml_device_language_sub_head">語言設置</string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime">日期-時間</string>
+	<string-array name="ml_device_datetime">
+		<item>/</item>
+		<item>/</item>
+		<item>:</item>
+		<item>:</item>
+	</string-array>
+	<string name="ml_device_date_config">日期設置</string>
+	<string name="date_year">年</string>
+	<string name="date_month">月</string>
+	<string name="date_day">日</string>
+	<string name="ml_device_time_config">時間設置</string>
+	<string name="time_hour">時</string>
+	<string name="time_minute">分</string>
+	<string name="time_second">秒</string>
+	<string name="ml_device_datetime_format">日期格式</string>
+	<string name="ml_device_time_save_tips">Tips:當前設備優選所處時區的網絡時間，若時間有誤，可點擊"刷新"按鈕更新網絡時間</string>
+	<string name="ml_device_time_save">保存時間</string>
+	<string name="ml_device_time">日期</string>
+	<string name="ml_device_time_sub_head">日期</string>
+	<string name="ml_device_time_current">當前時間 </string>
+	<string-array name="ml_device_time">
+		<item>刷新網絡時間</item>
+	</string-array>
+	<string name="ml_device_voicestatus">聲音</string>
+	<string-array name="ml_device_voicestatus">
+		<item>關閉</item>
+		<item>30%</item>
+		<item>50%</item>
+		<item>80%</item>
+		<item>100%</item>
+	</string-array>
+	<string name="ml_device_resetfactory">恢復出廠設置</string>
+	<string-array name="ml_device_resetfactory">
+		<item>確定</item>
+		<item>取消</item>
+	</string-array>
+	<string name="ml_device_resetselection">確認恢復出廠設置？ </string>
+	<string name="ml_confirm_reboot">是否重啟？ </string>
+	<string name="ml_confirm_ok">確定</string>
+	<string name="ml_confirm_no">取消</string>
+	<string name="ml_device_format">格式化</string>
+	<string-array name="ml_device_format">
+		<item>確定</item>
+		<item>取消</item>
+	</string-array>
+	<string name="ml_device_format_doing">正在格式化...</string>
+	<string name="ml_device_format_failed">格式化失敗</string>
+	<string name="ml_device_format_success">格式化完成</string>
+	<string name="ml_turn_on">開</string>
+	<string name="ml_turn_off">關</string>
+	<string name="ml_quit_exit">按上鍵退出</string>
+	<string name="ml_camera_wifiswitch">WIFI信息</string>
+	<string name="ml_camera_wifiswitch_ssid">WIFI名稱 :</string>
+	<string name="ml_camera_wifiswitch_passwd">WIFI密碼 : </string>
+	<string name="ml_camera_wifiswitch_tip">長按錄像鍵退出WIFI</string>
+	<string name="ml_prompt">溫馨提示</string>
+	<string name="ml_prompt_tf_cap_no_support">該內存卡容量不支持,請插入容量為32G/64G的內存卡</string>
+	<string name="ml_prompt_tf_null">沒有檢測到TF卡,請插入TF卡！ </string>
+	<string name="ml_prompt_tf_full">TF卡存儲空間不足！ </string>
+	<string name="ml_prompt_tf_fs_error">SD卡文件系統格式不符合要求，是否格式化？ </string>
+	<string name="ml_prompt_tf_low_speed">為了保證行車記錄儀正常工作,請使用Class 10高速存儲卡(推薦讀速大於80MB/s的卡)</string>
+	<string name="ml_prompt_bat_full">電池已充滿！ </string>
+	<string name="ml_prompt_bat_low">電量低,5s後關機！ </string>
+	<string name="ml_prompt_database_full">數據庫滿,舊的記錄將被覆蓋!</string>
+	<string name="ml_prompt_camera_error">圖像採集異常,攝像頭將重新初始化!</string>
+	<string name="ml_prompt_unsupported_func">當前模式無法開啟該功能!</string>
+	<string name="ml_prompt_update_count_down">秒後設備將自動升級系統,預計有5分鐘無法使用,請注意行車安全.</string>
+	<string name="ml_prompt_emergency_recording">緊急錄像不可中斷!</string>
+	<string name="ml_prompt_power_disconnected">電源已斷開即將自動關機!</string>
+	<string name="ml_prompt_sdcard_format">正在格式化，請稍後！ </string>
+	<string name="ml_prompt_wifi_connect_ok">已通過WIFI連接"滴滴車主"APP,請在APP端進行操作</string>
+	<string name="ml_prompt_videoplay_error">視頻播放失敗！ </string>
+	<string name="ml_prompt_tf_formating">正在格式化，請稍後...</string>
+	<string name="ml_prompt_tf_format_finish">格式化完成</string>
+	<string name="ml_prompt_tf_format_failed">格式化內存卡失敗</string>
+	<string name="ml_prompt_update_net_time">同步網絡時間已完成</string>
+	<string name="ml_prompt_update_net_time_fail">暫無4G信號，同步失敗</string>
+	<string name="ml_prompt_reset_factory_ing">正在恢復出廠設置，請稍後...</string>
+	<string name="ml_prompt_reset_factory">恢復出廠設置已完成</string>
+	<string name="ml_prompt_standbymode">電源已斷開，即將關機</string>
+	<string name="ml_prompt_version_no_exist">暫未檢測到新固件</string>
+	<string name="ml_prompt_version_invalid">檢測到固件無效</string>
+	<string name="ml_prompt_resolution_ing">正在切換分辨率，請稍後...</string>
+	<string name="ml_prompt_resolution_finish">切換分辨率已完成</string>
+	<string name="ml_prompt_prepare_update">準備升級，請稍後...</string>
+	<string name="info_dialog">信息</string>
+	<string name="confirm">確定</string>
+	<string name="cancel">取消</string>
+	<string name="tl_playlist">請選擇播放文件</string>
+	<string name="delete_dialog">刪除</string>
+	<string name="delete_info">確認刪除此文件？ </string>
+	<string name="delete_info_video">是否刪除該視頻</string>
+	<string name="delete_info_error_video">該視頻已損壞，是否刪除？ </string>
+	<string name="delete_info_error_photo">該圖片已損壞，是否刪除？ </string>
+	<string name="delete_info_photo">是否刪除該圖片</string>
+	<string name="delete_info_allselected">是否刪除所選文件</string>
+	<string name="tl_usb_connect">USB已連接</string>
+	<string name="tl_usb_charge">充電模式</string>
+	<string name="tl_usb_mass_storage">打開USB存儲設備</string>
+	<string name="tl_usb_webcam">攝像頭模式</string>
+	<string name="update_dialog_title">系統升級</string>
+	<string name="ml_device_deviceinfo">設備信息</string>
+	<string name="ml_device_deviceinfo_sub_head">設備信息</string>
+	<string name="ml_device_deviceinfo_name">產品名：</string>
+	<string name="ml_device_deviceinfo_make">生產商：</string>
+	<string name="ml_device_deviceinfo_sn">設備SN碼: </string>
+	<string name="ml_device_deviceinfo_account_id">賬號ID: </string>
+	<string name="ml_device_deviceinfo_imei_id">IMEI: </string>
+	<string name="ml_device_deviceinfo_sim">SIM卡ID: </string>
+	<string name="ml_device_deviceinfo_view">查看設備與sim卡信息</string>
+	<string name="ml_device_sdcard_info">卡信息</string>
+	<string name="ml_device_sdcard_info_sub_head">卡信息</string>
+	<string name="ml_device_sdcard_capacity">可用/總量</string>
+	<string name="ml_device_sdcard_format">格式化內存卡</string>
+	<string name="ml_device_sdcard_capacity_used">內存卡已使用: </string>
+	<string name="ml_device_sdcard_total_capacity">內存卡總容量: </string>
+	<string name="ml_device_version_update">版本升級</string>
+	<string name="ml_device_version_update_sub_head">版本升級</string>
+	<string name="ml_device_version_info">當前系統有新版本可升級</string>
+	<string name="ml_device_version_current">系統版本:</string>
+	<string name="ml_device_version_new">當前系統已是最新版本</string>
+	<string name="ml_device_version_new_can_upgraded">有新版本可升級,數據包共</string>
+	<string name="ml_device_version_update_now">立即更新</string>
+	<string name="ml_device_version_update_detect">檢測更新</string>
+	<string name="ml_device_4g_module_version_current">4G網絡固件版本:</string>
+	<string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="all_digit_num">0123456789</string>
+	<string name="save_dialog">保存</string>
+	<string name="save_info">是否保存設置？ </string>
+	<string name="ml_device_dash_camera_tips">Tips: if you turn on the in-vehicle recording function,when you record the driving record video,the in-vehicle camera also records the in-vehicle video</string>
+	<string name="ml_promptBox_record_voice_on">已開啟錄製聲音</string>
+	<string name="ml_promptBox_record_voice_off">已關閉錄製聲音</string>
+	<string name="ml_promptBox_recording_on">視頻錄製已開啟</string>
+	<string name="ml_promptBox_recording_off">視頻錄製已關閉</string>
+	<string name="ml_promptBox_mobile_connected">手機傳輸已連接</string>
+	<string name="ml_promptBox_mobile_disconnected">手機傳輸已斷開</string>
+	<string name="ml_promptBox_gps_connected">GPS已連接</string>
+	<string name="ml_promptBox_gps_disconnected">GPS已斷開連接</string>
+	<string name="ml_promptBox_device_recording">設備仍在錄製中</string>
+	<string name="ml_promptBox_device_photoing">設備仍在拍照中</string>
+	<string name="ml_promptBox_standby">準備進入standby模式</string>
+	<string name="ml_promptBox_last_video">已經是最後一個檔案</string>
+	<string name="ml_promptBox_first_video">已經是第一個檔案</string>
+	<string name="ml_promptBox_tf_insert">檢測到SD卡已插入</string>
+	<string name="ml_promptBox_tf_out">檢測到SD卡已拔出</string>
+	<string name="ml_promptBox_park_video">停車監控視頻，禁止該操作</string>
+	<string name="ml_wifi_app_download_qr_code">手機掃描二維碼獲取APP下載鏈接</string>
+	<string name="ml_traffic_info_query">流量信息查詢</string>
+	<string name="ml_traffic_surplus">流量剩餘:</string>
+	<string name="ml_traffic_total">套餐總流量:</string>
+	<string name="ml_flow_recharge">流量充值</string>
+	<string name="ml_scan_qr_code_recharge">手機掃描二維碼流量充值</string>
+	<string name="ml_sim_info_query">SIM卡信息查詢</string>
+	<string name="ml_sim_card_id">SIM卡ID:xxxxx</string>
+	<string name="ml_sim_network_business">網絡商:中國移動</string>
+	<string name="ml_button_dialog_refresh_network_time">是否刷新網絡時間</string>
+	<string name="ml_button_dialog_manual_update_time">是否手動調整時間</string>
+	<string name="ml_button_dialog_format_sdcard">確認將內存卡格式化？ </string>
+	<string name="ml_button_dialog_4g_network_open">更新數據需要開啟4G網絡傳輸功能,是否開啟</string>
+	<string name="ml_button_dialog_record_loop_open">停車循環錄影需要開啟駐車異常監控,是否開啟</string>
+	<string name="ml_button_dialog_record_loop_open_fail">正確插入小蟻停車監控線並且開啟”駐車異常監控“功能後,可開啟”停車循環錄影“功能</string>
+	<string name="ml_button_dialog_adas_open_fail">該功能需要正確插入小蟻行車記錄儀GPS模塊,請插入後重試</string>
+	<string name="ml_button_dialog_watchdog_open_fail">該功能需要正確插入小蟻行車記錄儀GPS模塊,請插入後重試</string>
+	<string name="ml_button_dialog_download_packet_version">數據包下載中</string>
+	<string name="ml_button_dialog_download_packet_watchdog">數據包下載中</string>
+	<string name="ml_button_dialog_install_packet_version">數據包安裝中</string>
+	<string name="ml_button_dialog_install_packet_watchdog">數據包安裝中</string>
+	<string name="ml_button_dialog_install_current_city_packet_finished">安裝完成,當前城市數據包已更新</string>
+	<string name="ml_button_dialog_install_national_city_packet_finished">安裝完成,全國城市數據包已更新</string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal">下載失敗,請檢測設備網絡是否正常</string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow">下載失敗,您的剩餘流量不足</string>
+	<string name="ml_button_dialog_install_version_finish">安裝完成,當前系統版本已更新</string>
+	<string name="ml_button_dialog_more_img">檢測到多個固件存在，請確保只有一個</string>
+	<string name="ml_button_dialog_check_md5_fail">檢測固件MD5值失敗，固件無效</string>
+	<string name="ml_button_dialog_open_fail">開啟失敗</string>
+	<string name="ml_button_dialog_know">我知道了</string>
+	<string name="ml_button_dialog_open_now">立即開啟</string>
+	<string name="ml_button_dialog_retry">重試</string>
+	<string name="ml_button_dialog_recharge_now">立即充值</string>
+	<string name="ml_playback_front_camera_video">前鏡頭視頻</string>
+	<string name="ml_preview_record_front_rear">車內外雙錄</string>
+	<string name="ml_preview_record_front">車內單錄</string>
+	<string name="ml_preview_record_rear">車外單錄</string>
+	<string name="ml_preview_record_pause">停止錄製</string>
+	<string name="ml_preview_recording">錄製中</string>
+	<string name="ml_preview_drip_notice">滴滴公告</string>
+	<string name="ml_ota_install_packet">數據包安裝中</string>
+	<string name="ml_ota_install_notice">請勿將車輛熄火或使設備斷電</string>
+	<string name="ml_ota_install_failed">數據包安裝失敗,準備重啟</string>
+	<string name="ml_ota_install_finsh">安裝完成，重啟後即完成升級</string>
+	<string name="ml_ota_instal_check_md5_fail">檢測固件MD5值失敗，固件無效</string>
+	<string name="ml_ota_instal_found_img_fail">暫未檢測到固件存在</string>
+	<string name="ml_sdvcam_ota_fail">升級出錯，重啟如果成功請重試，重啟失敗請使用卡強刷模式</string>
+	<string name="ml_playback_no_file">暫無文件可瀏覽</string>
+	<string name="ml_playback_no_sdcard">沒有檢測到TF卡,請插入TF卡！ </string>
+	<string name="ml_promptBox_video_playerr">視頻播放失敗</string>
+	<string name="ml_sdcard_update_version_new">檢測到升級文件，是否進行升級？ </string>
+	<string name="ml_sdcard_update_version_no">暫不升級</string>
+	<string name="ml_sdcard_update_version_now">立即升級</string>
+	<string name="ml_bindwindow_title">綁定滴滴順風車車主賬號</string>
+	<string name="ml_bindwindow_text">打開“滴滴出行”或“滴滴順風車”App,進入【順風車-車主服務-出行寶-我的出行寶】，根據頁面提示掃描左側二維碼，進行賬號綁定。 </string>
+	<string name="ml_setting_menu">系統設置</string>
+	<string name="ml_lock_current_file">文件已加鎖！ </string>
+	<string name="ml_unlock_current_file">文件已解鎖！ </string>
+	<string name="ml_current_file_locked">文件已加鎖，禁止刪除！ </string>
+	<string name="ml_promptBox_current_recording_off">當前視頻錄製已關閉，請先開啟視頻錄製</string>
+	<string name="ml_no_tf">無卡</string>
+	<string name="ml_motion_is_on">移動偵測已開</string>
+	<string name="ml_photo_Quality">圖像質量</string>
+	<string-array name="ml_photo_Quality">
+		<item>超好</item>
+		<item>好</item>
+		<item>一般</item>
+	</string-array>
+	<string name="ml_device_carid_config">車牌水印</string>
+	<string name="all_carchar">京湘津鄂滬粵渝瓊冀川晉貴遼雲吉陝黑甘蘇青浙台皖藏閩蒙贛桂魯寧豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

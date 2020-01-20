@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShortCutWindow</class>
+ <widget class="QDialog" name="ShortCutWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>60</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="drop">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>222</y>
+     <width>72</width>
+     <height>56</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="splite">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>195</y>
+     <width>560</width>
+     <height>2</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="wifi">
+   <property name="geometry">
+    <rect>
+     <x>187</x>
+     <y>80</y>
+     <width>72</width>
+     <height>72</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="rc">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>80</y>
+     <width>72</width>
+     <height>72</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="audio">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>80</y>
+     <width>72</width>
+     <height>72</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="lock">
+   <property name="geometry">
+    <rect>
+     <x>423</x>
+     <y>80</y>
+     <width>72</width>
+     <height>72</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="shutdown">
+   <property name="geometry">
+    <rect>
+     <x>541</x>
+     <y>80</y>
+     <width>72</width>
+     <height>72</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

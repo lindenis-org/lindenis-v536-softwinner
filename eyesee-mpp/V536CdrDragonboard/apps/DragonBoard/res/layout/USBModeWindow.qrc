@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg.png</file>
+        <file>webcam.png</file>
+        <file>charging.png</file>
+        <file>mass_storage.png</file>
+        <file>webcam_label.png</file>
+        <file>charging_label.png</file>
+        <file>mass_storage_label.png</file>
+    </qresource>
+</RCC>

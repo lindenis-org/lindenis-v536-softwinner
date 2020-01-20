@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="tl_record">录像</string>
+  <string name="tl_setting">设置</string>
+  <string name="tl_takepic">照相</string>
+  <string name="tl_wifi">WIFI</string>
+  <string name="tl_adas">驾驶辅助</string>
+  <string name="tl_date_time">13:12</string>
+  <string name="tl_date_date">2015-10-12</string>
+  <string name="tl_date_week">星期三</string>
+  <string name="tl_playback">回放</string>
+  <string name="tl_shutdown">关机</string>
+  <string name="ml_adas">ADAS</string>
+  <string-array name="ml_adas">
+    <item>全功能</item>
+    <item>精简版</item>
+  </string-array>
+  <string name="ml_record_quality">录像质量</string>
+  <string-array name="ml_record_quality">
+    <item>HD</item>
+    <item>FHD</item>
+  </string-array>
+  <string name="ml_record_time">录像时长</string>
+  <string-array name="ml_record_time">
+    <item>1min</item>
+    <item>2min</item>
+    <item>5min</item>
+  </string-array>
+  <string name="ml_pic_quality">图片质量</string>
+  <string-array name="ml_pic_quality">
+    <item>2M</item>
+    <item>5M</item>
+    <item>8M</item>
+  </string-array>
+  <string name="ml_white_balance">白平衡</string>
+  <string-array name="ml_white_balance">
+    <item>auto</item>
+    <item>light</item>
+  </string-array>
+  <string name="ml_por">上电录像</string>
+  <string name="ml_audio">声音</string>
+  <string name="ml_uvc_mirror">后拉镜像</string>
+  <string name="tl_twocam">独立双路工作模式</string>
+  <string name="tl_videotalk">同编同解模式</string>
+  <string name="tl_autotest">自动化测试模式</string>
+  <string name="tl_pinjie">双目拼接工作模式</string>
+  <string name="tl_shutdown">关机</string>
+  <string name="tl_loading_0">载入中，请稍后...</string>
+  <string name="tl_loading_1">载入中，请稍后...</string>
+  <string name="rtsp_url0">rtsp://xxx.xxx.xxx:xxxx/xxxx</string>
+  <string name="rtsp_url1">rtsp://xxx.xxx.xxx:xxxx/xxxx</string>
+  <string name="time_label">00:00:00</string>
+  <string name="bat_label">75%</string>
+  <string name="ml_wifi_status">WI-FI</string>
+  <string-array name="ml_wifi_status">
+    <item>打开</item>
+    <item>关闭</item>
+    <item>WIFI等待连接中...</item>
+  </string-array>
+  <string name="ml_softap_status">SoftAP</string>
+  <string-array name="ml_softap_status">
+    <item>打开</item>
+    <item>关闭</item>
+  </string-array>
+  <string name="ml_ble_status">蓝牙</string>
+  <string-array name="ml_ble_status">
+    <item>打开</item>
+    <item>关闭</item>
+  </string-array>
+  <string name="ml_voice_status">声音</string>
+  <string-array name="ml_voice_status">
+    <item>关闭</item>
+    <item>30%</item>
+    <item>50%</item>
+    <item>80%</item>
+    <item>100%</item>
+  </string-array>
+  <string name="ml_format">格式化</string>
+  <string-array name="ml_format">
+    <item>SD正常</item>
+    <item>请插入SD卡</item>
+    <item>格式化中...</item>
+    <item>格式化失败</item>
+    <item>格式化成功</item>
+  </string-array>
+  <string name="ml_info">关于</string>
+  <string-array name="ml_info">
+      <item>v0.2</item>
+  </string-array>
+  <string name="lv_rtsp">RTSP</string>
+  <string-array name="lv_rtsp">
+    <item>禁用</item>
+    <item>启用</item>
+  </string-array>
+  <string name="lv_tutk">TUTK</string>
+  <string-array name="lv_tutk">
+    <item>禁用</item>
+    <item>启用</item>
+  </string-array>
+  <string name="lv_onvif">ONVIF</string>
+  <string-array name="lv_onvif">
+    <item>禁用</item>
+    <item>启用</item>
+  </string-array>
+  <string name="tl_title">开机向导</string>
+  <string-array name="tl_info">
+    <item>模式选择</item>
+    <item>功能选择</item>
+    <item>格式化</item>
+  </string-array>
+  <string name="go_left">上一页</string>
+  <string-array name="go_right">
+    <item>下一页</item>
+    <item>完成</item>
+  </string-array>
+  <string name="tl_onecam">单目IPC</string>
+  <string name="tl_dualcam">独立双目</string>
+  <string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+  <string name="all_digit_num">0123456789</string>
+  <string name="symbol"> !@#$%^&*():;"',/?</string>
+  <string name="exit_dialog">是否退出当前模式?</string>
+  <string name="fs_error_dialog">不支持的文件系统，是否格式化?</string>
+  <string name="exit_wizard">完成配置，确认退出?</string>
+  <string name="confirm_format">确认格式化?</string>
+  <string name="format_success">格式化成功!</string>
+  <string name="format_failed">格式化失败!</string>
+  <string name="info_title">注意</string>
+  <string name="exit_info">正在关闭应用程序...</string>
+  <string name="info_dialog">设备信息</string>
+  <string name="stream_only">没有SD卡，流传输模式!</string>
+  <string name="net_error">网络异常,请检查网络连接!</string>
+  <string name="success">操作成功!</string>
+  <string name="failed">操作失败!</string>
+  <string name="confirm">确定</string>
+  <string name="cancel">取消</string>
+  <string name="tl_stop">停止</string>
+  <string name="tl_voice">音量</string>
+  <string name="tl_play_pause">暂停</string>
+  <string name="tl_play_pause">播放</string>
+  <string name="tl_rec">CAM1</string>
+  <string name="tl_switchcam">切换</string>
+  <string name="tl_audio">录音</string>
+  <string name="tl_record">录像</string>
+  <string name="tl_shotcut">截图</string>
+  <string name="tl_playlist">请选择播放文件</string>
+  <string name="tl_cve">CVE</string>
+  <string name="tl_cve_string">车牌识别人脸检测结果人流统计个</string>
+  <string name="tl_carid_string">辽吉黑蒙冀晋陕宁鲁皖苏浙渝沪津京豫鄂湘赣台闽云琼川贵粤桂甘新藏青</string>
+  <string name="tl_usb_connect">USB已连接</string>
+  <string-array name="tl_usb_mode">
+    <item>充电</item>
+    <item>大容量存储</item>
+    <item>Webcam模式</item>
+  </string-array>
+</resources>
+

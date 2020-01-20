@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record">動画</string>
+	<string name="tl_takepic">写真</string>
+	<string name="tl_slowrec">写真が遅い</string>
+	<string name="tl_playback">ネイティブアルバム</string>
+	<string name="tl_setting">設定</string>
+	<string name="tl_shutdown">シャットダウン</string>
+	<string name="ml_record_resolution_tips">ヒント：録画中に保存するfpsが多ければ多いほど、ビデオのサイズは大きくなります。</string>
+	<string name="ml_record_resolution">動画サイズ</string>
+	<string name="ml_record_resolution_sub_head">動画の品質</string>
+	<string-array name="ml_record_resolution">
+		<item> 4K </item>
+		<item> 2.7K </item>
+		<item> 1080P </item>
+	</string-array>
+	<string name="ml_vioce_record_function">車内録画</string>
+	<string-array name="ml_vioce_record_function">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_vehicle_record_function">車載ビデオ録画</string>
+	<string-array name="ml_vehicle_record_function">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips">ヒント：録画中に保存するfpsが大きいほど、ビデオのサイズは大きくなります</string>
+	<string name="ml_record_rear_resolution">後視レコーダー</string>
+	<string name="ml_record_rear_resolution_sub_head">後視レコーダーの画質</string>
+	<string name="ml_screen_brightness">画面の明るさ</string>
+	<string name="ml_screen_brightness_sub_head">画面の明るさ</string>
+	<string name="ml_screen_brightness_level">レベル</string>
+	<string-array name="ml_screen_brightness">
+		<item>現在の明るさレベル：</item>
+	</string-array>
+	<string name="ml_voice_photo_tips">ヒント：「あなたが「Little Ant Photograph」と言った場合、端末は写真を撮影し、注文を認識するとアルバムに保存します」</string>
+	<string name="ml_voice_photo">ボイスフォト</string>
+	<string name="ml_voice_photo_sub_head">ボイスカメラスイッチ</string>
+	<string-array name="ml_voice_photo">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_wifi_connect_tips">ヒント：プロジェクトのアプリをダウンロードし、APP側のペアリングプロセスに従ってペアリングした後にWIFI接続機能を使用してください。</string>
+	<string name="ml_wifi_connect">WIFI</string>
+	<string name="ml_wifi_connect_sub_head">WIFI設定</string>
+	<string name="ml_wifi_connect_info">WIFI情報</string>
+	<string-array name="ml_wifi_connect">
+		<item>閉じる</item>
+		<item>開く</item>
+		<item>WIFI接続情報を見る</item>
+		<item>QRコードをスキャンしてAPPをダウンロードしてください。</item>
+	</string-array>
+	<string name="ml_4g_network">4Gネットワ​​ーク設定</string>
+	<string name="ml_4g_network_sub_head">4Gネットワ​​ーク設定</string>
+	<string-array name="ml_4g_network">
+		<item>閉じる</item>
+		<item>開く</item>
+		<item>SIMカード情報</item>
+	</string-array>
+	<string name="ml_system_acc">端末の電源モード</string>
+	<string name="ml_system_acc_sub_head">端末の電源モード</string>
+	<string-array name="ml_system_acc">
+		<item> ACCバックライン電源</item>
+		<item>車のシガーライター用電源</item>
+	</string-array>
+	<string name="ml_system_voice">システムの効果音</string>
+	<string name="ml_system_voice_sub_head">システムサウンド効果</string>
+	<string name="ml_power_on_voice">起動効果音</string>
+	<string-array name="ml_power_on_voice">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_key_voice">主な効果音</string>
+	<string-array name="ml_key_voice">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_driver_report">運転報告書</string>
+	<string name="ml_driver_report_sub_head">運転報告書</string>
+	<string-array name="ml_driver_report">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_gps_switch"> GPSスイッチ</string>
+	<string name="ml_gps_switch_sub_head"> GPSスイッチ</string>
+	<string-array name="ml_gps_switch">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_speed_unit">速度単位</string>
+	<string name="ml_speed_unit_sub_head">速度単位</string>
+	<string-array name="ml_speed_unit">
+		<item> km/h </item>
+		<item> mil/h </item>
+	</string-array>
+	<string name="ml_timezone">タイムゾーンの選択</string>
+	<string name="ml_timezone_sub_head">タイムゾーンの選択</string>
+	<string-array name="ml_timezone">
+		<item> UTC </item>
+		<item> UTC + 1 </item>
+		<item> UTC + 2 </item>
+		<item> UTC + 3 </item>
+		<item> UTC + 4 </item>
+		<item> UTC + 5 </item>
+		<item> UTC + 6 </item>
+		<item> UTC + 7 </item>
+		<item> UTC + 8 </item>
+		<item> UTC + 9 </item>
+		<item> UTC + 10 </item>
+		<item> UTC + 11 </item>
+		<item> UTC + 12 </item>
+		<item> UTC-11 </item>
+		<item> UTC-10 </item>
+		<item> UTC-9 </item>
+		<item> UTC-8 </item>
+		<item> UTC-7 </item>
+		<item> UTC-6 </item>
+		<item> UTC-5 </item>
+		<item> UTC-4 </item>
+		<item> UTC-3 </item>
+		<item> UTC-2 </item>
+		<item> UTC-1 </item>
+	</string-array>
+	<string name="ml_screen_disturb_mode">モードを乱さない</string>
+	<string-array name="ml_screen_disturb_mode">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_adas_tips">ヒント：オプションで挿入されているGMドライビングレコーダーGPSモジュールの後、インテリジェント運転支援機能をオンにすることができます</string>
+	<string name="ml_record_adas"> ADASスイッチ</string>
+	<string name="ml_record_adas_sub_head"> ADASスイッチ</string>
+	<string-array name="ml_record_adas">
+		<item>前方衝突警告</item>
+		<item>車線オフセット通知</item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning">前方衝突警告</string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding">車線オフセットリマインダー</string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_watch_dog">電子犬</string>
+	<string name="ml_watch_dog_sub_head">電子犬</string>
+	<string-array name="ml_watch_dog">
+		<item>閉じる</item>
+		<item>開く</item>
+		<item>プロンプトの音量：</item>
+		<item>データ更新</item>
+	</string-array>
+	<string name="ml_volume_select">音量</string>
+	<string-array name="ml_volume_select">
+		<item>高い</item>
+		<item>中</item>
+		<item>低</item>
+	</string-array>
+	<string name="ml_probe_prompt">プローブプロンプト</string>
+	<string-array name="ml_probe_prompt">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_speed_prompt">スピードプロンプト</string>
+	<string-array name="ml_speed_prompt">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips">ヒント： "GPS座標、車速、ナンバープレート情報などを含むドライビングデータの透かしは" Little Antドライビングレコーダー `APP"で設定できます</string>
+	<string name="ml_record_timewatermark">データの透かし</string>
+	<string name="ml_record_timewatermark_sub_head">データの透かしの表示</string>
+	<string-array name="ml_record_timewatermark">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips">ヒント：衝突を検出した後は10秒間の緊急録画を自動的に保存します。</string>
+	<string name="ml_record_emerrecord">緊急録画</string>
+	<string name="ml_record_emerrecord_sub_head">緊急用ビデオ</string>
+	<string-array name="ml_record_emerrecord">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_emerrecordsen">重力検知</string>
+	<string-array name="ml_record_emerrecordsen">
+		<item>高い</item>
+		<item>中</item>
+		<item>低</item>
+	</string-array>
+	<string name="ml_record_parkingmonitor">駐車モード</string>
+	<string name="ml_record_parkingmonitor_sub_head">駐車モード</string>
+	<string-array name="ml_record_parkingmonitor">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_packing_warn_lamp">駐車警告灯</string>
+	<string-array name="ml_packing_warn_lamp">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor">駐車異常監視</string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice">駐車場例外の通知</string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw">駐車ループのビデオ</string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution">駐車ループのビデオ</string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item> 1080 P 5fps </item>
+		<item> 720P 15fps </item>
+		<item> 720P 5fps </item>
+		<item> 720P 2fps </item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips">ヒント： "スタンバイ時計"機能をオンにした後、デバイスが画面に入っているときに時刻が画面に表示されます。</string>
+	<string name="ml_record_standby_clock">スタンバイクロック</string>
+	<string name="ml_record_standby_clock_sub_head">スタンバイクロック</string>
+	<string-array name="ml_record_standby_clock">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_encodingtype">コーディングタイプ</string>
+	<string-array name="ml_record_encodingtype">
+		<item>高圧縮</item>
+		<item>H264</item>
+	</string-array>
+	<string name="ml_record_loop">ループ動画</string>
+	<string-array name="ml_record_loop">
+		<item>1分</item>
+		<item>2分</item>
+		<item>3分</item>
+	</string-array>
+	<string name="ml_record_timelapse">タイムラプスビデオ</string>
+	<string-array name="ml_record_timelapse">
+		<item>閉じる</item>
+		<item> 0.5秒</item>
+		<item> 1秒</item>
+		<item> 2秒</item>
+		<item> 5秒</item>
+		<item> 10秒</item>
+		<item> 30秒</item>
+		<item> 60秒</item>
+	</string-array>
+	<string name="ml_record_volume">録音スイッチ</string>
+	<string name="ml_record_volume_sub_head">録音スイッチ</string>
+	<string-array name="ml_record_volume">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_motion_detect">動き検出</string>
+	<string name="ml_motion_detect_sub_head">モーション検知</string>
+	<string-array name="ml_motion_detect">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_eis">手ブレ補正</string>
+	<string-array name="ml_record_eis">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_record_slowmotion">写真が遅い</string>
+	<string-array name="ml_record_slowmotion">
+		<item> 1080P120FPS </item>
+		<item> 1080P60FPS </item>
+		<item> 720P240FPS </item>
+		<item> 720P120FPS </item>
+	</string-array>
+	<string name="ml_photo_resolution">通常の写真</string>
+	<string-array name="ml_photo_resolution">
+		<item> 8M </item>
+		<item> 13M </item>
+		<item> 16M </item>
+	</string-array>
+	<string name="ml_photo_timed">時限写真</string>
+	<string-array name="ml_photo_timed">
+		<item>閉じる</item>
+		<item> 3秒 </item>
+		<item> 5秒 </item>
+		<item> 10秒 </item>
+		<item> 20秒 </item>
+	</string-array>
+	<string name="ml_photo_auto">自動写真</string>
+	<string-array name="ml_photo_auto">
+		<item> 閉じる </item>
+		<item> 3秒 </item>
+		<item> 10秒 </item>
+		<item> 15秒 </item>
+		<item> 20秒 </item>
+		<item> 30秒 </item>
+	</string-array>
+	<string name="ml_photo_dramashot">モーショントラックの写真</string>
+	<string-array name="ml_photo_dramashot">
+		<item>閉じる</item>
+		<item> 3P/S </item>
+		<item> 5P/S </item>
+		<item> 10P/S </item>
+	</string-array>
+	<string name="ml_camera_exposure">露出</string>
+	<string-array name="ml_camera_exposure">
+		<item> -3 </item>
+		<item> -2 </item>
+		<item> -1 </item>
+		<item> 0 </item>
+		<item> 1 </item>
+		<item> 2 </item>
+		<item> 3 </item>
+	</string-array>
+	<string name="ml_camera_whitebalance">ホワイトバランス</string>
+	<string-array name="ml_camera_whitebalance">
+		<item>自動</item>
+		<item>日曜日</item>
+		<item>曇りの日</item>
+		<item>白熱灯</item>
+		<item>蛍光</item>
+	</string-array>
+	<string name="ml_camera_imagerotation">画像の回転</string>
+	<string-array name="ml_camera_imagerotation">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency">光源の周波数</string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item> 50Hz </item>
+		<item> 60Hz </item>
+	</string-array>
+	<string name="ml_camera_ledindicator"> LEDインジケータ</string>
+	<string-array name="ml_camera_ledindicator">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver">画面の休止状態</string>
+	<string name="ml_camera_autoscreensaver_sub_head">画面を自動的に閉じる</string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item> 10秒</item>
+		<item> 30秒</item>
+		<item> 1分</item>
+		<item>閉じる</item>
+	</string-array>
+	<string name="ml_camera_timedshutdown">時間指定シャットダウン</string>
+	<string-array name="ml_camera_timedshutdown">
+		<item>閉じる</item>
+		<item>3分</item>
+		<item>5分</item>
+		<item>10分</item>
+	</string-array>
+	<string name="ml_camera_timewatermark">タイムウォータマーク</string>
+	<string-array name="ml_camera_timewatermark">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration">歪み補正</string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_wifi_select"> WIFI </string>
+	<string-array name="ml_wifi_select">
+		<item>閉じる</item>
+		<item>開く</item>
+	</string-array>
+	<string name="ml_device_language">言語設定</string>
+	<string name="ml_device_language_sub_head">言語設定</string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime">日時</string>
+	<string-array name="ml_device_datetime">
+		<item> / </item>
+		<item> / </item>
+		<item> ：</item>
+		<item> ：</item>
+	</string-array>
+	<string name="ml_device_date_config">日付設定</string>
+	<string name="date_year">年</string>
+	<string name="date_month">月</string>
+	<string name="date_day">日</string>
+	<string name="ml_device_time_config">時間設定</string>
+	<string name="time_hour">時間</string>
+	<string name="time_minute">分</string>
+	<string name="time_second">秒</string>
+	<string name="ml_device_datetime_format">日付形式</string>
+	<string name="ml_device_time_save_tips">ヒント：現在のデバイスのネットワーク時刻はタイムゾーン内にあります。時刻が間違っている場合は、[更新]ボタンをクリックしてネットワーク時刻を更新できます。</string>
+	<string name="ml_device_time_save">時間を節約する</string>
+	<string name="ml_device_time">日付</string>
+	<string name="ml_device_time_sub_head">日付</string>
+	<string name="ml_device_time_current">現在時刻</string>
+	<string-array name="ml_device_time">
+		<item>ネットワーク時刻を更新</item>
+	</string-array>
+	<string name="ml_device_voicestatus">音声</string>
+	<string-array name="ml_device_voicestatus">
+		<item>閉じる</item>
+		<item> 30％</item>
+		<item> 50％</item>
+		<item> 80％</item>
+		<item> 100％</item>
+	</string-array>
+	<string name="ml_device_resetfactory">工場出荷時の設定に戻します</string>
+	<string-array name="ml_device_resetfactory">
+		<item> OK </item>
+		<item>キャンセル</item>
+	</string-array>
+	<string name="ml_device_resetselection">出荷時設定へのリセットを確認しますか？ </string>
+	<string name="ml_confirm_reboot">再起動しますか？ </string>
+	<string name="ml_confirm_ok"> OK </string>
+	<string name="ml_confirm_no">キャンセル</string>
+	<string name="ml_device_format">フォーマット</string>
+	<string-array name="ml_device_format">
+		<item> OK </item>
+		<item>キャンセル</item>
+	</string-array>
+	<string name="ml_device_format_doing">フォーマット... </string>
+	<string name="ml_device_format_failed">フォーマットに失敗しました</string>
+	<string name="ml_device_format_success">フォーマットが完了しました</string>
+	<string name="ml_turn_on">開く</string>
+	<string name="ml_turn_off">オフ</string>
+	<string name="ml_quit_exit">上ボタンを押して終了します</string>
+	<string name="ml_camera_wifiswitch"> WIFI情報</string>
+	<string name="ml_camera_wifiswitch_ssid"> WIFI名：</string>
+	<string name="ml_camera_wifiswitch_passwd"> WIFIのパスワード：</string>
+	<string name="ml_camera_wifiswitch_tip">ビデオボタンを長押ししてWIFIを終了します。</string>
+	<string name="ml_prompt">暖かいヒント</string>
+	<string name="ml_prompt_tf_cap_no_support">メモリカードの容量がサポートされていません。容量が32G / 64Gのメモリカードを挿入してください。</string>
+	<string name="ml_prompt_tf_null"> TFカードが検出されません。TFカードを挿入してください。 </string>
+	<string name="ml_prompt_tf_full"> TFカードの保存スペースが足りません。 </string>
+	<string name="ml_prompt_tf_fs_error"> SDカードのファイルシステムのフォーマットが要件を満たしていません。フォーマットされていますか。 </string>
+	<string name="ml_prompt_tf_low_speed">ドライビングレコーダーの正常な動作を確実にするために、Class 10高速メモリーカードを使用してください（推奨読み取り速度は80MB/s以上です）</string>
+	<string name="ml_prompt_bat_full">電池がいっぱいです！ </string>
+	<string name="ml_prompt_bat_low">電池残量が少なくなりました。5秒後にシャットダウンしてください。 </string>
+	<string name="ml_prompt_database_full">データベースがいっぱいになり、古いレコードが上書きされます。</string>
+	<string name="ml_prompt_camera_error">画像の収集が異常です。カメラは再初期化されます。</string>
+	<string name="ml_prompt_unsupported_func">現在のモードを有効にできません！</string>
+	<string name="ml_prompt_update_count_down">端末は2秒後に自動的にシステムをアップグレードします。5分間使用できなくなることが予想されます。運転の安全に注意してください。</string>
+	<string name="ml_prompt_emergency_recording">緊急録画は中断されません！</string>
+	<string name="ml_prompt_power_disconnected">電源が切断され、自動的にシャットダウンされます。</string>
+	<string name="ml_prompt_sdcard_format">はフォーマット中です。しばらくお待ちください。 </string>
+	<string name="ml_prompt_wifi_connect_ok"> WIFI経由で "ドリップドライバ"アプリに接続しました。APP側で操作してください</string>
+	<string name="ml_prompt_videoplay_error">動画の再生に失敗しました。 </string>
+	<string name="ml_prompt_tf_formating">はフォーマット中です。しばらくお待ちください... </string>
+	<string name="ml_prompt_tf_format_finish">フォーマットが完了しました</string>
+	<string name="ml_prompt_tf_format_failed">メモリカードのフォーマットに失敗しました</string>
+	<string name="ml_prompt_update_net_time">ネットワーク時間の同期が完了しました</string>
+	<string name="ml_prompt_update_net_time_fail"> 4G信号がありません。同期に失敗しました</string>
+	<string name="ml_prompt_reset_factory_ing">工場出荷時の設定に戻します。お待ちください... </string>
+	<string name="ml_prompt_reset_factory">出荷時設定への復元が完了しました</string>
+	<string name="ml_prompt_standbymode">電源が切断されました。シャットダウンされます。</string>
+	<string name="ml_prompt_version_no_exist">新しいファームウェアは検出されませんでした</string>
+	<string name="ml_prompt_version_invalid">無効なファームウェアが検出されました</string>
+	<string name="ml_prompt_resolution_ing">解像度を切り替えています。しばらくお待ちください... </string>
+	<string name="ml_prompt_resolution_finish">スイッチの解決が完了しました</string>
+	<string name="ml_prompt_prepare_update">アップグレードする準備ができました。しばらくお待ちください... </string>
+	<string name="info_dialog">情報</string>
+	<string name="confirm"> 決定する </string>
+	<string name="cancel">キャンセル</string>
+	<string name="tl_playlist">再生ファイルを選択してください。</string>
+	<string name="delete_dialog">削除</string>
+	<string name="delete_info">このファイルを削除しますか？ </string>
+	<string name="delete_info_video">動画を削除するかどうか</string>
+	<string name="delete_info_error_video">この動画は破損しています。削除されますか？ </string>
+	<string name="delete_info_error_photo">この画像は破損しています。削除されますか？ </string>
+	<string name="delete_info_photo">画像を削除するかどうか</string>
+	<string name="delete_info_allselected">選択したファイルを削除するかどうか</string>
+	<string name="tl_usb_connect"> USBが接続されています</string>
+	<string name="tl_usb_charge">充電モード</string>
+	<string name="tl_usb_mass_storage"> USBストレージデバイスを開く</string>
+	<string name="tl_usb_webcam">カメラモード</string>
+	<string name="update_dialog_title">システムのアップグレード</string>
+	<string name="ml_device_deviceinfo">端末情報</string>
+	<string name="ml_device_deviceinfo_sub_head">端末情報</string>
+	<string name="ml_device_deviceinfo_name">製品名： </string>
+	<string name="ml_device_deviceinfo_make">製造元： </string>
+	<string name="ml_device_deviceinfo_sn">端末のSNコード：</string>
+	<string name="ml_device_deviceinfo_account_id">アカウントID：</string>
+	<string name="ml_device_deviceinfo_imei_id"> IMEI：</string>
+	<string name="ml_device_deviceinfo_sim"> SIMカードID：</string>
+	<string name="ml_device_deviceinfo_view">端末とSIMカードの情報を表示します。</string>
+	<string name="ml_device_sdcard_info">カード情報</string>
+	<string name="ml_device_sdcard_info_sub_head">カード情報</string>
+	<string name="ml_device_sdcard_capacity">利用可能/合計</string>
+	<string name="ml_device_sdcard_format">メモリカードをフォーマットします</string>
+	<string name="ml_device_sdcard_capacity_used">メモリカードは既に使用されています。</string>
+	<string name="ml_device_sdcard_total_capacity">メモリカードの総容量：</string>
+	<string name="ml_device_version_update">バージョンアップ</string>
+	<string name="ml_device_version_update_sub_head">バージョンアップ</string>
+	<string name="ml_device_version_info">現在のシステムにアップグレードする新しいバージョンがあります</string>
+	<string name="ml_device_version_current">システムバージョン：</string>
+	<string name="ml_device_version_new">現在のシステムは最新バージョンです</string>
+	<string name="ml_device_version_new_can_upgraded">新しいバージョンをアップグレードできます。総パケット数</string>
+	<string name="ml_device_version_update_now">今すぐ更新</string>
+	<string name="ml_device_version_update_detect">更新を検出</string>
+	<string name="ml_device_4g_module_version_current"> 4Gネットワ​​ークファームウェアのバージョン：</string>
+	<string name="all_letters"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+	<string name="all_digit_num"> 0123456789 </string>
+	<string name="save_dialog">保存</string>
+	<string name="save_info">設定を保存しますか？ </string>
+	<string name="ml_device_dash_camera_tips">ヒント：車載録画機能をオンにした場合、運転記録ビデオを録画すると、車載カメラも車載ビデオを録画します。</string>
+	<string name="ml_promptBox_record_voice_on">録音した音声がオンになっている</string>
+	<string name="ml_promptBox_record_voice_off">録音した音声はオフになっています</string>
+	<string name="ml_promptBox_recording_on">ビデオ録画がオンになっています</string>
+	<string name="ml_promptBox_recording_off">ビデオ録画がオフになっています</string>
+	<string name="ml_promptBox_mobile_connected">モバイル通信が接続されています</string>
+	<string name="ml_promptBox_mobile_disconnected">モバイル通信が切断されました</string>
+	<string name="ml_promptBox_gps_connected"> GPSが接続されている</string>
+	<string name="ml_promptBox_gps_disconnected"> GPSが切断されている</string>
+	<string name="ml_promptBox_device_recording">端末はまだ録画中です</string>
+	<string name="ml_promptBox_device_photoing">端末はまだ写真を撮影しています</string>
+	<string name="ml_promptBox_standby">スタンバイモードに入る準備ができました</string>
+	<string name="ml_promptBox_last_video">もう最後のファイル</string>
+	<string name="ml_promptBox_first_video">すでに最初のビデオ</string>
+	<string name="ml_promptBox_tf_insert"> SDカードが挿入されたことを検出しました</string>
+	<string name="ml_promptBox_tf_out"> SDカードが取り外されたことを検出しました</string>
+	<string name="ml_promptBox_park_video">駐車監視ビデオ、この操作は禁止されています</string>
+	<string name="ml_wifi_app_download_qr_code">携帯電話でQRコードをスキャンしてAPPダウンロードリンクを取得する</string>
+	<string name="ml_traffic_info_query">交通情報の照会</string>
+	<string name="ml_traffic_surplus">残りの流れ：</string>
+	<string name="ml_traffic_total">パッケージ総トラフィック数：</string>
+	<string name="ml_flow_recharge">フロー再充電</string>
+	<string name="ml_scan_qr_code_recharge">携帯電話によるQRコードのトラフィックの再請求</string>
+	<string name="ml_sim_info_query"> SIMカード情報の照会</string>
+	<string name="ml_sim_card_id"> SIMカードID：xxxxx </string>
+	<string name="ml_sim_network_business">ネットワーカー：China Mobile </string>
+	<string name="ml_button_dialog_refresh_network_time">ネットワーク時間を更新するかどうか</string>
+	<string name="ml_button_dialog_manual_update_time">時間を手動で調整するかどうか</string>
+	<string name="ml_button_dialog_format_sdcard">メモリカードをフォーマットしますか？ </string>
+	<string name="ml_button_dialog_4g_network_open">データを更新するには、開くかどうかにかかわらず、4Gネットワ​​ーク転送機能を有効にする必要があります</string>
+	<string name="ml_button_dialog_record_loop_open">駐車ループの記録には、駐車異常監視を有効にする必要があります（開くかどうか）</string>
+	<string name="ml_button_dialog_record_loop_open_fail">小さいアリパーキングモニタリングラインを正しく挿入し、「パーキング異常モニタリング」機能をオンにした後、「パーキングループ記録」機能をオンにすることができます</string>
+	<string name="ml_button_dialog_adas_open_fail">この機能は小型のantドライビングレコーダーのGPSモジュールに正しく挿入する必要があります。挿入してからもう一度お試しください</string>
+	<string name="ml_button_dialog_watchdog_open_fail">この機能は小型のantドライビングレコーダーのGPSモジュールに正しく挿入する必要があります。挿入してからもう一度お試しください</string>
+	<string name="ml_button_dialog_download_packet_version">パッケージのダウンロード</string>
+	<string name="ml_button_dialog_download_packet_watchdog">パッケージのダウンロード</string>
+	<string name="ml_button_dialog_install_packet_version">パッケージのインストール</string>
+	<string name="ml_button_dialog_install_packet_watchdog">パッケージのインストール</string>
+	<string name="ml_button_dialog_install_current_city_packet_finished">インストールが完了し、現在の市区町村のパケットが更新されました</string>
+	<string name="ml_button_dialog_install_national_city_packet_finished">インストールが完了し、国の都市データパッケージが更新されました</string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal">ダウンロードに失敗しました。端末のネットワークが正常かどうかを確認してください。</string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow">ダウンロードに失敗しました。残りのトラフィックは不十分です</string>
+	<string name="ml_button_dialog_install_version_finish">インストールが完了し、現在のシステムバージョンが更新されました</string>
+	<string name="ml_button_dialog_more_img">複数のファームウェアが存在することが検出されました。存在するものが1つだけであることを確認してください。</string>
+	<string name="ml_button_dialog_check_md5_fail">ファームウェアのMD5値の検出に失敗しました、ファームウェアは無効です</string>
+	<string name="ml_button_dialog_open_fail">開く失敗</string>
+	<string name="ml_button_dialog_know">知っています</string>
+	<string name="ml_button_dialog_open_now">今すぐ開く</string>
+	<string name="ml_button_dialog_retry">再試行してください</string>
+	<string name="ml_button_dialog_recharge_now">今すぐ充電</string>
+	<string name="ml_playback_front_camera_video">フロントレンズのビデオ</string>
+	<string name="ml_preview_record_front_rear">車の内側と外側を二重にします</string>
+	<string name="ml_preview_record_front">車内単一レコード</string>
+	<string name="ml_preview_record_rear">車のシングルレコードの外側</string>
+	<string name="ml_preview_record_pause">記録を停止</string>
+	<string name="ml_preview_recording">記録</string>
+	<string name="ml_preview_drip_notice">点滴アナウンスメント</string>
+	<string name="ml_ota_install_packet">パッケージのインストール</string>
+	<string name="ml_ota_install_notice">車両の電源を切ったり、デバイスの電源を切ったりしないでください。</string>
+	<string name="ml_ota_install_failed">パッケージのインストールに失敗しました。再開の準備ができています。</string>
+	<string name="ml_ota_install_finsh">インストールが完了しました。再起動後にアップグレードが完了しました。</string>
+	<string name="ml_ota_instal_check_md5_fail">ファームウェアのMD5値の検出に失敗しました、ファームウェアは無効です</string>
+	<string name="ml_ota_instal_found_img_fail">ファームウェアはまだ検出されていません</string>
+	<string name="ml_sdvcam_ota_fail">アップグレードエラーです。成功した場合は再起動してください。再試行してください。再起動に失敗した場合は、カード強力ブラシモードを使用してください。</string>
+	<string name="ml_playback_no_file">閲覧するファイルがありません</string>
+	<string name="ml_playback_no_sdcard"> TFカードが検出されません。TFカードを挿入してください。 </string>
+	<string name="ml_promptBox_video_playerr">動画の再生に失敗しました</string>
+	<string name="ml_sdcard_update_version_new">アップグレードファイルは検出されましたか。アップグレードされましたか。 </string>
+	<string name="ml_sdcard_update_version_no">アップグレードされていません</string>
+	<string name="ml_sdcard_update_version_now">今すぐアップグレード</string>
+	<string name="ml_bindwindow_title">ドロップダウンライダーの所有者アカウントをバインドします</string>
+	<string name="ml_bindwindow_text"> "ドリップトリップ"または "ドリップラン"アプリを開き、[シャントカーオーナーサービス - トラベルバオ - マイトラベルトレジャー]と入力し、ページの指示に従って左側のQRコードをスキャンします。アカウントをバインドします。 </string>
+	<string name="ml_setting_menu">システム設定</string>
+	<string name="ml_lock_current_file">ファイルはロックされています。 </string>
+	<string name="ml_unlock_current_file">ファイルのロックが解除されました。 </string>
+	<string name="ml_current_file_locked">ファイルはロックされています。削除することは禁止されています。 </string>
+	<string name="ml_promptBox_current_recording_off">現在のビデオ録画はオフになっています。最初にビデオ録画を開始してください。</string>
+	<string name="ml_no_tf">カードなし</string>
+	<string name="ml_motion_is_on">移動検出が開始されました</string>
+	<string name="ml_photo_Quality">画質</string>
+	<string-array name="ml_photo_Quality">
+		<item>スーパーグッド</item>
+		<item>良い</item>
+		<item>一般</item>
+	</string-array>
+	<string name="ml_device_carid_config">ナンバープレートの透かし</string>
+	<string name="all_carchar">京湘津鄂沪粤渝琼冀川晋贵辽云吉陕黑甘苏青浙台皖藏闽蒙赣桂鲁宁豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

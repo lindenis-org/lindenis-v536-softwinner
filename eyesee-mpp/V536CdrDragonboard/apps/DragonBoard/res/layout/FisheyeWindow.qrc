@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>gv_shutdown.png</file>
+        <file>rec_hint.png</file>
+        <file>record_on.png</file>
+        <file>record_off.png</file>
+        <file>fisheye_3ptz_on.png</file>
+        <file>4ptz_on.png</file>
+        <file>fisheye_3ptz_off.png</file>
+        <file>4ptz_off.png</file>
+    </qresource>
+</RCC>

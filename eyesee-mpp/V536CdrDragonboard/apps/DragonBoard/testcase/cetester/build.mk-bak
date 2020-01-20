@@ -1,0 +1,53 @@
+TARGET_PATH :=$(call my-dir)
+
+#########################################
+include $(ENV_CLEAR)
+
+TARGET_SRC := \
+            cetester.cpp
+            
+TARGET_INC := $(TARGET_PATH)/../../../../include \
+	$(TARGET_TOP)/system/include 
+
+TARGET_SHARED_LIB := \
+    liblog \
+
+TARGET_STATIC_LIB := \
+    libcamera \
+
+#    libisp_dev \
+#    libisp_base \
+#    libisp_math \
+#    libisp_ae \
+#    libisp_af \
+#    libisp_afs \
+#    libisp_awb \
+#    libisp_md \
+#    libisp_iso \
+#    libisp_gtm \
+#    libisp_ini \
+#    libiniparser 
+
+TARGET_CFLAGS += -fPIC -Wall
+
+#TARGET_LDFLAGS += 
+
+TARGET_STATIC_LIB :=
+TARGET_SHARED_LIB += libcrypto_aw libaf_alg_aw_v31
+#TARGET_SHARED_LIB += libcrypto_aw libaf_alg_aw_v31
+TARGET_LDFLAGS += \
+	-lpthread \
+	-ldl \
+	-laf_alg_aw_v31 \
+	-lcrypto_aw \
+	
+#	-lcrypto_aw\	
+#    -lisp_dev -lisp_base -lisp_math -lisp_ae -lisp_af -lisp_afs \
+#	-lisp_awb -lisp_md -lisp_iso -lisp_gtm -lisp_ini -liniparser \
+#	-lpthread -lrt
+
+TARGET_MODULE := CEtest
+
+include $(BUILD_BIN)
+#########################################
+

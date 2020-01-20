@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StitchWindow</class>
+ <widget class="QDialog" name="StitchWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QCheckBox" name="sw_rec">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>560</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_rec_hint">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>80</y>
+     <width>166</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

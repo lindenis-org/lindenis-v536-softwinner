@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="tl_record"> video </string>
+	<string name="tl_takepic"> fotografia </string>
+	<string name="tl_slowrec"> fotografia lenta </string>
+	<string name="tl_playback"> álbum nativo </string>
+	<string name="tl_setting"> Configuração </string>
+	<string name="tl_shutdown"> desligamento </string>
+	<string name="ml_record_resolution_tips"> Dicas: Quanto mais fps você salvar durante a gravação, maior será o tamanho do vídeo </string>
+	<string name="ml_record_resolution"> tamanho do vídeo </string>
+	<string name="ml_record_resolution_sub_head"> Qualidade de vídeo </string>
+	<string-array name="ml_record_resolution">
+		<item> 4K </item>
+		<item> 2.7K </item>
+		<item> 1080P </item>
+	</string-array>
+	<string name="ml_vioce_record_function"> gravação no carro </string>
+	<string-array name="ml_vioce_record_function">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_vehicle_record_function"> gravação de vídeo no carro </string>
+	<string-array name="ml_vehicle_record_function">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_rear_resolution_tips"> Dicas: Quanto mais fps você salvar durante a gravação, maior será o tamanho do vídeo </string>
+	<string name="ml_record_rear_resolution"> gravador de visada atrás </string>
+	<string name="ml_record_rear_resolution_sub_head"> Qualidade de Imagem do Gravador de Visão Traseira </string>
+	<string name="ml_screen_brightness"> brilho da tela </string>
+	<string name="ml_screen_brightness_sub_head"> brilho da tela </string>
+	<string name="ml_screen_brightness_level"> nível </string>
+	<string-array name="ml_screen_brightness">
+		<item> nível de brilho atual: </item>
+	</string-array>
+	<string name="ml_voice_photo_tips"> Dicas: "Quando você diz" Little Ant Photograph ", o dispositivo irá tirar uma foto e salvá-la no álbum quando reconhecer seu pedido" </string>
+	<string name="ml_voice_photo"> voz da foto </string>
+	<string name="ml_voice_photo_sub_head"> comutador de câmera de voz </string>
+	<string-array name="ml_voice_photo">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_wifi_connect_tips"> Dicas: Faça o download do aplicativo do projeto e use a função de conexão WIFI após o emparelhamento de acordo com o processo de emparelhamento do lado do APP </string>
+	<string name="ml_wifi_connect"> WIFI </string>
+	<string name="ml_wifi_connect_sub_head"> configurações de WIFI </string>
+	<string name="ml_wifi_connect_info"> informações WIFI </string>
+	<string-array name="ml_wifi_connect">
+		<item> Fechar </item>
+		<item> Aberto </item>
+		<item> Ver informações de conexão WIFI </item>
+		<item> digitalize o código QR para fazer o download do APP. </item>
+	</string-array>
+	<string name="ml_4g_network"> configurações de rede 4G </string>
+	<string name="ml_4g_network_sub_head"> configurações de rede 4G </string>
+	<string-array name="ml_4g_network">
+		<item> Fechar </item>
+		<item> Aberto </item>
+		<item> informações do cartão SIM </item>
+	</string-array>
+	<string name="ml_system_acc"> Modo de energia do dispositivo </string>
+	<string name="ml_system_acc_sub_head"> modo de energia do dispositivo </string>
+	<string-array name="ml_system_acc">
+		<item> ACC buck power power supply </item>
+		<item> Fonte de alimentação de isqueiro do carro </item>
+	</string-array>
+	<string name="ml_system_voice"> efeito de som do sistema </string>
+	<string name="ml_system_voice_sub_head"> efeitos sonoros do sistema </string>
+	<string name="ml_power_on_voice"> efeito de som de inicialização </string>
+	<string-array name="ml_power_on_voice">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_key_voice"> principais efeitos sonoros </string>
+	<string-array name="ml_key_voice">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_driver_report"> relatório de condução </string>
+	<string name="ml_driver_report_sub_head"> relatório de condução </string>
+	<string-array name="ml_driver_report">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_gps_switch"> interruptor GPS </string>
+	<string name="ml_gps_switch_sub_head"> interruptor GPS </string>
+	<string-array name="ml_gps_switch">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_speed_unit"> unidade de velocidade </string>
+	<string name="ml_speed_unit_sub_head"> unidade de velocidade </string>
+	<string-array name="ml_speed_unit">
+		<item> km/h </item>
+		<item> mil/h </item>
+	</string-array>
+	<string name="ml_timezone"> Seleção de fuso horário </string>
+	<string name="ml_timezone_sub_head"> seleção de fuso horário </string>
+	<string-array name="ml_timezone">
+		<item> UTC </item>
+		<item> UTC + 1 </item>
+		<item> UTC + 2 </item>
+		<item> UTC + 3 </item>
+		<item> UTC + 4 </item>
+		<item> UTC + 5 </item>
+		<item> UTC + 6 </item>
+		<item> UTC + 7 </item>
+		<item> UTC + 8 </item>
+		<item> UTC + 9 </item>
+		<item> UTC + 10 </item>
+		<item> UTC + 11 </item>
+		<item> UTC + 12 </item>
+		<item> UTC-11 </item>
+		<item> UTC-10 </item>
+		<item> UTC-9 </item>
+		<item> UTC-8 </item>
+		<item> UTC-7 </item>
+		<item> UTC-6 </item>
+		<item> UTC-5 </item>
+		<item> UTC-4 </item>
+		<item> UTC-3 </item>
+		<item> UTC-2 </item>
+		<item> UTC-1 </item>
+	</string-array>
+	<string name="ml_screen_disturb_mode"> Modo Não Perturbe </string>
+	<string-array name="ml_screen_disturb_mode">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_adas_tips">Sugestões: Após o opcional e inserido GM gravador de condução módulo GPS, você pode ativar a função de assistência de condução inteligente </string>
+	<string name="ml_record_adas"> comutador ADAS </string>
+	<string name="ml_record_adas_sub_head"> comutador ADAS </string>
+	<string-array name="ml_record_adas">
+		<item> aviso de colisão para frente </item>
+		<item> Lembrete de deslocamento de pista </item>
+	</string-array>
+	<string name="ml_record_adas_forward_collision_warning"> aviso de colisão frontal </string>
+	<string-array name="ml_record_adas_forward_collision_warning">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_adas_lane_shift_reminding"> lembrete de deslocamento da faixa </string>
+	<string-array name="ml_record_adas_lane_shift_reminding">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_watch_dog"> cão eletrônico </string>
+	<string name="ml_watch_dog_sub_head"> cão eletrônico </string>
+	<string-array name="ml_watch_dog">
+		<item> Fechar </item>
+		<item> Aberto </item>
+		<item>Volume do prompt de </item>
+		<item> atualização de dados </item>
+	</string-array>
+	<string name="ml_volume_select"> volume </string>
+	<string-array name="ml_volume_select">
+		<item> alto </item>
+		<item> em </item>
+		<item> baixo </item>
+	</string-array>
+	<string name="ml_probe_prompt"> prompt de análise </string>
+	<string-array name="ml_probe_prompt">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_speed_prompt"> prompt de velocidade </string>
+	<string-array name="ml_speed_prompt">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_timewatermark_tips"> Dicas: A indicação de marca d'água de dados, incluindo "Ponto de coordenadas de GPS, velocidade do veículo, informações da placa de licença, etc., pode ser definida no APP" Little Ant Driving Recorder "</string>
+	<string name="ml_record_timewatermark"> marca d'água de dados </string>
+	<string name="ml_record_timewatermark_sub_head"> condução de marca d'água de dados </string>
+	<string-array name="ml_record_timewatermark">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_emerrecord_tips"> Dicas: salve automaticamente 10 segundos de gravação de emergência após detectar uma colisão </string>
+	<string name="ml_record_emerrecord"> gravação de emergência </string>
+	<string name="ml_record_emerrecord_sub_head"> vídeo de emergência </string>
+	<string-array name="ml_record_emerrecord">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_emerrecordsen"> detecção de gravidade </string>
+	<string-array name="ml_record_emerrecordsen">
+		<item> alto </item>
+		<item> em </item>
+		<item> baixo </item>
+	</string-array>
+	<string name="ml_record_parkingmonitor"> modo de estacionamento </string>
+	<string name="ml_record_parkingmonitor_sub_head"> Modo de Estacionamento </string>
+	<string-array name="ml_record_parkingmonitor">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_packing_warn_lamp"> Luz de aviso de estacionamento </string>
+	<string-array name="ml_packing_warn_lamp">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_packing_abnormal_monitor"> Monitoramento anormal de estacionamento </string>
+	<string-array name="ml_packing_abnormal_monitor">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_packing_abnormal_notice"> Notificação de exceção de estacionamento </string>
+	<string-array name="ml_packing_abnormal_notice">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_parkingloop_sw"> vídeo de loop de estacionamento </string>
+	<string-array name="ml_record_parkingloop_sw">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_parkingloop_resolution"> vídeo de loop de estacionamento </string>
+	<string-array name="ml_record_parkingloop_resolution">
+		<item> 1080p 5fps </item>
+		<item> 720p 15fps </item>
+		<item> 720p 5fps </item>
+		<item> 720p 2fps </item>
+	</string-array>
+	<string name="ml_record_standby_clock_tips"> Dicas: Depois que a função "relógio de espera" é ativada, a hora será exibida na tela quando o dispositivo estiver na tela </string>
+	<string name="ml_record_standby_clock"> relógio de espera </string>
+	<string name="ml_record_standby_clock_sub_head"> relógio de espera </string>
+	<string-array name="ml_record_standby_clock">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_encodingtype"> tipo de codificação </string>
+	<string-array name="ml_record_encodingtype">
+		<item> alta compressão </item>
+		<item> H264 </item>
+	</string-array>
+	<string name="ml_record_loop"> loop de vídeo </string>
+	<string-array name="ml_record_loop">
+		<item> 1 minuto </item>
+		<item> 2 minutos </item>
+		<item> 3 minutos </item>
+	</string-array>
+	<string name="ml_record_timelapse"> vídeo com lapso de tempo </string>
+	<string-array name="ml_record_timelapse">
+		<item> Fechar </item>
+		<item> 0.5s </item>
+		<item> 1s </item>
+		<item> 2s </item>
+		<item> 5s </item>
+		<item> 10s </item>
+		<item> 30s </item>
+		<item> 60s </item>
+	</string-array>
+	<string name="ml_record_volume"> interruptor de gravação </string>
+	<string name="ml_record_volume_sub_head"> interruptor de gravação </string>
+	<string-array name="ml_record_volume">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_motion_detect"> Detecção de movimento </string>
+	<string name="ml_motion_detect_sub_head"> Detecção de movimento </string>
+	<string-array name="ml_motion_detect">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_eis"> anti-vibração eletrônica </string>
+	<string-array name="ml_record_eis">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_record_slowmotion"> fotografia lenta </string>
+	<string-array name="ml_record_slowmotion">
+		<item> 1080P120FPS </item>
+		<item> 1080P60FPS </item>
+		<item> 720P240FPS </item>
+		<item> 720P120FPS </item>
+	</string-array>
+	<string name="ml_photo_resolution"> foto normal </string>
+	<string-array name="ml_photo_resolution">
+		<item> 8 milhões </item>
+		<item> 13 milhões </item>
+		<item> 16 milhões </item>
+	</string-array>
+	<string name="ml_photo_timed"> foto cronometrada </string>
+	<string-array name="ml_photo_timed">
+		<item> Fechar </item>
+		<item> 3S </item>
+		<item> 5S </item>
+		<item> 10S </item>
+		<item> 20S </item>
+	</string-array>
+	<string name="ml_photo_auto"> foto automática </string>
+	<string-array name="ml_photo_auto">
+		<item> Fechar </item>
+		<item> 3S </item>
+		<item> 10S </item>
+		<item> 15S </item>
+		<item> 20S </item>
+		<item> 30S </item>
+	</string-array>
+	<string name="ml_photo_dramashot"> foto da faixa de movimento </string>
+	<string-array name="ml_photo_dramashot">
+		<item> Fechar </item>
+		<item> 3P/S </item>
+		<item> 5P/S </item>
+		<item> 10P/S </item>
+	</string-array>
+	<string name="ml_camera_exposure"> exposição </string>
+	<string-array name="ml_camera_exposure">
+		<item> -3 </item>
+		<item> -2 </item>
+		<item> -1 </item>
+		<item> 0 </item>
+		<item> 1 </item>
+		<item> 2 </item>
+		<item> 3 </item>
+	</string-array>
+	<string name="ml_camera_whitebalance"> balanço de branco </string>
+	<string-array name="ml_camera_whitebalance">
+		<item> automático </item>
+		<item> Domingo </item>
+		<item> dia nublado </item>
+		<item> luz incandescente </item>
+		<item> fluorescência </item>
+	</string-array>
+	<string name="ml_camera_imagerotation"> rotação da imagem </string>
+	<string-array name="ml_camera_imagerotation">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_camera_lightsourcefrequency"> frequência da fonte de luz </string>
+	<string-array name="ml_camera_lightsourcefrequency">
+		<item> 50Hz </item>
+		<item> 60Hz </item>
+	</string-array>
+	<string name="ml_camera_ledindicator"> indicador LED </string>
+	<string-array name="ml_camera_ledindicator">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_camera_autoscreensaver"> hibernação da tela </string>
+	<string name="ml_camera_autoscreensaver_sub_head"> Fechar automaticamente a tela </string>
+	<string-array name="ml_camera_autoscreensaver">
+		<item> 10 segundos </item>
+		<item> 30 segundos </item>
+		<item> 1 minuto </item>
+		<item> Fechar </item>
+	</string-array>
+	<string name="ml_camera_timedshutdown"> desligamento programado </string>
+	<string-array name="ml_camera_timedshutdown">
+		<item> Fechar </item>
+		<item> 3 minutos </item>
+		<item> 5 minutos </item>
+		<item> 10 minutos </item>
+	</string-array>
+	<string name="ml_camera_timewatermark"> marca d'água de tempo </string>
+	<string-array name="ml_camera_timewatermark">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_camera_distortioncalibration"> correção de distorção </string>
+	<string-array name="ml_camera_distortioncalibration">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_wifi_select"> WIFI </string>
+	<string-array name="ml_wifi_select">
+		<item> Fechar </item>
+		<item> Aberto </item>
+	</string-array>
+	<string name="ml_device_language"> configurações de idioma </string>
+	<string name="ml_device_language_sub_head"> configuração de idioma </string>
+	<string-array name="ml_device_language">
+		<item>简体中文</item>
+		<item>English</item>
+		<item>繁體中文</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>русский язык</item>
+		<item>Deutsch</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>Español</item>
+		<item>Português</item>
+		<item>ภาษาไทย</item>
+	</string-array>
+	<string name="ml_device_datetime"> data-hora </string>
+	<string-array name="ml_device_datetime">
+		<item> / </item>
+		<item> / </item>
+		<item> : </item>
+		<item> : </item>
+	</string-array>
+	<string name="ml_device_date_config"> configuração de data </string>
+	<string name="date_year"> ano </string>
+	<string name="date_month"> mês </string>
+	<string name="date_day"> dia </string>
+	<string name="ml_device_time_config"> configuração de hora </string>
+	<string name="time_hour"> hora </string>
+	<string name="time_minute"> minuto </string>
+	<string name="time_second"> segundos </string>
+	<string name="ml_device_datetime_format"> formato de data </string>
+	<string name="ml_device_time_save_tips"> Dicas: A hora da rede do dispositivo atual está no fuso horário. Se a hora estiver errada, você pode clicar no botão "Atualizar" para atualizar o horário da rede </string>
+	<string name="ml_device_time_save"> Economize tempo </string>
+	<string name="ml_device_time"> data </string>
+	<string name="ml_device_time_sub_head"> data </string>
+	<string name="ml_device_time_current"> hora atual </string>
+	<string-array name="ml_device_time">
+		<item> Atualizar tempo de rede </item>
+	</string-array>
+	<string name="ml_device_voicestatus"> som </string>
+	<string-array name="ml_device_voicestatus">
+		<item> Fechar </item>
+		<item> 30% </item>
+		<item> 50% </item>
+		<item> 80% </item>
+		<item> 100% </item>
+	</string-array>
+	<string name="ml_device_resetfactory"> Restaurar configurações de fábrica </string>
+	<string-array name="ml_device_resetfactory">
+		<item> Determinar </item>
+		<item> Cancelar </item>
+	</string-array>
+	<string name="ml_device_resetselection"> confirma a redefinição de fábrica? </string>
+	<string name="ml_confirm_reboot"> Deseja reiniciar? </string>
+	<string name="ml_confirm_ok"> Determinar </string>
+	<string name="ml_confirm_no"> Cancelar </string>
+	<string name="ml_device_format"> Formatar </string>
+	<string-array name="ml_device_format">
+		<item> Determinar </item>
+		<item> Cancelar </item>
+	</string-array>
+	<string name="ml_device_format_doing"> Formatando ... </string>
+	<string name="ml_device_format_failed"> Formato com falha </string>
+	<string name="ml_device_format_success"> Formatação concluída </string>
+	<string name="ml_turn_on"> aberto </string>
+	<string name="ml_turn_off"> off </string>
+	<string name="ml_quit_exit"> Pressione o botão para cima para sair </string>
+	<string name="ml_camera_wifiswitch"> informações sobre WIFI </string>
+	<string name="ml_camera_wifiswitch_ssid"> Nome do WIFI: </string>
+	<string name="ml_camera_wifiswitch_passwd"> Senha WIFI: </string>
+	<string name="ml_camera_wifiswitch_tip"> Pressione e segure o botão de vídeo para sair do WIFI </string>
+	<string name="ml_prompt"> dicas quentes </string>
+	<string name="ml_prompt_tf_cap_no_support"> A capacidade do cartão de memória não é suportada, insira um cartão de memória com capacidade de 32G/64G </string>
+	<string name="ml_prompt_tf_null"> O cartão TF não é detectado, por favor insira o cartão TF! </string>
+	<string name="ml_prompt_tf_full"> O espaço de armazenamento do cartão TF não é suficiente! </string>
+	<string name="ml_prompt_tf_fs_error"> O formato do sistema de arquivos do cartão SD não atende aos requisitos, está formatado? </string>
+	<string name="ml_prompt_tf_low_speed"> Para garantir o funcionamento normal do gravador de condução, use o cartão de memória de alta velocidade Classe 10 (a velocidade de leitura recomendada é superior a 80MB / s) </string>
+	<string name="ml_prompt_bat_full"> A bateria está cheia! </string>
+	<string name="ml_prompt_bat_low"> bateria fraca, desligue após 5s! </string>
+	<string name="ml_prompt_database_full"> O banco de dados está cheio e os registros antigos serão sobrescritos! </string>
+	<string name="ml_prompt_camera_error"> A coleção de imagens é anormal, a câmera será reinicializada! </string>
+	<string name="ml_prompt_unsupported_func"> O modo atual não pode ser ativado! </string>
+	<string name="ml_prompt_update_count_down"> O dispositivo atualizará automaticamente o sistema após 2 segundos. Espera-se que ele esteja indisponível por 5 minutos. Preste atenção na segurança de direção. </string>
+	<string name="ml_prompt_emergency_recording"> A gravação de emergência não é interrompível! </string>
+	<string name="ml_prompt_power_disconnected"> A energia foi desconectada e será desligada automaticamente! </string>
+	<string name="ml_prompt_sdcard_format"> está formatando, por favor aguarde! </string>
+	<string name="ml_prompt_wifi_connect_ok"> Conectado ao aplicativo "Drip Driver" via WIFI, por favor, opere no lado do APP </string>
+	<string name="ml_prompt_videoplay_error"> A reprodução de vídeo falhou! </string>
+	<string name="ml_prompt_tf_formating"> está formatando, por favor aguarde ... </string>
+	<string name="ml_prompt_tf_format_finish"> Formatação concluída </string>
+	<string name="ml_prompt_tf_format_failed"> Falha ao formatar o cartão de memória </string>
+	<string name="ml_prompt_update_net_time"> O tempo de rede da sincronização está completo </string>
+	<string name="ml_prompt_update_net_time_fail"> Nenhum sinal 4G, falha na sincronização </string>
+	<string name="ml_prompt_reset_factory_ing"> Restaurar configurações de fábrica, aguarde ... </string>
+	<string name="ml_prompt_reset_factory"> Restaurar configurações de fábrica foram concluídas </string>
+	<string name="ml_prompt_standbymode"> A energia foi desconectada, ela será desligada </string>
+	<string name="ml_prompt_version_no_exist"> Nenhum novo firmware detectado </string>
+	<string name="ml_prompt_version_invalid"> Firmware inválido detectado </string>
+	<string name="ml_prompt_resolution_ing"> Mudando a resolução, por favor aguarde ... </string>
+	<string name="ml_prompt_resolution_finish"> A resolução do switch está completa </string>
+	<string name="ml_prompt_prepare_update"> Pronto para atualizar, aguarde ... </string>
+	<string name="info_dialog"> informação </string>
+	<string name="confirm"> OK </string>
+	<string name="cancel"> Cancelar </string>
+	<string name="tl_playlist"> Por favor selecione o arquivo de jogo </string>
+	<string name="delete_dialog"> delete </string>
+	<string name="delete_info"> Tem certeza que deseja excluir este arquivo? </string>
+	<string name="delete_info_video"> se deseja excluir o vídeo </string>
+	<string name="delete_info_error_video"> Este vídeo está corrompido, foi excluído? </string>
+	<string name="delete_info_error_photo"> Este foto está corrompido, foi excluído? </string>
+	<string name="delete_info_photo"> se deseja apagar a imagem </string>
+	<string name="delete_info_allselected"> se deseja excluir o arquivo selecionado </string>
+	<string name="tl_usb_connect"> O USB está conectado </string>
+	<string name="tl_usb_charge"> modo de carregamento </string>
+	<string name="tl_usb_mass_storage"> Dispositivo de armazenamento USB aberto </string>
+	<string name="tl_usb_webcam"> modo de câmera </string>
+	<string name="update_dialog_title"> Atualização do Sistema </string>
+	<string name="ml_device_deviceinfo"> informações do dispositivo </string>
+	<string name="ml_device_deviceinfo_sub_head"> informações do dispositivo </string>
+	<string name="ml_device_deviceinfo_name"> Nome do produto:  </string>
+	<string name="ml_device_deviceinfo_make"> Fabricante:  </string>
+	<string name="ml_device_deviceinfo_sn"> Código SN do dispositivo: </string>
+	<string name="ml_device_deviceinfo_account_id"> ID da conta: </string>
+	<string name="ml_device_deviceinfo_imei_id"> IMEI: </string>
+	<string name="ml_device_deviceinfo_sim"> ID do cartão SIM: </string>
+	<string name="ml_device_deviceinfo_view"> Veja as informações do dispositivo e cartão SIM </string>
+	<string name="ml_device_sdcard_info"> informações do cartão </string>
+	<string name="ml_device_sdcard_info_sub_head"> informações do cartão </string>
+	<string name="ml_device_sdcard_capacity"> Disponível / Total </string>
+	<string name="ml_device_sdcard_format"> Formatar cartão de memória </string>
+	<string name="ml_device_sdcard_capacity_used"> O cartão de memória já está em uso: </string>
+	<string name="ml_device_sdcard_total_capacity"> capacidade total do cartão de memória: </string>
+	<string name="ml_device_version_update"> atualização da versão </string>
+	<string name="ml_device_version_update_sub_head"> atualização da versão </string>
+	<string name="ml_device_version_info"> O sistema atual tem uma nova versão para atualizar </string>
+	<string name="ml_device_version_current"> Versão do sistema: </string>
+	<string name="ml_device_version_new"> O sistema atual é a versão mais recente </string>
+	<string name="ml_device_version_new_can_upgraded"> A nova versão pode ser atualizada, o número total de pacotes </string>
+	<string name="ml_device_version_update_now"> Atualizar agora </string>
+	<string name="ml_device_version_update_detect"> Detectar Atualizações </string>
+	<string name="ml_device_4g_module_version_current"> versão do firmware da rede 4G: </string>
+	<string name="all_letters"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+	<string name="all_digit_num"> 0123456789 </string>
+	<string name="save_dialog"> Salvar </string>
+	<string name="save_info"> Você quer salvar as configurações? </string>
+	<string name="ml_device_dash_camera_tips"> Dicas: se você ativar a função de gravação no veículo, ao gravar o vídeo gravado, a câmera do veículo também registra o vídeo no veículo </string>
+	<string name="ml_promptBox_record_voice_on"> o som gravado está ativado </string>
+	<string name="ml_promptBox_record_voice_off"> o som gravado está desativado </string>
+	<string name="ml_promptBox_recording_on"> A gravação de vídeo está ativada </string>
+	<string name="ml_promptBox_recording_off"> A gravação de vídeo está desativada </string>
+	<string name="ml_promptBox_mobile_connected"> A transmissão móvel está conectada </string>
+	<string name="ml_promptBox_mobile_disconnected"> A transmissão móvel foi desconectada </string>
+	<string name="ml_promptBox_gps_connected"> GPS está conectado </string>
+	<string name="ml_promptBox_gps_disconnected"> O GPS está desconectado </string>
+	<string name="ml_promptBox_device_recording"> O dispositivo ainda está gravando </string>
+	<string name="ml_promptBox_device_photoing"> O dispositivo ainda está tirando fotos </string>
+	<string name="ml_promptBox_standby"> pronto para entrar no modo de espera </string>
+	<string name="ml_promptBox_last_video"> Já o último arquivo </string>
+	<string name="ml_promptBox_first_video"> Já o primeiro arquivo </string>
+	<string name="ml_promptBox_tf_insert"> Detectado que o cartão SD foi inserido </string>
+	<string name="ml_promptBox_tf_out"> Detectado que o cartão SD foi removido </string>
+	<string name="ml_promptBox_park_video"> estacionamento monitorando o vídeo, esta operação é proibida </string>
+	<string name="ml_wifi_app_download_qr_code"> Código QR da varredura móvel para obter o link de download do APP </string>
+	<string name="ml_traffic_info_query"> Consulta de informações de tráfego </string>
+	<string name="ml_traffic_surplus"> Fluxo restante: </string>
+	<string name="ml_traffic_total"> tráfego total do pacote: </string>
+	<string name="ml_flow_recharge"> recarga de fluxo </string>
+	<string name="ml_scan_qr_code_recharge">Escaneamento do celular QR code recarga de tráfego</string>
+	<string name="ml_sim_info_query"> Consulta de informações sobre cartão SIM </string>
+	<string name="ml_sim_card_id"> ID do cartão SIM: xxxxx </string>
+	<string name="ml_sim_network_business"> Networker: China Mobile </string>
+	<string name="ml_button_dialog_refresh_network_time"> se atualiza o horário da rede </string>
+	<string name="ml_button_dialog_manual_update_time"> Ajustar a hora manualmente </string>
+	<string name="ml_button_dialog_format_sdcard"> Você tem certeza de formatar o cartão de memória? </string>
+	<string name="ml_button_dialog_4g_network_open"> Atualiza as necessidades de dados para ativar a função de transmissão de rede 4G, seja para abrir </string>
+	<string name="ml_button_dialog_record_loop_open"> A gravação do loop de estacionamento precisa ativar o monitoramento de anormalidades de estacionamento, seja para abrir </string>
+	<string name="ml_button_dialog_record_loop_open_fail"> correctamente inserida uma pequena linha de monitoramento de parada de formigas e função de abertura "parque de Monitoramento de Exceção" pode ser transformado em "parar a gravação Loop" função </string>
+	<string name="ml_button_dialog_adas_open_fail"> Esta função precisa ser inserida corretamente no módulo GPS do gravador de direção, tente novamente após inserir </string>
+	<string name="ml_button_dialog_watchdog_open_fail"> Esta função precisa ser inserida corretamente no módulo GPS do gravador de direção, tente novamente após inserir </string>
+	<string name="ml_button_dialog_download_packet_version"> Download do pacote </string>
+	<string name="ml_button_dialog_download_packet_watchdog"> Download do pacote </string>
+	<string name="ml_button_dialog_install_packet_version"> Instalação do pacote </string>
+	<string name="ml_button_dialog_install_packet_watchdog"> Instalação do pacote </string>
+	<string name="ml_button_dialog_install_current_city_packet_finished"> a instalação estiver concluída, o pacote de dados foi atualizado cidade atual </string>
+	<string name="ml_button_dialog_install_national_city_packet_finished"> instalação estiver concluída, o pacote National Urban foi atualizado </string>
+	<string name="ml_button_dialog_download_packet_fail_network_abnormal"> download falhar, o equipamento de teste de rede é normal </string>
+	<string name="ml_button_dialog_download_packet_fail_insufficient_flow"> Falha no download, o tráfego restante é insuficiente </string>
+	<string name="ml_button_dialog_install_version_finish"> a instalação está completa, a versão atual do sistema foi atualizada </string>
+	<string name="ml_button_dialog_more_img"> Vários firmwares detectados existem, por favor, certifique-se que existe apenas um </string>
+	<string name="ml_button_dialog_check_md5_fail"> valor Firmware MD5 detectada a falha, firmware inválido </string>
+	<string name="ml_button_dialog_open_fail"> open failed </string>
+	<string name="ml_button_dialog_know"> Eu sei </string>
+	<string name="ml_button_dialog_open_now"> Abrir agora </string>
+	<string name="ml_button_dialog_retry"> tente novamente </string>
+	<string name="ml_button_dialog_recharge_now"> cobrar agora </string>
+	<string name="ml_playback_front_camera_video"> vídeo da lente frontal </string>
+	<string name="ml_preview_record_front_rear"> dobrar dentro e fora do carro </string>
+	<string name="ml_preview_record_front"> registro único no carro </string>
+	<string name="ml_preview_record_rear"> fora do registro único do carro </string>
+	<string name="ml_preview_record_pause"> parar de gravar </string>
+	<string name="ml_preview_recording"> gravação </string>
+	<string name="ml_preview_drip_notice"> Anúncio de gotejamento </string>
+	<string name="ml_ota_install_packet"> Instalação do pacote </string>
+	<string name="ml_ota_install_notice"> Não desligue o veículo ou desligue o dispositivo </string>
+	<string name="ml_ota_install_failed"> A instalação do pacote falhou, pronta para reiniciar </string>
+	<string name="ml_ota_install_finsh"> A instalação está concluída, a atualização é concluída após a reinicialização </string>
+	<string name="ml_ota_instal_check_md5_fail"> Falha ao detectar o valor do firmware MD5, o firmware é inválido </string>
+	<string name="ml_ota_instal_found_img_fail"> O firmware ainda não foi detectado </string>
+	<string name="ml_sdvcam_ota_fail"> atualizar erro, por favor tente novamente se o reinício bem sucedido, o reinício não usar o modo de cartão de escova forte </string>
+	<string name="ml_playback_no_file"> Nenhum arquivo para navegar </string>
+	<string name="ml_playback_no_sdcard"> O cartão TF não é detectado, por favor, insira o cartão TF! </string>
+	<string name="ml_promptBox_video_playerr"> Falha na reprodução de vídeo </string>
+	<string name="ml_sdcard_update_version_new"> O arquivo de atualização foi detectado, ele foi atualizado? </string>
+	<string name="ml_sdcard_update_version_no"> Não atualizado </string>
+	<string name="ml_sdcard_update_version_now"> Atualizar agora </string>
+	<string name="ml_bindwindow_title"> Associe a conta do proprietário do drop-down rider </string>
+	<string name="ml_bindwindow_text"> "viajar bit" Abrir ou "cai passeio" App, insira [passeio - tesouro de viagem - - Proprietários Viajo tesouro], a leitura de código bidimensional esquerda de acordo com a página solicitada, Faça ligações de conta. </string>
+	<string name="ml_setting_menu"> Configurações do Sistema </string>
+	<string name="ml_lock_current_file"> O arquivo está bloqueado! </string>
+	<string name="ml_unlock_current_file"> O arquivo está desbloqueado! </string>
+	<string name="ml_current_file_locked"> o arquivo foi bloqueado, é proibido excluir! </string>
+	<string name="ml_promptBox_current_recording_off"> A gravação de vídeo atual está desativada, por favor inicie a gravação de vídeo primeiro </string>
+	<string name="ml_no_tf"> sem cartão </string>
+	<string name="ml_motion_is_on">Detecção móvel ligada</string>
+	<string name="ml_photo_Quality"> Qualidade da imagem </string>
+	<string-array name="ml_photo_Quality">
+		<item> super bom </item>
+		<item> bom </item>
+		<item> Geral </item>
+	</string-array>
+	<string name="ml_device_carid_config"> marca d'água da placa de licença </string>
+	<string name="all_carchar">京湘津鄂沪粤渝琼冀川晋贵辽云吉陕黑甘苏青浙台皖藏闽蒙赣桂鲁宁豫新港澳全1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+	<string name="ml_allsymbol"> !@#$%^&*():;"',/?[]</string>
+</resources>

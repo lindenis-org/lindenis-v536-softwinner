@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CaridSettingWindow</class>
+ <widget class="QDialog" name="CaridSettingWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>60</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="confirm_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="title_bg">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>580</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>580</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <!-- 车牌(字符串) -->
+  <widget class="QLabel" name="text0">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text1">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text2">
+   <property name="geometry">
+    <rect>
+     <x>192</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text3">
+   <property name="geometry">
+    <rect>
+     <x>256</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text5">
+   <property name="geometry">
+    <rect>
+     <x>384</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text6">
+   <property name="geometry">
+    <rect>
+     <x>448</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="text7">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>105</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <!-- 候选字符(左按钮) -->
+  <widget class="QGraphicsView" name="left_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>207</y>
+     <width>60</width>
+     <height>64</height>
+    </rect>
+   </property>
+  </widget>
+  <!-- 候选字符(字符串) -->
+  <widget class="QLabel" name="htext0">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="htext1">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext2">
+   <property name="geometry">
+    <rect>
+     <x>192</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext3">
+   <property name="geometry">
+    <rect>
+     <x>256</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext5">
+   <property name="geometry">
+    <rect>
+     <x>384</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext6">
+   <property name="geometry">
+    <rect>
+     <x>448</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="htext7">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>207</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="right_button">
+   <property name="geometry">
+    <rect>
+     <x>578</x>
+     <y>207</y>
+     <width>60</width>
+     <height>64</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

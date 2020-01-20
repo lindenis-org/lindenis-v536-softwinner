@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg.png</file>
+        <file>bg_transparent.png</file>
+		<file>phone.png</file>
+		<file>qrcode.png</file>
+    </qresource>
+</RCC>

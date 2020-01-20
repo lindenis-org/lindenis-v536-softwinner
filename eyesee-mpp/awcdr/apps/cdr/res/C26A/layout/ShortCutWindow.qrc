@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>button_wifi.png</file>
+        <file>button_wifi_hi.png</file>
+        <file>button_rec_audio.png</file>
+        <file>button_rec_audio_hi.png</file>
+        <file>button_rc.png</file>
+        <file>button_rc_hi.png</file>
+        <file>button_lock1.png</file>
+        <file>button_lock1_hi.png</file>
+        <file>button_shutdown.png</file>
+        <file>button_shutdown_hi.png</file>
+        <file>orna_line2.png</file>
+        <file>button_shortcut_menu.png</file>
+    </qresource>
+</RCC>

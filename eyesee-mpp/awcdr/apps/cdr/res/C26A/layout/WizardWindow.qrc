@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>gv_twocam.png</file>
+        <file>gv_shutdown.png</file>
+        <file>gv_mosaic.png</file>
+        <file>gv_disk.png</file>
+        <file>info_icon.png</file>
+        <file>bg.png</file>
+    </qresource>
+</RCC>

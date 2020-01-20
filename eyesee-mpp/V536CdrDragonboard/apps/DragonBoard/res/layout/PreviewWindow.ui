@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PreviewWindow</class>
+ <widget class="QDialog" name="PreviewWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QCheckBox" name="sw_cam">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>680</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_switchcam">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>750</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>切换</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_record">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>750</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录像</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sw_record">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>680</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_audio">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>750</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录音</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sw_audio">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>680</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_shotcut">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>750</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>截图</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_shotcut">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>680</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_rec">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>160</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAM-REC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_rec_hint">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>42</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="go_playback">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_snap">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>630</y>
+     <width>240</width>
+     <height>135</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>80</y>
+     <width>166</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_cve">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>180</y>
+     <width>240</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CVE</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

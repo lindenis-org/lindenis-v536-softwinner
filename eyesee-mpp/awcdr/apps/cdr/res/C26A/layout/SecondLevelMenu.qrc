@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>black_bg.png</file>
+        <file>hilight.png</file>
+        <file>unhilight.png</file>
+		<file>sub_hilight.png</file>
+		<file>sub_unhilight.png</file>
+		<file>check_n.png</file>
+		<file>check_listview.png</file>
+        <file>check_submenu.png</file>
+        <file>wifi_off.png</file>
+        <file>wifi_on.png</file>
+		<file>enlarge.png</file>
+        <file>subsetting.png</file>
+		<file>subswitch_off.png</file>
+        <file>subswitch_on.png</file>
+		<file>upload.png</file>
+    </qresource>
+</RCC>

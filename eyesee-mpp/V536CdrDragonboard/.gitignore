@@ -1,0 +1,12 @@
+*.o
+*.o.d
+*.obj
+*.la
+.DS_Store
+._*
+*.tmp
+*.bak
+*.swp
+.md5
+*.swo
+sxf_arialuni.7z

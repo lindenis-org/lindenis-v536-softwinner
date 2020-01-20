@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+		<file>BindImage.png</file>
+		<file>com_bg.png</file>
+		<file>yi.png</file>
+    </qresource>
+</RCC>

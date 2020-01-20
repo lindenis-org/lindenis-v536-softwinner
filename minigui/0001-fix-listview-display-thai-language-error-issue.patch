@@ -1,0 +1,110 @@
+diff --git a/src/newgdi/drawtext.c b/src/newgdi/drawtext.c
+index 9b47e02..962f25f 100755
+--- a/src/newgdi/drawtext.c
++++ b/src/newgdi/drawtext.c
+@@ -577,8 +577,9 @@ int DrawTextEx2 (HDC hdc, const char* pText, int nCount,
+                 BOOL old_set = ctxt.only_extent;
+ 
+                 /* only get text extent.*/
++          //  fprintf(stderr,"[debug_jaosn]:@@@00000000 ffff @@@@@@\n");
+                 ctxt.only_extent = TRUE;
+-				ctxt.driton_flag = FALSE;
++				ctxt.driton_flag = 0;
+                 _gdi_reorder_text_break (pdc, pline, line_len, 
+                         (pdc->ta_flags & TA_X_MASK) != TA_RIGHT,
+                         cb_drawtextex2, &ctxt);
+@@ -596,8 +597,13 @@ int DrawTextEx2 (HDC hdc, const char* pText, int nCount,
+                         cb_drawtextex2, &ctxt);
+             }
+             else {
+-	//	fprintf(fp1,"[debug_jaosn]:@@@00000000@@@@@@\n");
+-		ctxt.driton_flag = TRUE;
++	//	fprintf(stderr,"[debug_jaosn]:@@@00000000@@@@@@\n");
++                if(nFormat & DT_RIGHT){
++                    ctxt.driton_flag = 1;
++                }else if(nFormat & DT_LEFT){
++                    ctxt.driton_flag = 2;
++                }
++		         
+                 _gdi_reorder_text_break (pdc, pline, line_len, 
+                         (pdc->ta_flags & TA_X_MASK) != TA_RIGHT,
+                         cb_drawtextex2, &ctxt);
+diff --git a/src/newgdi/drawtext.h b/src/newgdi/drawtext.h
+index 021fe43..f7ea999 100755
+--- a/src/newgdi/drawtext.h
++++ b/src/newgdi/drawtext.h
+@@ -68,7 +68,7 @@ int _gdi_draw_one_glyph (PDC pdc, Glyph32 glyph_value, BOOL direction,
+             int x, int y, int* adv_x, int* adv_y);
+ 
+ int _gdi_draw_new_one_glyph(PDC pdc, Glyph32 glyph_value, BOOL direction,
+-            int x, int y, int* adv_x, int* adv_y, BOOL flag);
++            int x, int y, int* adv_x, int* adv_y, int flag);
+ 
+ int _gdi_get_null_glyph_advance (PDC pdc, int advance, BOOL direction, 
+         int x, int y, int* adv_x, int* adv_y);
+@@ -123,7 +123,7 @@ typedef struct _DRAWTEXTEX2_CTXT
+     Uint32 max_extent;
+     BOOL   only_extent;
+ 	//add by jason
+-    BOOL   driton_flag;
++    int   driton_flag;
+ } DRAWTEXTEX2_CTXT;
+ 
+ #ifdef __cplusplus
+diff --git a/src/newgdi/glyph.c b/src/newgdi/glyph.c
+index bf90b22..660b5c6 100755
+--- a/src/newgdi/glyph.c
++++ b/src/newgdi/glyph.c
+@@ -58,7 +58,7 @@
+ #include "glyph.h"
+ 
+ 
+-static BOOL direction_flag = FALSE;
++static int direction_flag = 0;
+ 
+ 
+ #define FS_WEIGHT_BOOK_LIGHT    (FS_WEIGHT_BOOK | FS_WEIGHT_LIGHT)
+@@ -3916,8 +3916,8 @@ static inline void _gdi_direct_fillglyph (PDC pdc, Glyph32 glyph_value,
+ 		 if(glyph_value == 0x80000e1b || glyph_value == 0x80000e1d || glyph_value == 0x80000e1f || glyph_value == 0x80000e19){
+ 			 main_x  = (fg_gal_rc->x -3);
+ 		 }else{
+-		 main_x  = 	fg_gal_rc->x;
+-		 	}
++		    main_x  = 	fg_gal_rc->x;
++		 }
+ 		 main_advance = glyph_advance;
+ 	}else{
+ 		cont ++;
+@@ -3941,8 +3941,10 @@ static inline void _gdi_direct_fillglyph (PDC pdc, Glyph32 glyph_value,
+ 		||  glyph_value == 0x80000e4c ||  glyph_value == 0x80000e4d ||  glyph_value == 0x80000e4e ||  glyph_value == 0x80000e48
+ 		||  glyph_value == 0x80000e49 ||  glyph_value == 0x80000e4a ||  glyph_value == 0x80000e4b)
+ 		{
+-			if(direction_flag){
++			if(direction_flag == 1){
+ 				ctxt->cb (pdc, fg_gal_rc->x, real_y, &sl_ctxt);
++			}else if(direction_flag == 2){
++			    ctxt->cb (pdc, (main_x+main_advance -sl_ctxt.bmp_w), real_y, &sl_ctxt);
+ 			}else{
+ 			ctxt->cb (pdc, (main_x+main_advance -sl_ctxt.bmp_w), real_y, &sl_ctxt);
+ 				}
+@@ -4551,7 +4553,7 @@ static void draw_glyph_lines (PDC pdc, int x1, int y1, int x2, int y2)
+ /*this is for taiwen display*/
+ 
+ int _gdi_draw_new_one_glyph (PDC pdc, Glyph32 glyph_value, BOOL direction,
+-            int x, int y, int* adv_x, int* adv_y,BOOL flag)
++            int x, int y, int* adv_x, int* adv_y,int flag)
+ {
+     LOGFONT* logfont;
+     DEVFONT* devfont;
+@@ -4785,7 +4787,7 @@ int _gdi_draw_one_glyph (PDC pdc, Glyph32 glyph_value, BOOL direction,
+ #ifndef DRAW_SCANLINE 
+     BOOL is_draw_glyph = TRUE;
+ #endif
+-	direction_flag = FALSE;
++	direction_flag = 0;
+ 
+     int italic = 0;
+     int bold = 0;
+-- 
+1.7.9.5
+

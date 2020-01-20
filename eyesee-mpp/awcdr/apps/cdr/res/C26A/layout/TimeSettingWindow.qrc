@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg_transparent.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>silent.png</file>
+        <file>voice1.png</file>
+        <file>voice2.png</file>
+        <file>voice3.png</file>
+        <file>voice4.png</file>
+        <file>playback_pause.png</file>
+        <file>playback_start.png</file>
+        <file>play_stop.png</file>
+        <file>mp_setting.png</file>
+        <file>bg_transparent.png</file>
+        <file>return_btn1.png</file>
+    </qresource>
+</RCC>

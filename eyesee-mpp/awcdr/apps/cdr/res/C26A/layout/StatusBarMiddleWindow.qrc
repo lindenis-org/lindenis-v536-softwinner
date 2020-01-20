@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+	     <file>statusbar_top_bg_a0.png</file>
+		 <file>statusbar_top_bg_a70.png</file>
+		 <file>statusbar_top_bg_a100.png</file>
+    </qresource>
+</RCC>

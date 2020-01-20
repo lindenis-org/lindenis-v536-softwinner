@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg.png</file>
+        <file>confirm_bt.png</file>
+        <file>cancel_bt.png</file>
+    </qresource>
+</RCC>

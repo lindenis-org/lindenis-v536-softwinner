@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>wifi_off.png</file>
+        <file>wifi_on.png</file>
+        <file>softap_off.png</file>
+        <file>softap_on.png</file>
+        <file>bt_off.png</file>
+        <file>bt_on.png</file>
+        <file>voice_hilight.png</file>
+        <file>voice_normal.png</file>
+        <file>format.png</file>
+        <file>format_err.png</file>
+        <file>info_icon.png</file>
+        <file>return_btn1.png</file>
+        <file>bg.png</file>
+    </qresource>
+</RCC>

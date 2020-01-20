@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PromptBox</class>
+ <widget class="QDialog" name="PromptBox">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>252</y>
+    <width>640</width>
+    <height>48</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="PromptBox_icon_left">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="PromptBox_icon">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>0</y>
+     <width>30</width>
+     <height>48</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PromptBox_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>230</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="PromptBox_icon_right">
+   <property name="geometry">
+    <rect>
+     <x>297</x>
+     <y>0</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+配置步骤:
+  1:source环境变量   source build/v5_dragonboard_envsetup.sh
+  2:mklichee(如果已经配置,则不需要重新配置)
+    选择1: sun8iw12p1 
+	选择2: linux
+    选择3: v5s_pro_lpddr3
+
+	3:mkall
+  4:pack_nor_img
+  
+  
+  注意:
+    1:目前SDK中的源是对应福鑫2键的机器，如果需要改成其它的，注意是否要换屏的尺寸，与sys_config.fex.
+    2:编译如果发现mpp_ise.so库报错，出错原因是脚本中将lib_ise_bi.so复制到了/usr/bin下面去了，而不是/usr/lib下面 
+    3:dragonboard目前不支持将中间件编译成静态库，这样编译出来的镜像太大，故注意不要将mpp_config.mk中的静态库选项打开，同时要将ise模式打开，不要屏蔽掉。

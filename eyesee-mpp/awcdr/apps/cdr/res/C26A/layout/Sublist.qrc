@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+	<file>return_btn1.png</file>
+    </qresource>
+</RCC>

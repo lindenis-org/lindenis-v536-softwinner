@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LauncherWindow</class>
+ <widget class="QDialog" name="LauncherWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="gv_twocam">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>146</y>
+     <width>220</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_autotest">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>460</y>
+     <width>220</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_setting">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>460</y>
+     <width>220</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_videotalk">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>146</y>
+     <width>220</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>932</x>
+     <y>530</y>
+     <width>166</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gv_mosaic">
+   <property name="geometry">
+    <rect>
+     <x>905</x>
+     <y>146</y>
+     <width>220</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_twocam">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>366</y>
+     <width>230</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TwoCamMode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_videotalk">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>366</y>
+     <width>220</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VideoTalkMode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_setting">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>680</y>
+     <width>180</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SettingMode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_autotest">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>680</y>
+     <width>230</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AutoTestMode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tl_pinjie">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>366</y>
+     <width>230</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PinJieMode</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

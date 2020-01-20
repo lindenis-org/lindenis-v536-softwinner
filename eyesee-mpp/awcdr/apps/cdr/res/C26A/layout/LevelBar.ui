@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LevelBar</class>
+ <widget class="QDialog" name="LevelBar">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>154</x>
+    <y>109</y>
+    <width>668</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="LevelBar_icon1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_icon7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>66</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon1">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon2">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon3">
+   <property name="geometry">
+    <rect>
+     <x>203</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon5">
+   <property name="geometry">
+    <rect>
+     <x>395</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon6">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="LevelBar_B_icon7">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>68</y>
+     <width>74</width>
+     <height>68</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

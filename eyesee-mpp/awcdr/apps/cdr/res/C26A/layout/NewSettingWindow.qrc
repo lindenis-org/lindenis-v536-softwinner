@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+		<file>sw_about.png</file>
+		<file>sw_adas.png</file>
+		<file>sw_button_off.png</file>
+		<file>sw_button_on.png</file>
+		<file>sw_emerrecord_sen.png</file>
+		<file>sw_encode_type.png</file>
+		<file>sw_exposure.png</file>
+		<file>sw_format.png</file>
+		<file>sw_language.png</file>
+		<file>sw_light_fre.png</file>
+		<file>sw_park.png</file>
+		<file>sw_record_time.png</file>
+		<file>sw_record_timelaps.png</file>
+		<file>sw_reset.png</file>
+		<file>sw_resolution.png</file>
+		<file>sw_return.png</file>
+		<file>sw_return_h.png</file>
+		<file>sw_screensaver.png</file>
+		<file>sw_switch.png</file>
+		<file>sw_time.png</file>
+		<file>sw_volume.png</file>
+		<file>sw_wifi.png</file>
+		<file>sw_awmd.png</file>
+		<file>sw_quality.png</file>
+		<file>sw_AutoPhoto.png</file>	
+		<file>sw_TimePhoto.png</file>	
+		<file>sw_NormorPhoto.png</file>	
+		<file>sw_GPS.png</file>	
+		<file>sw_speed.png</file>	
+		<file>sw_timezone.png</file>	
+		<file>sw_carid.png</file>	
+    </qresource>
+</RCC>

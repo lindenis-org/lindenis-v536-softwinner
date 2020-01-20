@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>audio_on.png</file>
+        <file>audio_off.png</file>
+        <file>record_on.png</file>
+        <file>record_off.png</file>
+        <file>cam0.png</file>
+        <file>cam1.png</file>
+        <file>shotcut.png</file>
+        <file>mp_setting.png</file>
+        <file>bg_transparent.png</file>
+        <file>go_playback.png</file>
+        <file>gv_shutdown.png</file>
+        <file>rec_hint.png</file>
+    </qresource>
+</RCC>

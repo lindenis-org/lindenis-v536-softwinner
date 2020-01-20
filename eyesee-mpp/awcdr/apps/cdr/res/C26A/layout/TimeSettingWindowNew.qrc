@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/usr/share/minigui/res/images">
+        <file>bg.png</file>
+        <file>bg_transparent.png</file>
+        <file>button_time_setting_return.png</file>
+        <file>submenu_unselect.png</file>
+        <file>submenu_select.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,10 @@
+*.so
+*.a
+*.o
+*.obj
+*.la
+.DS_Store
+._*
+*.tmp
+*.bak
+*.un~

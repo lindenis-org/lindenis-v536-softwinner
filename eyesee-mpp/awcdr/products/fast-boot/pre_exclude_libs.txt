@@ -1,0 +1,17 @@
+#fast-boot mode spec
+#
+#This file define all libs and dirs which must be
+#reserved when the program [sdvcam] is running. these files are
+#loaded in running time, so I can not exclude them before running program.
+#you must put these files into this file when you are in fast-boot mode.
+
+#Libs
+/usr/lib/libkfcapi_enc.so
+/usr/lib/libip_loader_soft.so
+/usr/lib/libkfc_server_enc.so
+/usr/lib/libnormal_audio.so
+
+#Dirs: must be end with "/"
+/usr/lib/ts/
+/usr/lib/alsa-lib/
+

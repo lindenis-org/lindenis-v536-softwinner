@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatusBarBottomWindow</class>
+ <widget class="QDialog" name="StatusBarBottomWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>360</y>
+    <width>640</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>StatusBarWindow</string>
+  </property>
+  <widget class="QGraphicsView" name="button1_icon">
+   <property name="geometry">
+    <rect>
+    <x>0</x>
+     <y>0</y>
+     <width>106</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="button2_icon">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>0</y>
+     <width>106</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+   <widget class="QGraphicsView" name="button3_icon">
+   <property name="geometry">
+    <rect>
+    <x>212</x>
+     <y>0</y>
+     <width>106</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="button4_icon">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>0</y>
+     <width>106</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="button5_icon">
+   <property name="geometry">
+    <rect>
+	<x>424</x>
+     <y>0</y>
+     <width>106</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="button6_icon">
+   <property name="geometry">
+    <rect>
+	<x>530</x>
+     <y>0</y>
+     <width>110</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+    <widget class="QGraphicsView" name="playback_button1_icon">
+   <property name="geometry">
+    <rect>
+    <x>5</x>
+     <y>0</y>
+     <width>210</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="playback_button2_icon">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>0</y>
+     <width>210</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+   <widget class="QGraphicsView" name="playback_button3_icon">
+   <property name="geometry">
+    <rect>
+    <x>425</x>
+     <y>0</y>
+     <width>210</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  </widget>
+ <resources/>
+ <connections/>
+</ui>
