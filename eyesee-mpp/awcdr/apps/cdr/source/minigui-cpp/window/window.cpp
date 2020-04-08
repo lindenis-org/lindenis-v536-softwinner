@@ -33,6 +33,7 @@
 #include "window/status_bar_bottom_window.h"
 #include "window/playback_window.h"
 #include "window/preview_window.h"
+#include "device_model/storage_manager.h"
 
 #include <pthread.h>
 #include <stdio.h>
@@ -480,9 +481,12 @@ long int Window::WindowProc( HWND hwnd, unsigned int msg, WPARAM wparam, LPARAM 
                     }
 					if(EventManager::GetInstance()->sdcardFlag)
 					{
-						db_warn("sd card is not ready don't resopone");
-                        key_proc_mutex_.unlock();
-						return DO_IT_MYSELF;
+						if(!MediaFileManager::GetInstance()->DataBaseIsAlready()
+							&& StorageManager::GetInstance()->GetStorageStatus() == MOUNTED) {
+							db_warn("sd card is not ready don't resopone");
+							key_proc_mutex_.unlock();
+							return DO_IT_MYSELF;
+						}
 					}
                     db_warn("MSG_KEYUP wparam %d!!",wparam);
                     if( PowerManager::GetInstance()->getStandbyFlag() )

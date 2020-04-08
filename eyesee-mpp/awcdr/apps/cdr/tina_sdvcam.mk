@@ -156,7 +156,6 @@ LOCAL_STATIC_LIBS := \
     libisp_pltm \
     libisp_rolloff \
     libiniparser \
-    libisp_ini \
     libisp_dev \
     libmuxers \
     libmp4_muxer \
@@ -292,6 +291,12 @@ LOCAL_SHARED_LIBS += \
 	libts \
     libz \
 
+ifeq ($(MPPCFG_COMPILE_DYNAMIC_LIB), Y)
+	LOCAL_SHARED_LIBS += libisp_ini
+else
+	LOCAL_STATIC_LIBS += libisp_ini
+endif
+
 ifeq ($(strip $(DDSERVER_SUPPORT)), true)
 TARGET_STATIC_LIB += \
     edog \
@@ -337,6 +342,14 @@ endif
 
 ifeq ($(strip $(BOARD_TYPE)), C26A)
 COMMON_CFLAGS += -DFOX_C26A=1
+endif
+
+ifeq ($(strip $(BOARD_TYPE)), LD720P)
+COMMON_CFLAGS += -DLD720P=1
+endif
+
+ifeq ($(strip $(BOARD_TYPE)), LD1080P)
+COMMON_CFLAGS += -DLD1080P=1
 endif
 
 ifeq ($(strip $(SENSOR_NAME)), imx317)

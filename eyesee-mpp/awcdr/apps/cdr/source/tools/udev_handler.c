@@ -148,7 +148,8 @@ static int storage_mount(int type, const char *argv)
      */
     e = getenv("ID_FS_TYPE");
     if ((e && strncmp("vfat", e, 4)) || !e) {
-	    return UDEV_FS_ERROR;
+	    //return UDEV_FS_ERROR;
+		return UDEV_MOUNTED;
     } else {
 	    fst = strdup(e);
     }

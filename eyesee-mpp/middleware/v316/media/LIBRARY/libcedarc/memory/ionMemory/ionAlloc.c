@@ -167,6 +167,7 @@ int ion_alloc_open()
     memset(&mVeConfig, 0, sizeof(VeConfig));
     mVeConfig.nDecoderFlag = 1;
 
+    logd("get offset by ve");
     void* pVeopsSelf = CdcVeInit(veOps,&mVeConfig);
     if(pVeopsSelf == NULL)
     {

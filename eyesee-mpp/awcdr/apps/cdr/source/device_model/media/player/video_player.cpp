@@ -14,6 +14,7 @@
 #include "device_model/display.h"
 #include "common/app_log.h"
 #include <mutex>
+#include "common/app_def.h"
 
 #undef LOG_TAG
 #define LOG_TAG "VideoPlayer"
@@ -33,8 +34,8 @@ VideoPlayer::VideoPlayer()
     ViewInfo sur;
     sur.x = 0;
     sur.y = 0;
-    sur.w = 480;
-    sur.h = 640;
+    sur.w = SCREEN_WIDTH;
+    sur.h = SCREEN_HEIGHT;
     handler = layer_->RequestLayer(LAYER_PLAYER, 0, 0, 0, &sur);
     if (handler >= 0) {
         media_player_->setDisplay(handler);
@@ -106,7 +107,7 @@ int VideoPlayer::PreparePlay(string file_path)
     else
     {
         media_player_->setAOCardType(PCM_CARD_TYPE_AUDIOCODEC);
-        media_player_->setRotation(ROTATE_90);
+        media_player_->setRotation(ROTATE_270);
         media_player_->enableScaleMode(true, 320, 240);
     }
     //AW_MPI_VDEC_SetVEFreq(MM_INVALID_CHN, 648);

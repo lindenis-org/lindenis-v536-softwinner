@@ -225,9 +225,9 @@ void BulletCollection::MsgToSettingWindow(bool m_buttonDialog,int val)
 void BulletCollection::buttonDialogFilling(const bc_button_dialog_item &_button_dialog_item_,bool button_right_show,bool progress_bar_show,bool m_full)
 {
 	if(m_full)
-		button_dialog_->SetPosition(0, 0+60*2, 640, 240);
+		button_dialog_->SetPosition(0, 0+60*2, GUI_SCN_WIDTH, GUI_SCN_HEIGHT - 60 * 2);
 	else
-		button_dialog_->SetPosition(90, 64+60, 460, 232);
+		button_dialog_->SetPosition((GUI_SCN_WIDTH - 460) / 2, (GUI_SCN_HEIGHT - 232) / 2, 460, 232);
 	
 	std::string button_dialog_str;
 	R::get()->GetString(_button_dialog_item_.info_title, button_dialog_str);

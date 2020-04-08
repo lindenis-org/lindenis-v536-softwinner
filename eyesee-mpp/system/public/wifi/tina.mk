@@ -11,6 +11,8 @@ all:
 	@echo ==================================================
 	make -f tina_sta.mk               all
 	make -f tina_ap.mk                all
+	make -f tina_statest.mk           all
+	make -f tina_aptest.mk            all
 	@echo build eyesee-mpp-system-public-wifi done!
 
 clean:
@@ -19,5 +21,7 @@ clean:
 	@echo ==================================================
 	make -f tina_sta.mk               clean
 	make -f tina_ap.mk                clean
+	make -f tina_statest.mk           clean
+	make -f tina_aptest.mk            clean
 	@echo clean eyesee-mpp-system-public-wifi done!
 

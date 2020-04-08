@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewSettingWindow</class>
+ <widget class="QDialog" name="NewSettingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+<widget class="QTableView" name="list_view_item_info">
+	<property name="geometry">
+	<rect>
+	<x>0</x>
+	<y>60</y>
+	<width>1920</width>
+	<height>1020</height>
+	</rect>
+	</property>
+</widget>
+<widget class="QGraphicsView" name="list_view_item_return">
+	<property name="geometry">
+	<rect>
+	<x>0</x>
+	<y>0</y>
+	<width>60</width>
+	<height>60</height>
+	</rect>
+	</property>
+</widget>
+<widget class="QLabel" name="list_view_item_title">
+	<property name="geometry">
+	<rect>
+	<x>60</x>
+	<y>0</y>
+	<width>1800</width>
+	<height>60</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>titel</string>
+	</property>
+</widget> 
+<widget class="QLabel" name="list_view_item_title_right_bg">
+	<property name="geometry">
+	<rect>
+	<x>1860</x>
+	<y>0</y>
+	<width>60</width>
+	<height>60</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>titel</string>
+	</property>
+</widget> 
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

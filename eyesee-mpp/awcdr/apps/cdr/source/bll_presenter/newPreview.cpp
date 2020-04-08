@@ -548,7 +548,7 @@ int NewPreview::TransDisplay(pipMode_t mPIPMode)
 
 	cam0_rect.x = 60;
 	cam0_rect.y = 0;
-	cam0_rect.w = 360;
+	cam0_rect.w = SCREEN_WIDTH;
 	cam0_rect.h = SCREEN_HEIGHT;
 	
 	cam1_rect.x = 0;
@@ -606,9 +606,9 @@ int NewPreview::RestoreDisplay()
 	}
 #endif
 	ViewInfo cam0_rect;
-	cam0_rect.x = 60;
+	cam0_rect.x = 0;
 	cam0_rect.y = 0;
-	cam0_rect.w = 360;
+	cam0_rect.w = SCREEN_WIDTH;
 	cam0_rect.h = SCREEN_HEIGHT;
 	GetCamera(CAM_A)->SetCameraDispRect(cam0_rect, 0);
 

@@ -116,8 +116,8 @@ int JpegPlayer::PrepareFile(std::string filepath,std::string type)
     if (spPubAttr.enIntfType == VO_INTF_LCD) {
         mLayerAttr.stDispRect.X = 0;  //notes:由于屏幕比例不是16:9,修改显示宽高使图像适配16:9
         mLayerAttr.stDispRect.Y = 0;
-        mLayerAttr.stDispRect.Height = 640;
-        mLayerAttr.stDispRect.Width  = 480;
+        mLayerAttr.stDispRect.Height = SCREEN_HEIGHT;
+        mLayerAttr.stDispRect.Width  = SCREEN_WIDTH;
     } else if (spPubAttr.enIntfType == VO_INTF_HDMI) {
         switch (spPubAttr.enIntfSync) {
             case VO_OUTPUT_3840x2160_25:
@@ -194,7 +194,7 @@ int JpegPlayer::PrepareFile(std::string filepath,std::string type)
     mVDecAttr.mnFrameBufferNum = 1;
     mVDecAttr.mOutputPixelFormat = MM_PIXEL_FORMAT_YVU_SEMIPLANAR_420;
     if (spPubAttr.enIntfType == VO_INTF_LCD)
-        mVDecAttr.mInitRotation = ROTATE_90;
+        mVDecAttr.mInitRotation = ROTATE_270;
 #if 0
     if (spPubAttr.enIntfType == VO_INTF_LCD) {
             db_debug("pic size:w %d,h %d,disp size:w %d, h %d",picsize_.Width,picsize_.Height,

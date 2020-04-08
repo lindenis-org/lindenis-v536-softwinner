@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>USBModeWindow</class>
+ <widget class="QDialog" name="USBModeWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Title</string>
+  </property>
+  <widget class="QLabel" name="usb_connect_list_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>90</height>
+    </rect>
+   </property>
+  </widget>
+   <widget class="QTableView" name="usb_connect_list">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>225</y>
+     <width>640</width>
+     <height>270</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="mass_mode_icon">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

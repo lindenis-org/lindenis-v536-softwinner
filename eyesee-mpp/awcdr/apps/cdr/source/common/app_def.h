@@ -31,6 +31,20 @@
 #define SCREEN_WIDTH    480
 #define SCREEN_HEIGHT   640
 #define SCREEN_INFO     "480x640-32bpp"
+#elif LD720P
+#define SCREEN_WIDTH    720
+#define SCREEN_HEIGHT   1280
+#define SCREEN_INFO     "720x1280-32bpp"
+#define DIALOG_WIDTH    640
+#define GUI_SCN_WIDTH    SCREEN_HEIGHT
+#define GUI_SCN_HEIGHT    SCREEN_WIDTH
+#elif LD1080P
+#define SCREEN_WIDTH    1920
+#define SCREEN_HEIGHT   1080
+#define SCREEN_INFO     "1920x1080-32bpp"
+#define DIALOG_WIDTH    640
+#define GUI_SCN_WIDTH    SCREEN_WIDTH
+#define GUI_SCN_HEIGHT    SCREEN_HEIGHT
 #else
 #define SCREEN_WIDTH    240
 #define SCREEN_HEIGHT   376
@@ -44,7 +58,7 @@
 #define USE_CAMB
 #define CAMB_PREVIEW
 
-#define USE_IMX335				//使用imx335打开宏定义
+//#define USE_IMX335				//使用imx335打开宏定义
 #define LONGPRESSTIME_FOR_PWR	250		//unit: 10ms
 
 //#define SUPPORT_AUTOHIDE_STATUSBOTTOMBAR

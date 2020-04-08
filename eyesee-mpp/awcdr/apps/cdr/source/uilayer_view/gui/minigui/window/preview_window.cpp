@@ -2067,11 +2067,10 @@ void PreviewWindow::ShowPromptInfo(unsigned int prompt_id,unsigned int showtimes
      string bkgnd_bmp ;
      if(prompt_id >= PROMPT_FULL_SDCARD_FORMAT && prompt_id <=PROMPT_FULL_WIFI_CONNET){
          bkgnd_bmp = R::get()->GetImagePath("promtp_full_bg");
-         prompt_->SetPosition(0, 120, s_w, s_h-60*2);
+         prompt_->SetPosition(0, 120, GUI_SCN_WIDTH, GUI_SCN_HEIGHT-60*2);
      }else{
          bkgnd_bmp = R::get()->GetImagePath("bg_transparent");
-         
-         prompt_->SetPosition(90, 124, 460, 232);
+         prompt_->SetPosition((GUI_SCN_WIDTH - 460) / 2, (GUI_SCN_HEIGHT - 232) / 2, 460, 232);
      }
      prompt_->SetWindowBackImage(bkgnd_bmp.c_str());
      prompt_->DoShow();
@@ -2146,7 +2145,7 @@ void PreviewWindow::ShowPromptBox(unsigned int promptbox_id,unsigned int showtim
      int p_len = 0;
      PromptBox_->ShowPromptBox(promptbox_id,showtimes);
      p_len = PromptBox_->getPromptBoxLen();
-     PromptBox_->SetPosition(s_w /2-p_len/2,300, p_len,48);
+     PromptBox_->SetPosition((GUI_SCN_WIDTH -p_len) / 2 , (GUI_SCN_HEIGHT - 48) / 2, p_len,48);
      PromptBox_->DoShow();
 
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InfoDialog</class>
+ <widget class="QDialog" name="InfoDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>320</x>
+    <y>180</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="_info_title">
+	<property name="geometry">
+	<rect>
+	  <x>0</x>
+	  <y>30</y>
+	  <width>640</width>
+	  <height>60</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>titel</string>
+	</property>
+	</widget> 
+	  <widget class="QLabel" name="_info_text">
+	<property name="geometry">
+	<rect>
+	  <x>50</x>
+	  <y>90</y>
+	  <width>540</width>
+	  <height>270</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>text</string>
+	</property>
+	</widget> 
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -117,7 +117,7 @@ Camera::Camera(PhysicalCameraID phy_cam_id)
     , time_take_pic_cont_(PTL_OFF)
     , auto_time_take_pic_cont_(PTL_OFF)
     , video_thumb_pic_(NULL)
-    , m_degree(90)
+    , m_degree(0)
     , m_whiteBalance(0)
     , m_ExposureBias(4)
     , m_LightFreq(3)
@@ -220,6 +220,10 @@ void Camera::ConfigCamera(int CsiChn,int ispdev,int vippchnValue0,int vippchnVal
     isp_geometry.mScalerOutChns.push_back(vippchnValue1);
     cameraInfo.mMPPGeometry.mISPGeometrys.push_back(isp_geometry);
     EyeseeCamera::configCameraWithMPPModules(cameraId, &cameraInfo);
+
+	if (SCREEN_HEIGHT > SCREEN_WIDTH)
+		m_degree = 270;
+
 }
 int Camera::Open()
 {
@@ -257,7 +261,7 @@ int Camera::InitDisplay(int p_CamId)
     sur.w = init_param_.sur_.w;
     sur.h = init_param_.sur_.h;
 
-    if ((sur.w == 0) || (sur.h == 0)) 
+    if ((sur.w == 0) || (sur.h == 0))
 	{
         fprintf(stderr, "fun[%s:%d] xyhw[%d,%d,%d,%d]\n", __FUNCTION__, __LINE__, sur.x, sur.y, sur.w, sur.h);
     }
@@ -277,6 +281,8 @@ int Camera::InitDisplay(int p_CamId)
 			if(sur.w == SCREEN_WIDTH ){
 				hlay = layer_->RequestLayer(LAYER_CAM0, 0, 0, zorder_, &sur);
 			} else {
+				sur.w = SCREEN_WIDTH;
+				sur.h = SCREEN_HEIGHT;
 				hlay = layer_->RequestLayer(LAYER_CAM0, 0, 0, zorder_, &sur);
 			}
 			break;
@@ -286,6 +292,8 @@ int Camera::InitDisplay(int p_CamId)
 			if(sur.w == SCREEN_WIDTH ){
 				hlay = layer_->RequestLayer(LAYER_CAM1, 1, 0, zorder_, &sur);
 			} else {
+				sur.w = SCREEN_WIDTH;
+				sur.h = SCREEN_HEIGHT;
 				hlay = layer_->RequestLayer(LAYER_CAM1, 1, 0, zorder_, &sur);
 			}
 			db_msg("SetLayerAlpha LAYER_CAM1 255");
@@ -402,8 +410,8 @@ int Camera::InitCamera(CameraInitParam &init_param)
     init_param_.cam_param_.setJpegThumbnailQuality(60);
     init_param_.cam_param_.setColorSpace(V4L2_COLORSPACE_REC709);	// V4L2_COLORSPACE_JPEG
     db_msg("main_enc_chn_ : init_param_.vflip = %d,init_param_.mirror = %d",init_param_.vflip,init_param_.mirror);
-   // init_param_.vflip= 0;
-  //  init_param_.mirror=0;
+    //init_param_.vflip= 0;
+    //init_param_.mirror=0;
     init_param_.cam_param_.SetFlip(init_param_.vflip);
     init_param_.cam_param_.SetMirror(init_param_.mirror);
     db_msg("sensor fps %d",init_param_.framate);
@@ -967,8 +975,12 @@ void Camera::ReSetVideoResolutionForNormalphoto(PIXEL_FORMAT_E type)
     layer_->GetDisplayDeviceType(&disp_type, &tv_mode);
     if (disp_type == VO_INTF_LCD)
     {
-        param.sub_venc_size_  = {640,360};
-        param.sub_penc_size_  = {640,360};
+		if (SCREEN_HEIGHT > SCREEN_WIDTH)
+			param.sub_venc_size_  = {SCREEN_HEIGHT,SCREEN_WIDTH};
+		else
+			param.sub_venc_size_  = {SCREEN_WIDTH,SCREEN_HEIGHT};
+
+        param.sub_penc_size_  = {SCREEN_WIDTH,SCREEN_HEIGHT};
     }
     else if (disp_type == VO_INTF_HDMI)
     {
@@ -1069,8 +1081,12 @@ void Camera::SetSlowVideoResloution(int resolution)
     layer_->GetDisplayDeviceType(&disp_type, &tv_mode);
     if (disp_type == VO_INTF_LCD)
     {
-        param.sub_venc_size_  = {640,360};
-        param.sub_penc_size_  = {640,360};
+		if (SCREEN_HEIGHT > SCREEN_WIDTH)
+			param.sub_venc_size_  = {SCREEN_HEIGHT,SCREEN_WIDTH};
+		else
+			param.sub_venc_size_  = {SCREEN_WIDTH,SCREEN_HEIGHT};
+
+        param.sub_penc_size_  = {SCREEN_WIDTH, SCREEN_HEIGHT};
     }
     else if (disp_type == VO_INTF_HDMI)
     {
@@ -1173,7 +1189,7 @@ void Camera::SetVideoResolution(int resolution)
             size.Height = 1520;
 			#endif
             fps = 25;//25;
-            buffercnt = 4;
+            buffercnt = 5;
 			OsdManager::get()->setTimeOsdPostion(1904-96, 1408);
 			OsdManager::get()->SetTimeOsdFontSize(FONT_SIZE_64);
 			OsdManager::get()->setGpsOsdPosition(1904-96, 1408 - 96);
@@ -1203,7 +1219,7 @@ void Camera::SetVideoResolution(int resolution)
             size.Width = 1920;
             size.Height = 1080;
             fps = 25;//25;
-            buffercnt = 4;
+            buffercnt = 5;
 			OsdManager::get()->setTimeOsdPostion(1542-48, 1007);
 			OsdManager::get()->SetTimeOsdFontSize(FONT_SIZE_32);
 			OsdManager::get()->setGpsOsdPosition(1542-48, 1007 - 64);
@@ -1305,11 +1321,14 @@ void Camera::SetVideoResolution(int resolution)
     layer_->GetDisplayDeviceType(&disp_type, &tv_mode);
     if (disp_type == VO_INTF_LCD)
     {
-        param.sub_venc_size_  = {640,360};
+		if (SCREEN_HEIGHT > SCREEN_WIDTH)
+			param.sub_venc_size_  = {SCREEN_HEIGHT,SCREEN_WIDTH};
+		else
+			param.sub_venc_size_  = {SCREEN_WIDTH,SCREEN_HEIGHT};
     }
     else if (disp_type == VO_INTF_HDMI)
     {
-        #if 0
+        #if 1
         switch (tv_mode) {
             case VO_OUTPUT_3840x2160_25:
             case VO_OUTPUT_3840x2160_30:

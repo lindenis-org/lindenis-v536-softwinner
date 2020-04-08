@@ -19,12 +19,12 @@
 extern "C" {
 #endif
 
-#define REPO_TAG ""
+#define REPO_TAG "CedarC-v1.2.0"
 #define REPO_PATCH ""
-#define REPO_BRANCH "tina-dev-push"
-#define REPO_COMMIT "e15b523ccd1d13a02cb7148bae2718423195d926"
-#define REPO_DATE ""
-#define RELEASE_AUTHOR "samuel"
+#define REPO_BRANCH "v536-cdr-r-v2.0"
+#define REPO_COMMIT "0a54576389e861fb4f0d9af6fe59909f6d3e1831"
+#define REPO_DATE "Tue May 7 18:26:47 2019 +0800"
+#define RELEASE_AUTHOR "ericwang"
 
 static inline void LogVersionInfo(void)
 {

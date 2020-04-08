@@ -185,7 +185,7 @@ Camera *CameraFactory::CreateNormalCamera(PhysicalCameraID phy_cam_id)
             param.main_venc_size_ = {3840,2160};
             param.framate = 25;
 			#endif
-            param.buffernumber = 4;
+            param.buffernumber = 5;
 			OsdManager::get()->setTimeOsdPostion(3056-96, 2032);
 			OsdManager::get()->SetTimeOsdFontSize(FONT_SIZE_64);
 			OsdManager::get()->setGpsOsdPosition(3056-96, 2032 - 96);
@@ -199,7 +199,7 @@ Camera *CameraFactory::CreateNormalCamera(PhysicalCameraID phy_cam_id)
 			param.main_venc_size_ = {2688,1520};
             param.framate = 25;
 			#endif
-            param.buffernumber = 4;
+            param.buffernumber = 5;
 			OsdManager::get()->setTimeOsdPostion(1904-96, 1408);
 			OsdManager::get()->SetTimeOsdFontSize(FONT_SIZE_64);
 			OsdManager::get()->setGpsOsdPosition(1904-96, 1408 - 96);
@@ -227,7 +227,7 @@ Camera *CameraFactory::CreateNormalCamera(PhysicalCameraID phy_cam_id)
         case VIDEO_QUALITY_1080P30FPS:
             param.main_venc_size_ = {1920,1080};
             param.framate = 25;//25;
-            param.buffernumber = 4;
+            param.buffernumber = 5;
 			OsdManager::get()->setTimeOsdPostion(1542-48, 1007);
 			OsdManager::get()->SetTimeOsdFontSize(FONT_SIZE_32);
 			OsdManager::get()->setGpsOsdPosition(1542-48, 1007 - 64);
@@ -288,11 +288,19 @@ Camera *CameraFactory::CreateNormalCamera(PhysicalCameraID phy_cam_id)
 			OsdManager::get()->setCaridOsdPosition(3696, 2032 - 96);
     }
 
-    if(param.framate == 240){
-        param.sub_venc_size_  = {640,360};
-    }else{
-        param.sub_venc_size_  = {640,360};
-    }
+	if (SCREEN_HEIGHT > SCREEN_WIDTH) {
+	    if(param.framate == 240){
+	        param.sub_venc_size_  = {360,640};
+	    }else{
+	        param.sub_venc_size_  = {SCREEN_HEIGHT,SCREEN_WIDTH};
+	    }
+	} else {
+		if(param.framate == 240){
+	        param.sub_venc_size_  = {640,360};
+	    }else{
+	        param.sub_venc_size_  = {SCREEN_WIDTH,SCREEN_HEIGHT};
+	    }
+	}
 
     val = menu_config->GetMenuIndexConfig(SETTING_PHOTO_RESOLUTION);
     switch(val) {
@@ -332,9 +340,9 @@ Camera *CameraFactory::CreateNormalCamera(PhysicalCameraID phy_cam_id)
         param.sur_.w = SCREEN_WIDTH/2;
         param.sur_.h = SCREEN_HEIGHT/2;
     } else if (phy_cam_id == CAM_A) {
-        param.sur_.x = 60;
+        param.sur_.x = 0;
         param.sur_.y = 0;
-        param.sur_.w = 360;
+        param.sur_.w = SCREEN_WIDTH;
         param.sur_.h = SCREEN_HEIGHT;
     }
 #endif

@@ -261,7 +261,7 @@ void USBModeWindow::InitUSBWin()
     std::vector<LVCOLUMN> columns;
     LVCOLUMN col;
     col.pfnCompare  = NULL;
-    col.width = SCREEN_HEIGHT;
+	col.width = DIALOG_WIDTH;
     col.pszHeadText = (char *)"mode";
     col.colFlags    = LVCF_CENTERALIGN;
     columns.push_back(col);

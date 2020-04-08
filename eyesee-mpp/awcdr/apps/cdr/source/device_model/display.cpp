@@ -212,12 +212,12 @@ ViewInfo Layer::SetLayerRectByDispType(int layer_id, int rect_id)
                     if (layer_id == LAYER_UI) {
                         rect.x = 0;
                         rect.y = 0;
-                        rect.w = 240;
+                        rect.w = SCREEN_WIDTH;
                         rect.h = SCREEN_HEIGHT;
                     } else {
-                        rect.x = 60;
+                        rect.x = 0;
                         rect.y = 0;
-                        rect.w = 360;
+                        rect.w = SCREEN_WIDTH;
                         rect.h = SCREEN_HEIGHT;
                     }
                 }

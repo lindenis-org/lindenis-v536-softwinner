@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TimeSettingWindowNew</class>
+ <widget class="QDialog" name="TimeSettingWindowNew">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>640</x>
+    <y>360</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+    <widget class="QGraphicsView" name="confirm_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="title_bg">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>580</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+    <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>580</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="year_label">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="month_label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="day_label">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+    <widget class="QLabel" name="hour_label">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minute_label">
+   <property name="geometry">
+    <rect>
+     <x>414</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="second_label">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>142</y>
+     <width>76</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="year_text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="month_text">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="day_text">
+   <property name="geometry">
+    <rect>
+     <x>226</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+   <widget class="QLabel" name="hour_text">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minute_text">
+   <property name="geometry">
+    <rect>
+     <x>422</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="second_text">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>187</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="year_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="year_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="month_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="month_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="day_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="day_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="hour_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="hour_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="minute_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="minute_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="second_top_ind">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>180</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="second_bottom_ind">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>230</y>
+     <width>91</width>
+     <height>1</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

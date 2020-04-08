@@ -20,9 +20,11 @@
 #include <signal.h>
 
 #define FIRST_COL_W  70
-#define SECOND_COL_W 300
 #define THIRD_COL_W 210
-#define FOURTH_COL_W 60
+#define FOURTH_COL_W 80
+#define SECOND_COL_W (GUI_SCN_WIDTH - FIRST_COL_W -\
+						THIRD_COL_W -FOURTH_COL_W )
+
 //预留32后面的宽度
 
 typedef enum{

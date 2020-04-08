@@ -33,6 +33,7 @@ ini_check_param ()
 		exit -1;
 		;;
 	esac
+	CONFIG_PATH="lib/firmware/"
 	
 	case ${OPERATE} in
 	load)
@@ -67,8 +68,10 @@ sta_load ()
 	ap6255)
 		insmod ${DRIVER_PATH}
 		usleep 2000
-		echo "/etc/firmware/ap6255/fw_bcm43455c0_ag.bin " > /sys/module/bcmdhd/parameters/firmware_path
-		echo "/etc/firmware/ap6255/nvram_ap6255.txt" >  /sys/module/bcmdhd/parameters/nvram_path
+		#echo "/etc/firmware/ap6255/fw_bcm43455c0_ag.bin " > /sys/module/bcmdhd/parameters/firmware_path
+		#echo "/etc/firmware/ap6255/nvram_ap6255.txt" >  /sys/module/bcmdhd/parameters/nvram_path
+		echo "/lib/firmware/fw_bcm43455c0_ag.bin " > /sys/module/bcmdhd/parameters/firmware_path
+		echo "/lib/firmware/nvram_ap6255.txt" >  /sys/module/bcmdhd/parameters/nvram_path
 		usleep 2000
 		mkdir -p /var/run/wpa_supplicant
 		echo 'ctrl_interface=/var/run/wpa_supplicant' > /var/run/wpa_supplicant/wpa.conf

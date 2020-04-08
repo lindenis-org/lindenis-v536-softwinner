@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatusBarWindow</class>
+ <widget class="QDialog" name="StatusBarWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StatusBarWindow</string>
+  </property>
+    <widget class="QGraphicsView" name="status_icon">
+      <property name="geometry">
+          <rect>
+              <x>4</x>
+              <y>0</y>
+              <width>60</width>
+              <height>60</height>
+          </rect>
+      </property>
+  </widget>  
+    <widget class="QGraphicsView" name="rec_hint_icon">
+      <property name="geometry">
+          <rect>
+              <x>80</x>
+              <y>22</y>
+              <width>16</width>
+              <height>16</height>
+          </rect>
+      </property>
+  </widget>
+  <widget class="QLabel" name="rec_time_label">
+	<property name="geometry">
+	<rect>
+	<x>100</x>
+	<y>18</y>
+	<width>100</width>
+	<height>33</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>文件录制时间</string>
+	</property>
+	</widget> 
+  <widget class="QLabel" name="file_create_time_label">
+	<property name="geometry">
+	<rect>
+	<x>0</x>
+	<y>10</y>
+	<width>250</width>
+	<height>33</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>文件创建的时间</string>
+	</property>
+  </widget> 
+  <widget class="QLabel" name="time_label">
+	<property name="geometry">
+	<rect>
+	<x>420</x>
+	<y>60</y>
+	<width>210</width>
+	<height>60</height>
+	</rect>
+	</property>
+	<property name="text">
+	<string>显示系统时间</string>
+	</property>
+  </widget>
+  <widget class="QGraphicsView" name="looprec_icon">
+   <property name="geometry">
+    <rect>
+     <x>623</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+   <widget class="QGraphicsView" name="lock_icon">
+   <property name="geometry">
+    <rect>
+     <x>386</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+  <widget class="QGraphicsView" name="wifi_icon">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+  <widget class="QGraphicsView" name="adas_icon">
+   <property name="geometry">
+    <rect>
+     <x>454</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+   <widget class="QGraphicsView" name="awmd_icon">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+   <widget class="QGraphicsView" name="park_icon">
+   <property name="geometry">
+    <rect>
+     <x>454</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+  <widget class="QGraphicsView" name="gps_icon">
+   <property name="geometry">
+    <rect>
+     <x>488</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+   </widget>
+  <widget class="QLabel" name="tfcap_label">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>0</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TFCAP</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="tf_icon">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+   <widget class="QGraphicsView" name="voice_icon">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="battery_icon">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>0</y>
+     <width>34</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fileinfo_total">
+   <property name="geometry">
+     <rect>
+     <x>260</x>
+     <y>14</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+     <widget class="QLabel" name="playback_label">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>10</y>
+     <width>128</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Native ablum</string>
+   </property>
+  </widget>  
+  <widget class="QGraphicsView" name="resolation_icon">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>100</width>
+     <height>60</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tfleft_label">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>10</y>
+     <width>240</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>resolation</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

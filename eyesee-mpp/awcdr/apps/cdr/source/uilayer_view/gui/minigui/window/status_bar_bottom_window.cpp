@@ -153,12 +153,14 @@ void StatusBarBottomWindow::PreviewWindownButtonStatus(bool on_off, bool reload_
 			GraphicView::LoadImage(GetControl("button6_icon"), "preview_voice",   	"preview_voice_h",		GraphicView::NORMAL);
         }
 		if (flag == 0) {
+#if 0
 			gv = static_cast<GraphicView*>(GetControl("button4_icon"));
 			RECT rect;
 			gv->GetRect(&rect);
 			rect.left = 318;		// see StatusBarBottomWindow.ui
 			rect.right= rect.left+106;
 			gv->SetPosition(&rect);
+#endif
 	        GetControl("button1_icon")->Show();
 	        GetControl("button2_icon")->Show();
 	        GetControl("button3_icon")->Show();
@@ -166,12 +168,14 @@ void StatusBarBottomWindow::PreviewWindownButtonStatus(bool on_off, bool reload_
 	        GetControl("button5_icon")->Show();
 			GetControl("button6_icon")->Show();
 		} else {
+#if 0
 			gv = static_cast<GraphicView*>(GetControl("button4_icon"));
 			RECT rect;
 			gv->GetRect(&rect);
 			rect.left = 265;
 			rect.right= rect.left+106;
 			gv->SetPosition(&rect);
+#endif
 			GetControl("button1_icon")->Hide();
 	        GetControl("button2_icon")->Hide();
 	        GetControl("button3_icon")->Hide();
@@ -182,12 +186,14 @@ void StatusBarBottomWindow::PreviewWindownButtonStatus(bool on_off, bool reload_
     }
     else
     {
+#if 0
 		gv = static_cast<GraphicView*>(GetControl("button4_icon"));
 		RECT rect;
 		gv->GetRect(&rect);
 		rect.left = 318;		// see StatusBarBottomWindow.ui
 		rect.right= rect.left+106;
 		gv->SetPosition(&rect);
+#endif
         GetControl("button1_icon")->Hide();
         GetControl("button2_icon")->Hide();
         GetControl("button3_icon")->Hide();

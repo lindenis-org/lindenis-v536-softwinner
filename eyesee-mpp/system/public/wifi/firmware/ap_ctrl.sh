@@ -39,6 +39,7 @@ ini_check_param ()
 		exit -1;
 		;;
 	esac
+	CONFIG_PATH="lib/firmware/"
 	
 	case ${OPERATE} in
 	load)
@@ -72,8 +73,10 @@ ap_load ()
 	ap6255)
 		insmod ${DRIVER_PATH}
 		usleep 2000
-		echo "/etc/firmware/ap6255/fw_bcm43455c0_ag_apsta.bin " > /sys/module/bcmdhd/parameters/firmware_path
-		echo "/etc/firmware/ap6255/nvram_ap6255.txt" >  /sys/module/bcmdhd/parameters/nvram_path
+		#echo "/etc/firmware/ap6255/fw_bcm43455c0_ag_apsta.bin " > /sys/module/bcmdhd/parameters/firmware_path
+		#echo "/etc/firmware/ap6255/nvram_ap6255.txt" >  /sys/module/bcmdhd/parameters/nvram_path
+		echo "/lib/firmware/fw_bcm43455c0_ag_apsta.bin " > /sys/module/bcmdhd/parameters/firmware_path
+		echo "/lib/firmware/nvram.txt" >  /sys/module/bcmdhd/parameters/nvram_path
 		mkdir -p /var/run/hostapd/
 		touch /var/run/udhcpd.leases
 		usleep 2000

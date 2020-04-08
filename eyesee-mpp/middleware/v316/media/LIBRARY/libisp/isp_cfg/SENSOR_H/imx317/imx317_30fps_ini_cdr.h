@@ -57,7 +57,7 @@ struct isp_test_param imx317_mipi_isp_30fps_test_settings = {
 	.wb_en = 1,
 	.otf_dpc_en = 1,
 	.cfa_en = 1,
-	.tdf_en = 1,
+	.tdf_en = 0,
 	.cnr_en = 1,
 	.satur_en = 1,
 	.defog_en = 0,
@@ -850,18 +850,18 @@ struct isp_tunning_param imx317_mipi_isp_30fps_tuning_settings = {
 		 1300,  1100,   900,   600,   300
 	},
 	.color_matrix_ini[0] = {
-		.matrix = { { 429, -12, -161 }, { -143, 492, -93 },
-				{ 0, -328, 584 } },
+		.matrix = { { 484, -114, -114 }, { -66, 365, -43 },
+				{ 0, -182, 438 } },
 		.offset = { 0, 0, 0 }
 	},
 	.color_matrix_ini[1] = {
-		.matrix = { { 436, -97, -83 }, { -112, 434, -66 },
-				{ 0, -184, 440 } },
+		.matrix = { { 484, -114, -114 }, { -66, 365, -43 },
+				{ 0, -182, 438 } },
 		.offset = { 0, 0, 0 }
 	},
 	.color_matrix_ini[2] = {
-		.matrix = { { 483, -161, -66 }, { -83, 450, -111 },
-				{ -4, -149, 409 } },
+		.matrix = { { 484, -114, -114 }, { -66, 365, -43 },
+				{ 0, -182, 438 } },
 		.offset = { 0, 0, 0 }
 	},
 	.cm_trig_cfg = {

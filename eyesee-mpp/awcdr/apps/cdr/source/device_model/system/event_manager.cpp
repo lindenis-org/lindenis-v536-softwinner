@@ -104,7 +104,7 @@ char const*const IR_LED_FILE = "/sys/devices/platform/soc/gpioled/leds/ir_led/br
 #define GPS_TIMEOUT     10
 //#define ZTE_4G_MODULE
 //#define SIMCOM_4G_MODULE
-#define G457_GPS_MODULE
+//#define G457_GPS_MODULE
 
 using namespace EyeseeLinux;
 using namespace std;

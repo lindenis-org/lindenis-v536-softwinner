@@ -26,7 +26,6 @@
 #include "../include/isp_debug.h"
 #include "../isp_dev/tools.h"
 
-
 #ifdef SENSOR_IMX317
 #include "SENSOR_H/imx317/imx317_25fps_ini_cdr.h"
 #include "SENSOR_H/imx317/imx317_full_ini_sdv.h"
@@ -34,7 +33,7 @@
 #include "SENSOR_H/imx317/imx317_120fps_ini_sdv.h"
 #include "SENSOR_H/imx317/imx317_240fps_ini_sdv.h"
 #include "SENSOR_H/imx317/imx317_30fps_ini_cdr.h"
-
+#include "SENSOR_H/imx317/imx317_default_ini_4v5.h"
 #endif
 
 #ifdef SENSOR_IMX258
@@ -771,12 +770,22 @@ int isp_parser_tbl(struct isp_param_config *isp_ini_cfg, char *tbl_patch)
 struct isp_cfg_array cfg_arr[] = {
 
 #ifdef SENSOR_IMX317
+#if 1
 	{"imx317_mipi", "imx317_25fps_ini_cdr", 3840, 2160, 25, 0, 0, &imx317_25fps_ini_cdr},
 	{"imx317_mipi", "imx317_30fps_ini_cdr", 3840, 2160, 30, 0, 0, &imx317_30fps_ini_cdr},
 	{"imx317_mipi", "imx317_full_ini_sdv", 1920, 1080, 30, 0, 0, &imx317_full_ini_sdv},
 	{"imx317_mipi", "imx317_60fps_ini_sdv", 1920, 1080, 60, 0, 0, &imx317_60fps_ini_sdv},
 	{"imx317_mipi", "imx317_120fps_ini_sdv", 1920, 1080, 120, 0, 0, &imx317_120fps_ini_sdv},
 	{"imx317_mipi", "imx317_240fps_ini_sdv", 1280, 540, 240, 0, 0, &imx317_240fps_ini_sdv},
+#else
+	{"imx317_mipi", "imx317_default_ini_4v5", 3840, 2160, 25, 0, 0, &imx317_default_ini_4v5},
+	{"imx317_mipi", "imx317_default_ini_4v5", 3840, 2160, 30, 0, 0, &imx317_default_ini_4v5},
+	{"imx317_mipi", "imx317_default_ini_4v5", 1920, 1080, 30, 0, 0, &imx317_default_ini_4v5},
+	{"imx317_mipi", "imx317_default_ini_4v5", 1920, 1080, 60, 0, 0, &imx317_default_ini_4v5},
+	{"imx317_mipi", "imx317_default_ini_4v5", 1920, 1080, 120, 0, 0, &imx317_default_ini_4v5},
+	{"imx317_mipi", "imx317_default_ini_4v5", 1280, 540, 240, 0, 0, &imx317_default_ini_4v5},
+#endif
+
 #endif
 
 #ifdef SENSOR_IMX258

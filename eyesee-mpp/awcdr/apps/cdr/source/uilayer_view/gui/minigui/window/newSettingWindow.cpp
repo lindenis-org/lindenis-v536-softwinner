@@ -290,7 +290,7 @@ NewSettingWindow::NewSettingWindow(IComponent *parent)
     col[3].pfnCompare = NULL;
     col[3].width = FOURTH_COL_W;
     col[3].colFlags = LVCF_RIGHTALIGN;
-    col[3].colmFlags = LVCF_RIGHTALIGN_IMAGE;
+    col[3].colmFlags = LVCF_CENTERALIGN_IMAGE;
     col[3].pszHeadText = "image";
     col[3].nCols = FOURTH_COL;
     columns.push_back(col[3]);

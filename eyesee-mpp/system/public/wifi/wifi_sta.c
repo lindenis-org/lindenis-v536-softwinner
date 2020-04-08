@@ -482,6 +482,7 @@ int wifi_sta_init(void)
     }else if((ret = access("/etc/firmware/xr819", F_OK)) == 0){
         strcpy(g_dev_name, "xr819");
     }
+    strcpy(g_dev_name, "ap6255");
 
     memset(buf, 0, sizeof(buf));
     ret = snprintf(buf, sizeof(buf)-1, CMD_STA_LOAD, g_dev_name);

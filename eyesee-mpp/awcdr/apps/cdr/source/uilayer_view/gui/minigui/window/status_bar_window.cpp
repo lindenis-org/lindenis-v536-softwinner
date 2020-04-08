@@ -39,7 +39,7 @@
 //#define S_WIFI_ICON
 //#define S_ADAS_ICON
 
-#define S_GPS_ICON
+//#define S_GPS_ICON
 #define S_MIC_ICON
 
 #define S_AWMD_ICON
